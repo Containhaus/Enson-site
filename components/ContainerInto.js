@@ -98,6 +98,7 @@ const textColorContent = ()=>{
   
   <>
      <div className="intro-img" style={{ backgroundImage: `url(${test()})` }}>
+ 
        <div className="intro-content">
         <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
 
