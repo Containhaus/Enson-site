@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import windowSize from "../utils/windowSize";
-import Image from "next/image";
 
 const ContainerInto = ({ data,className }) => {
   const [width] = windowSize();
@@ -98,12 +97,8 @@ const textColorContent = ()=>{
   return (
   
   <>
-     <div className="intro-img">
-      <Image
-
-        src={test()}
-        layout="fill"
-      />
+     <div className="intro-img" style={{ backgroundImage: `url(${test()})` }}>
+      
  
        <div className="intro-content">
         <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
