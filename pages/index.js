@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import Head from 'next/head'
 
 export default function Home() {
+  
   const {buroconteiner} =introContainer
   const {wohncontainers} =introContainer
   const {sanitacontainers} =introContainer
