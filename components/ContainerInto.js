@@ -42,7 +42,9 @@ const textColor = ()=>{
 }
 const textColorContent = ()=>{
   if(width < 768 ){
-  
+  if(router.asPath === "/"){
+    return data.MainpgClass
+  }
    if(router.asPath === "/burocontainer"){
     return "text-dark"
    }
@@ -59,7 +61,9 @@ const textColorContent = ()=>{
     return "text-dark"
    }
   }else{
-   
+    if(router.asPath === "/"){
+      return data.MainpgClass
+    }
     if(router.asPath === "/burocontainer"){
       return "text-light"
      }

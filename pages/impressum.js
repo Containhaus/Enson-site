@@ -7,7 +7,7 @@ const ImPressum = () => {
         <div>
           
                 <div className="container mb-100 pb-100">
-                  <div className="col-lg-12 mobilIntroInnerContentPart mt-40">
+                  <div className="col-lg-12 mobilIntroInnerContentPart mt-100">
                     <div className="caption">
                
                         <h2

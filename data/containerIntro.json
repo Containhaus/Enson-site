@@ -13,7 +13,8 @@
     "href":"/shop/burocontainer",
     "homeHref":"/burocontainer",
     "homeButton":"HIER GEHT'S WEITER",
-    "pageButton":"JETZT ZUM SHOP"
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-white"
   },
   "wohncontainers":{
     "id": 1,
@@ -29,7 +30,8 @@
     "href":"/shop/wohncontainer",
     "homeHref":"/wohncontainer",
     "homeButton":"HIER GEHT'S WEITER",
-    "pageButton":"JETZT ZUM SHOP"
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-dark"
   },
   "sanitacontainers":{
     "id": 1,
@@ -45,7 +47,9 @@
     "href":"/shop/sanitarcontainer",
     "homeHref":"/sanitar-container",
     "homeButton":"HIER GEHT'S WEITER",
-    "pageButton":"JETZT ZUM SHOP"
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-dark"
+
   },
   "flatpackcontainers": {
     "id": 1,
@@ -61,7 +65,8 @@
     "href":"/shop/flatpack",
     "homeHref":"/flat-pack",
     "homeButton":"HIER GEHT'S WEITER",
-    "pageButton":"JETZT ZUM SHOP"
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-dark"
   },
   "specialeditatons":{
     "id": 1,
@@ -77,6 +82,7 @@
     "href":"/shop/special",
     "homeHref":"/special-edition",
     "homeButton":"HIER GEHT'S WEITER",
-    "pageButton":"JETZT ZUM SHOP"
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-dark"
   }
 }
