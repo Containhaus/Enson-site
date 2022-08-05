@@ -29,7 +29,7 @@ const textColor = ()=>{
       return "text-dark"
      }
      if(router.asPath === "/sanitar-container"){
-      return "text-light"
+      return "text-dark"
      }
      if(router.asPath === "/flat-pack"){
       return "text-dark"
@@ -67,7 +67,7 @@ const textColorContent = ()=>{
       return "text-dark"
      }
      if(router.asPath === "/sanitar-container"){
-      return "text-light"
+      return "text-dark"
      }
      if(router.asPath === "/flat-pack"){
       return "text-dark"
@@ -103,7 +103,7 @@ const textColorContent = ()=>{
        <div className="intro-content">
         <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
 
-        <h5 className={`mt-1  ${router.asPath ==="/sanitar-container" || router.asPath === "/special-edition" ? 'text-light' : "text-danger"}`}>Direkt ab Werk</h5>
+        <h5 className={`mt-1  ${router.asPath ==="/sanitar-container" || router.asPath === "/special-edition" ? 'text-danger' : "text-danger"}`}>Direkt ab Werk</h5>
          <h5 className={`${textColorContent()} fw-600`}>{data.content.first}</h5>
         <Link href={`${router.asPath === "/" ? data.homeHref:data.href}`}>
            <button className="intro-button">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
