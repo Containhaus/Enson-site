@@ -11,7 +11,7 @@ const Überuns = () => {
       </Head>
         <div className="container agb-content">
           <div className="row mb-90 pb-30">
-            <div className="col-lg-12">
+            <div className="col-lg-12 mt-5">
               <div className="caption ">
                 <h2 className="words chars splitting text-dark d-flex justify-content-center fz-50">
                   <Link href="#" className="d-flex">

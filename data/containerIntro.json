@@ -39,7 +39,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
-    "mobileImage": "/assets/img/FrontPage/SanitaInnerPageUpdate.webp",
+    "mobileImage": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/SanitaInnerMobilPageUpdate.webp",
     "image1": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
     "href":"/shop/sanitarcontainer",
@@ -74,7 +74,6 @@
     "mobileImage": "/assets/img/FrontPage/SpecialMobilMainpageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
     "image1": "/assets/img/InnerPage/SpecialEdditionInnerPageUpdate.webp",
-   
     "href":"/shop/special",
     "homeHref":"/special-edition",
     "homeButton":"HIER GEHT'S WEITER",

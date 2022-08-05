@@ -13,7 +13,7 @@ const Agb = () => {
    
               <div className="container agb-content">
                 <div className="row">
-                  <div className="col-lg-12  mobilIntroInnerContentPart">
+                  <div className="col-lg-12  mobilIntroInnerContentPart mt-5">
                     <div className="caption ">
                    
                         <h2

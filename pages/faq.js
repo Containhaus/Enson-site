@@ -10,9 +10,9 @@ const Faq = () => {
       </Head>
     <header className="faq-content">
       <div>
-        <div className="container ">
-          <div className="row mb-90 pb-30">
-            <div className="col-lg-12 mobilIntroInnerContentPart ">
+        <div className="container mt-5">
+          <div className="row mb-90 pb-30 mt-5">
+            <div className="col-lg-12 mobilIntroInnerContentPart mt-5">
               <div className="caption ">
                 <h2
                   data-splitting
