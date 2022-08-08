@@ -24,14 +24,14 @@ const MenuContentWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.first}
                         </p>
 
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.second}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.third}
                         </p>
                       </div>
@@ -39,13 +39,13 @@ const MenuContentWohnContainer = ({data}) => {
                     <h2 className=" mt-3 mb-3  text-dark   ">
                       {data.title.third}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.forth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.fifth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.sixth}
                     </p>
 
@@ -60,10 +60,10 @@ const MenuContentWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.seventh}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.eidth}
                         </p>
                       </div>
@@ -80,10 +80,10 @@ const MenuContentWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.ninth}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.tenth}
                         </p>
                       </div>
@@ -93,13 +93,13 @@ const MenuContentWohnContainer = ({data}) => {
                       {data.title.sixth}
                     </h3>
 
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.eleventh}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.twelth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.thirteen}
                     </p>
                   </div>
@@ -112,10 +112,10 @@ const MenuContentWohnContainer = ({data}) => {
                       <img className="rounded content-image" src={data.content.image4}></img>
                     </div> */}
                     <div className="col-12">
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.forteen}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.fivteen}
                       </p>
                     </div>
@@ -130,16 +130,16 @@ const MenuContentWohnContainer = ({data}) => {
                       <img className="rounded content-image" src={data.content.image5}></img>
                     </div> */}
                     <div className="col-12">
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.sixteen}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.seventeen}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.eighteen}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.nineteen}
                       </p>
                     </div>

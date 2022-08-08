@@ -12,20 +12,20 @@ const MenuContentCafeContaineir = ({ data }) => {
                   <h1 className=" text-dark d-flex justify-content-center ">
                     {data.title.first}
                   </h1>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="  fz-20 text-justify text-dark">
                     {data.content.first}
                   </p>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="  fz-20 text-justify text-dark">
                     {data.content.second}
                   </p>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="  fz-20 text-justify text-dark">
                     {data.content.third}
                   </p>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="  fz-20 text-justify text-dark">
                     {data.content.forth}
                   </p>
                   <h2 className=" text-dark ">{data.title.second}</h2>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="  fz-20 text-justify text-dark">
                     {data.content.fifth}
                   </p>
                   <h2 className=" text-dark d-flex  ">{data.title.third}</h2>
@@ -34,10 +34,10 @@ const MenuContentCafeContaineir = ({ data }) => {
                       <img src={data.content.image1} />
                     </div> */}
                     <div className="col-12">
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="  fz-20 text-justify text-dark">
                         {data.content.sixth}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="  fz-20 text-justify text-dark">
                         {data.content.seventh}
                       </p>
                     </div>
@@ -49,10 +49,10 @@ const MenuContentCafeContaineir = ({ data }) => {
                       <img src={data.content.image2} />
                     </div> */}
                     <div className="col-12">
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="  fz-20 text-justify text-dark">
                         {data.content.eidth}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="  fz-20 text-justify text-dark">
                         {data.content.ninth}
                       </p>
                     </div>

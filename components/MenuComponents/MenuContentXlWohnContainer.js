@@ -16,7 +16,7 @@ const MenuContentXlWohnContainer = ({data}) => {
                     <h2 className="mt-3 mb-3 text-dark  ">
                       {data.title.second}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.first}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark ">
@@ -30,7 +30,7 @@ const MenuContentXlWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.second}
                         </p>
                       </div>
@@ -47,7 +47,7 @@ const MenuContentXlWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.third}
                         </p>
                       </div>
@@ -63,7 +63,7 @@ const MenuContentXlWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.forth}
                         </p>
                       </div>
@@ -71,19 +71,19 @@ const MenuContentXlWohnContainer = ({data}) => {
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.sixth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.fifth}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.eidth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.sixth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.seventh}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.eidth}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
@@ -97,10 +97,10 @@ const MenuContentXlWohnContainer = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.ninth}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.tenth}
                         </p>
                       </div>
@@ -108,31 +108,31 @@ const MenuContentXlWohnContainer = ({data}) => {
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.thenth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.eleventh}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.eleven}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.twelvth}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.twelve}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.thirteen}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.thirteen}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.forteen}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">
                       {data.title.forteen}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.fifteen}
                     </p>
                     <h2 className="mt-3 mb-3 text-dark d-flex">

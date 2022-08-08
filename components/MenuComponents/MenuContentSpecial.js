@@ -16,7 +16,7 @@ const MenuContentSpecial = ({data}) => {
                     >
                       {data.title.first}
                     </h1>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.first}
                     </p>
                     <h2 data-splitting className=" text-dark mt-3 mb-3  ">
@@ -30,16 +30,16 @@ const MenuContentSpecial = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.second}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.third}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.forth}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.fifth}
                         </p>
                       </div>
@@ -55,16 +55,16 @@ const MenuContentSpecial = ({data}) => {
                         ></img>
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.sixth}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.seventh}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.eidth}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.ninth}
                         </p>
                       </div>
@@ -72,26 +72,26 @@ const MenuContentSpecial = ({data}) => {
                     <h2 data-splitting className=" text-dark mt-3 mb-3 ">
                       {data.title.forth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.tenth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.eleventh}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.twelvth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.thirteen}
                     </p>
 
                     <h2 className=" text-dark mt-3 mb-3 d-flex">
                       {data.title.fifth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.forteen}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.fivteen}
                     </p>
                   </div>

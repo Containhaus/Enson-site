@@ -18,13 +18,13 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                         <img src={data.content.image1} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.first}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.second}
                         </p>
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.third}
                         </p>
                       </div>
@@ -33,7 +33,7 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                     <h2 className="mt-3 mb-3 text-dark ">
                       {data.title.second}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.forth}
                     </p>
 
@@ -45,7 +45,7 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                         <img src={data.content.image2} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.fifth}
                         </p>
                       </div>
@@ -59,7 +59,7 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                         <img src={data.content.image3} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.sixth}
                         </p>
                       </div>
@@ -73,7 +73,7 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                         <img src={data.content.image4} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.seventh}
                         </p>
                       </div>
@@ -87,7 +87,7 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                         <img src={data.content.image5} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.eidth}
                         </p>
                       </div>
@@ -96,22 +96,22 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                     <h2 className="mt-3 mb-3 text-dark ">
                       {data.title.seventh}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.ninth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.tenth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.eleventh}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.twelvth}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.thirteen}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.forteen}
                     </p>
                   </div>

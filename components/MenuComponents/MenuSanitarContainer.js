@@ -13,10 +13,10 @@ const MenuSanitarContainer = ({data}) => {
                     <h1 className="text-dark mt-3 mb-3 d-flex  justify-content-center ">
                       {data.title.first}
                     </h1>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.first}
                     </p>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.second}
                     </p>
                     <h2 className="text-dark mt-3 mb-3   ">
@@ -39,7 +39,7 @@ const MenuSanitarContainer = ({data}) => {
                     <h2 className="text-dark mt-3 mb-3   ">
                       {data.title.third}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.third}
                     </p>
                     <h2 className="text-dark mt-3 mb-3  ">
@@ -51,7 +51,7 @@ const MenuSanitarContainer = ({data}) => {
                         <img src={data.content.image1} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.forth}
                         </p>
                       </div>
@@ -65,7 +65,7 @@ const MenuSanitarContainer = ({data}) => {
                         <img src={data.content.image2} />
                       </div> */}
                       <div className="col-12">
-                        <p className="mt-10 fz-20 text-justify text-dark">
+                        <p className="   fz-20 text-justify text-dark">
                           {data.content.fifth}
                         </p>
                       </div>
@@ -73,12 +73,12 @@ const MenuSanitarContainer = ({data}) => {
                     <h2 className="text-dark mt-3 mb-3 d-block justify-content-center">
                       {data.title.sixth}
                     </h2>
-                    <p className="mt-10 fz-20 text-justify text-dark">
+                    <p className="   fz-20 text-justify text-dark">
                       {data.content.sixth}
                     </p>
                   </div>
                   <h2 className="text-dark mt-3 mb-3 ">{data.title.eidth}</h2>
-                  <p className="mt-10 fz-20 text-justify text-dark">
+                  <p className="   fz-20 text-justify text-dark">
                     {data.content.seventh}
                   </p>
                   <h2 className="text-dark mt-3 mb-3 ">{data.title.ninth}</h2>
@@ -122,10 +122,10 @@ const MenuSanitarContainer = ({data}) => {
                       <img src={data.content.image3} />
                     </div> */}
                     <div className="col-12">
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.eidth}
                       </p>
-                      <p className="mt-10 fz-20 text-justify text-dark">
+                      <p className="   fz-20 text-justify text-dark">
                         {data.content.ninth}
                       </p>
                     </div>
