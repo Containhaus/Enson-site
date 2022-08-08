@@ -10,6 +10,7 @@
       "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/5.webp"
     },
     "title": "Black Panter",
+    "slug": "black-panter",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Modell Black Panter",
@@ -34,6 +35,7 @@
       "ima5": "/assets/img/ShopDeutsch/BLACKDIAMOND/5.webp"
     },
     "title": "Black Diamond",
+    "slug": "black-diamond",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -76,6 +78,7 @@
   {
     "id": "3",
     "category": "burocontainer",
+    
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/2.webp",
@@ -84,6 +87,7 @@
       "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/5.png"
     },
     "title": "Glass",
+    "slug": "glass",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -100,6 +104,7 @@
   {
     "id": "4",
     "category": "cafe-container",
+    
     "image": {
       "ima1": "/assets/img/ShopDeutsch/CAFFE/1.webp",
       "ima2": "/assets/img/ShopDeutsch/CAFFE/2.webp",
@@ -108,6 +113,7 @@
       "ima5": "/assets/img/ShopDeutsch/CAFFE/5.webp"
     },
     "title": "Cafe Container",
+    "slug": "cafe-container",
     "content": {
       "text1": "NEU",
       "text2": "Cafe Container | Bistro Container",
@@ -134,6 +140,7 @@
       "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/5.png"
     },
     "title": "Glass XL",
+    "slug": "glass-xl",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -158,6 +165,7 @@
       "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/5.webp"
     },
     "title": "Glass-2 XL",
+    "slug": "glass-2-xl",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Flatpack Container",
@@ -182,6 +190,7 @@
       "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/5.webp"
     },
     "title": "Black Diamond XL",
+    "slug": "black-diamond-xl",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Flatpack Container",
@@ -232,6 +241,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/DUSDUS/5.webp"
     },
     "title": "DUSCH + DUSCH",
+    "slug": "dusch-dusch",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | Duschcontainer",
@@ -256,6 +266,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCWC/5.webp"
     },
     "title": "WC + WC",
+    "slug": "wc-wc",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | Toilettencontainer",
@@ -280,6 +291,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCDUSH/5.webp"
     },
     "title": "WC + DUSCH",
+    "slug": "wc-dusch",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC-DUSCH Container",
@@ -304,6 +316,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/5.webp"
     },
     "title": "WC & DUSCH",
+    "slug": "dusch-und-wc",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC mit DUSCH Container",
@@ -328,6 +341,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCURI/5.webp"
     },
     "title": "WC & Urinal",
+    "slug": "wc-und-urinal",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC mit Urinal Container",
@@ -352,6 +366,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/BES/5.webp"
     },
     "title": "Behinderten WC",
+    "slug": "behinderten-wc",
     "content": {
       "text1": "NEU",
       "text2": "sanitarcontainer | Behinderten WC Container",
@@ -376,6 +391,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCWCWC/5.webp"
     },
     "title": "WC + WC + WC",
+    "slug": "wc-wc-wc",
     "content": {
       "text1": "NEU",
       "text2": "sanitarcontainer | WC Container",
@@ -400,6 +416,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/5.webp"
     },
     "title": "WC + WC + DUSCH",
+    "slug": "wc-wc-dusch",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | DUSCH-WC Container",
@@ -424,6 +441,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/LagerWC/5.jpg"
     },
     "title": "WC + Lagercontainer",
+    "slug": "wc-und-lagercontainer",
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | Lagercontainer",
@@ -448,6 +466,7 @@
       "ima5": "/assets/img/ShopDeutsch/SANITE/DUSCH6/5.webp"
     },
     "title": "DUSCHE x 6  ",
+    "slug": "dusche-6x",
     "content": {
       "text1": "NEU",
       "text2": "Duschcontainer",
@@ -473,6 +492,7 @@
       "ima5": "/assets/img/ShopDeutsch/BuroCon/Con11/5.webp"
     },
     "title": "CON-11",
+    "slug": "con-11",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -489,6 +509,7 @@
   {
     "id": "20",
     "category": "burocontainer",
+    
     "image": {
       "ima1": "/assets/img/ShopDeutsch/BuroCon/Con12/1.webp",
       "ima2": "/assets/img/ShopDeutsch/BuroCon/Con12/2.webp",
@@ -497,6 +518,7 @@
       "ima5": "/assets/img/ShopDeutsch/BuroCon/Con12/5.webp"
     },
     "title": "CON-12",
+    "slug": "con-12",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -522,6 +544,7 @@
       "ima5": "/assets/img/ShopDeutsch/BuroCon/Con23/5.webp"
     },
     "title": "CON-23",
+    "slug": "con-23",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -546,6 +569,7 @@
       "ima5": "/assets/img/ShopDeutsch/BuroCon/Con33/5.webp"
     },
     "title": "CON-33",
+    "slug": "con-33",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
@@ -571,6 +595,7 @@
       "ima5": "/assets/img/ShopDeutsch/XL/XL11/5.webp"
     },
     "title": "XL-11",
+    "slug": "xl-11",
     "content": {
       "text1": "NEU",
       "text8": "Extra Groß (3.0m x 7.0m)",
@@ -599,6 +624,7 @@
       "ima5": "/assets/img/ShopDeutsch/XL/XL12/5.webp"
     },
     "title": "XL-12",
+    "slug": "xl-12",
     "content": {
       "text1": "NEU",
       "text8": "Extra Groß (3.0m x 7.0m)",
@@ -616,6 +642,7 @@
   {
     "id": "25",
     "category": "wohncontainer",
+    
     "image": {
       "ima1": "/assets/img/ShopDeutsch/XL/XL21/1.webp",
       "ima2": "/assets/img/ShopDeutsch/XL/XL21/2.webp",
@@ -624,6 +651,7 @@
       "ima5": "/assets/img/ShopDeutsch/XL/XL21/5.webp"
     },
     "title": "XL-21",
+    "slug": "xl-21",
     "content": {
       "text1": "NEU",
       "text8": "Extra Groß (3.0m x 7.0m)",
@@ -649,6 +677,7 @@
       "ima5": "/assets/img/ShopDeutsch/XL/XL33/5.webp"
     },
     "title": "XL-33",
+    "slug": "xl-33",
     "content": {
       "text1": "NEU",
       "text8": "Extra Groß (3.0m x 7.0m)",
@@ -678,6 +707,7 @@
       "ima5": "/assets/img/ShopDeutsch/PFCO/5.png"
     },
     "title": "Pförtnercontainer",
+    "slug": "pförtnercontainer",
     "content": {
       "text1": "NEU",
       "text2": "Pförtnercontainer | Kassenhaus",
@@ -702,6 +732,7 @@
       "ima5": "/assets/img/ShopDeutsch/Storage/5.webp"
     },
     "title": "Lagercontainer",
+    "slug": "lagercontainer",
     "content": {
       "text1": "NEU",
       "text2": "Lagercontainer | Gartencontainer",
@@ -718,6 +749,7 @@
   {
     "id": "29",
     "category": "wohncontainer",
+   
     "image": {
       "ima1": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/1.webp",
       "ima2": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/2.webp",
@@ -726,6 +758,7 @@
       "ima5": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/5.webp"
     },
     "title": "Anlage | Bürocontainer | Wohncontainer",
+    "slug": "anlage-burocontainer-wohncontainer",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Wohncontainer | Anlage",
@@ -750,6 +783,7 @@
       "ima5": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/5.webp"
     },
     "title": "Anlage | Bürocontainer | Wohncontainer",
+    "slug": "burocontainer-anlage-wohncontainer",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Wohncontainer | Anlage",
@@ -774,6 +808,7 @@
       "ima5": "/assets/img/ShopDeutsch/Flatpack/5.webp"
     },
     "title": "Flatpack Container",
+    "slug": "flatpack-container",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Flatpack Container",
@@ -789,7 +824,7 @@
   },
   {
     "id": "32",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/Flatpack/1.webp",
       "ima2": "/assets/img/ShopDeutsch/Flatpack/2.webp",
@@ -798,6 +833,7 @@
       "ima5": "/assets/img/ShopDeutsch/Flatpack/5.webp"
     },
     "title": "Flatpack Container",
+    "slug": "flatpack-container-2",
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer | Flatpack Container",

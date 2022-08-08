@@ -34,8 +34,8 @@ const Burocontaıner = () => {
         <ContainerDetail></ContainerDetail>
         <HomePageShop data={Specialfilter}></HomePageShop>
         <WhyWeComponent></WhyWeComponent>
-        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
-        {/* <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector> */}
+       <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> 
+       
        <ContainerAnimation></ContainerAnimation>
       
     </div>

@@ -115,3 +115,7 @@ list-style: none !important;
 .mt-10{
 margin-top: 150px !important;
 }
+.loading{
+  height: 1200px;
+  width: 100%;
+}

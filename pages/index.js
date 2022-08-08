@@ -11,7 +11,7 @@ export default function Home() {
   const {buroconteiner} =introContainer
   const {wohncontainers} =introContainer
   const {sanitacontainers} =introContainer
-  const {flatpackcontainers} =introContainer
+
   const {specialeditatons} =introContainer
   
  
@@ -24,7 +24,7 @@ export default function Home() {
       <ContainerInto data={buroconteiner}/>
       <ContainerInto data={wohncontainers}/>
       <ContainerInto data={sanitacontainers}/>
-      {/* <ContainerInto data={flatpackcontainers}/> */}
+
       <ContainerInto data={specialeditatons}/>
     </>
   );
