@@ -110,7 +110,7 @@ const HomePageShop = ({ data }) => {
                       <h4 className="card-title fw-600">{Val.title}</h4>
                       <h6 className="text-dark mb-1 pb-1  fz-10">{Val.content.text1}</h6>
                       <h5 className="text-dark mb-1 fw-600 pb-1 text-decoration-line-through">{Val.content.cutprice}</h5>
-                      <h5 className="text-dark mb-1 fw-600 pb-1">{Val.content.price}</h5>
+                      <h5 className="text-dark  mb-1 fw-600 pb-1">{Val.content.price}</h5>
                       <h6 className="card-title mb-1 pb-1 fw-600">{Val.content.text2}</h6>
                       <h6 className="card-title mb-1 pb-1">{Val.content.text3}</h6>
                       <h6 className="card-title fz-15 display-1 mb-1 pb-1">{Val.content.text6}</h6>
