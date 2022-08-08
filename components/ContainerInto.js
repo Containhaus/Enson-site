@@ -65,13 +65,55 @@ const textColorContent = ()=>{
       return data.MainpgClass
     }
     if(router.asPath === "/burocontainer"){
-      return "text-light"
+      return "text-dark"
      }
     else if(router.asPath === "/wohncontainer"){
       return "text-dark"
      }
      if(router.asPath === "/sanitar-container"){
       return "text-dark"
+     }
+     if(router.asPath === "/flat-pack"){
+      return "text-dark"
+     }
+     if(router.asPath === "/special-edition"){
+      return "text-light"
+     }
+  }
+
+}
+const textColorContentDirekt = ()=>{
+  if(width < 768 ){
+  if(router.asPath === "/"){
+    return "text-danger"
+  }
+   if(router.asPath === "/burocontainer"){
+    return "text-danger"
+   }
+   if(router.asPath === "/wohncontainer"){
+    return "text-danger"
+   }
+   if(router.asPath === "/sanitar-container"){
+    return "text-danger"
+   }
+   if(router.asPath === "/flat-pack"){
+    return "text-dark"
+   }
+   if(router.asPath === "/special-edition"){
+    return "text-danger"
+   }
+  }else{
+    if(router.asPath === "/"){
+      return "text-danger"
+    }
+    if(router.asPath === "/burocontainer"){
+      return "text-danger"
+     }
+    else if(router.asPath === "/wohncontainer"){
+      return "text-danger"
+     }
+     if(router.asPath === "/sanitar-container"){
+      return "text-danger"
      }
      if(router.asPath === "/flat-pack"){
       return "text-dark"
@@ -107,8 +149,8 @@ const textColorContent = ()=>{
        <div className="intro-content">
         <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
 
-        <h5 className={`mt-1  ${router.asPath ==="/sanitar-container" || router.asPath === "/special-edition" ? 'text-danger' : "text-danger"}`}>Direkt ab Werk</h5>
-         <h5 className={`${textColorContent()} fw-600`}>{data.content.first}</h5>
+        <h5 className={`mt-1  ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
+         <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
         <Link href={`${router.asPath === "/" ? data.homeHref:data.href}`}>
            <button className="intro-button">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
          </Link>
