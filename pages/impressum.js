@@ -6,7 +6,7 @@ const Impressum = () => {
       <div className="container mt-10">
         <div className="col-lg-12 ">
           <div className="">
-            <h2 className=" text-dark d-flex justify-content-center fz-50">
+            <h2 className=" text-dark d-flex justify-content-center fz-35">
               IMPRESSUM
             </h2>
 
@@ -41,11 +41,11 @@ const Impressum = () => {
                     Gerichtsstand und Sitz der Gesellschaft: Witten{" "}
                   </span>
                   <br />
-                  <span>Containhaus Witten Filliale</span>
+                  <span className="fw-500">Containhaus Witten Filliale</span>
                   <br />
                   Filialleiter: Musa Tetik
                   <br />
-                  <span>Containhaus Hanau Filliale</span>
+                  <span className="fw-500">Containhaus Hanau Filliale</span>
                   <br />
                   Filialleiter: Artur Mikojan
                   <br />
@@ -54,12 +54,12 @@ const Impressum = () => {
             </div>
 
             <div className="row justify-content-center">
-              <div className="text-justify col-12  m-5 ">
-                <span className="font-bold fz-16  mb-30 pt-5">
+              <div className="text-justify col-12  m-4 ">
+                <span className="fw-600 fz-16   ">
                   Datenschutzhinweis Google Analytics
                 </span>
                 <br />
-                <span>
+                <span className="fz-14">
                   Diese Website benutzt Google Analytics, einen Webanalysedienst
                   der Google Inc. („Google“). Google Analytics verwendet sog.
                   „Cookies“, Textdateien, die auf Ihrem Computer gespeichert
@@ -70,7 +70,7 @@ const Impressum = () => {
                   gespeichert.
                 </span>
                 <br />
-                <span>
+                <span className="fz-14">
                   Im Falle der Aktivierung der IP-Anonymisierung auf dieser
                   Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von
                   Mitgliedstaaten der Europäischen Union oder in anderen
@@ -86,7 +86,7 @@ const Impressum = () => {
                   Websitebetreiber zu erbringen.
                 </span>
                 <br />
-                <span>
+                <span className="fz-14">
                   Die im Rahmen von Google Analytics von Ihrem Browser
                   übermittelte IP-Adresse wird nicht mit anderen Daten von
                   Google zusammengeführt. Sie können die Speicherung der Cookies
@@ -107,7 +107,7 @@ const Impressum = () => {
                   </a>
                 </span>
                 <br />
-                <span>
+                <span className="fz-14">
                   Alternativ zum Browser-Add-On oder innerhalb von Browsern auf
                   mobilen Geräten, klicken Sie bitte diesen Link, um die
                   Erfassung durch Google Analytics innerhalb dieser Website

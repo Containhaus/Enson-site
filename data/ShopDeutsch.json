@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/2.webp",
@@ -25,7 +25,7 @@
   },
   {
     "id": "2",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/BLACKDIAMOND/1.webp",
       "ima2": "/assets/img/ShopDeutsch/BLACKDIAMOND/2.webp",
@@ -75,7 +75,7 @@
   },
   {
     "id": "3",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/2.webp",
@@ -125,7 +125,7 @@
   },
   {
     "id": "5",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/2.webp",
@@ -149,7 +149,7 @@
   },
   {
     "id": "6",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/2.webp",
@@ -173,7 +173,7 @@
   },
   {
     "id": "7",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/3.webp",
       "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/2.webp",
@@ -197,7 +197,7 @@
   },
   {
     "id": "8",
-    "category": "special",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SpecialP/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SpecialP/2.webp",
@@ -669,7 +669,7 @@
   
   {
     "id": "27",
-    "category": "pfortnercontainer",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/PFCO/1.webp",
       "ima2": "/assets/img/ShopDeutsch/PFCO/2.webp",
@@ -717,7 +717,7 @@
   },
   {
     "id": "29",
-    "category": "anlage",
+    "category": "wohncontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/1.webp",
       "ima2": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/2.webp",
@@ -741,7 +741,7 @@
   },
   {
     "id": "30",
-    "category": "anlage",
+    "category": "wohncontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/1.webp",
       "ima2": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/2.webp",
