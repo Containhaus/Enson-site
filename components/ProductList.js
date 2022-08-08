@@ -4,7 +4,7 @@ import Image from "next/image";
 const ProductList = ({ product }) => {
   return (
     <>
-    <Link  href={`/container/${product.slug}`}>
+    <Link  href={`/container/${product.id}`}>
       <div className="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0 gx-3 mt-2 cursor ">
         <div className="card text-black shadow-product">
           <Image
@@ -35,7 +35,7 @@ const ProductList = ({ product }) => {
                   Kontakt
                 </button>
               </Link>
-              <Link href={`/container/${product.slug}`}>
+              <Link href={`/container/${product.id}`}>
                 <button className="btn btn-md btn-secondary ps-4 pe-4 rounded-pill text-light detail-btn flex-fill ms-1">
                   Kaufen
                 </button>

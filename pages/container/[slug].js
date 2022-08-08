@@ -185,7 +185,7 @@ export default Product;
 export const getStaticPaths = async () => {
   const paths = products.map((pro) => {
     return {
-      params: { slug: pro.id },
+      params: { id: pro.id },
     };
   });
   return {
@@ -194,7 +194,7 @@ export const getStaticPaths = async () => {
   };
 };
 export const getStaticProps = async (context) => {
-  const product = products.find((pro) => pro.slug === context.params.slug);
+  const product = products.find((pro) => pro.id === context.params.id);
 
   return {
     props: {
