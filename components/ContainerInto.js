@@ -152,7 +152,7 @@ const textColorContentDirekt = ()=>{
         <h5 className={`mt-1  ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
          <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
         <Link href={`${router.asPath === "/" ? data.homeHref:data.href}`}>
-           <button className="intro-button">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
+           <button className="intro-button ">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
          </Link>
        </div>
      </div>
