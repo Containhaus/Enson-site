@@ -4,49 +4,33 @@
         "category": "Alle",
         "slug": "alle"
     },
-    {
-        "id": "2",
-        "category": "Special",
-        "slug": "special"
-    },
+  
   
     {
-        "id": "3",
+        "id": "2",
         "category": "Cafe Container",
         "slug": "cafe-container"
     },
     {
-        "id": "4",
+        "id": "3",
         "category": "Sanitärcontainer",
         "slug": "sanitarcontainer"
     },
     {
-        "id": "5",
+        "id": "4",
         "category": "Bürocontainer",
         "slug": "burocontainer"
     },
     {
-        "id": "6",
+        "id": "5",
         "category": "Wohncontainer",
         "slug": "wohncontainer"
     },
+ 
+   
+  
     {
-        "id": "7",
-        "category": "Pförtnercontainer",
-        "slug": "pfortnercontainer"
-    },
-    {
-        "id": "8",
-        "category": "Lagercontainer",
-        "slug": "lagercontainer"
-    },
-    {
-        "id": "9",
-        "category": "Anlage",
-        "slug": "anlage"
-    },
-    {
-        "id": "10",
+        "id": "6",
         "category": "Flatpack",
         "slug": "flatpack"
     }
