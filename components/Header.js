@@ -65,7 +65,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-md navbar-light bg-light ">
             <div className="container">
               <Link href="/">
-                <a className="navbar-brand" >
+                <a className="navbar-brand " >
                   <img
                     height={72}
                     width={120}
