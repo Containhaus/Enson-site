@@ -68,7 +68,7 @@ const MenuContentBuroContainer = ({ data }) => {
                       {/* <div className="col-10 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image3}></img>
                     </div> */}
-                      <div className="col-lg-8 col-md-12 col-sm-12">
+                      <div className="col-lg-12 col-md-12 col-sm-12">
                         <p className="fz-20 text-justify text-dark">
                           {data.content.sixth}
                         </p>
@@ -114,7 +114,7 @@ const MenuContentBuroContainer = ({ data }) => {
                         <p className="fz-20 text-justify text-dark">
                           {data.content.tenth}
                         </p>
-                        data.content.eleventh{" "}
+                        {" "}
                         <p className="fz-20 text-justify text-dark">
                           {data.content.eleventh}
                           &nbsp;
