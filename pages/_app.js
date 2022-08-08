@@ -1,24 +1,16 @@
 import Head from "next/head";
-import Cookies from "universal-cookie";
 import Script from "next/script";
 import Layout from "../components/Layout";
 import "../styles/style.css";
 import "../styles/globals.css";
-import TagManager from "react-gtm-module";
-import { useEffect, useState } from "react";
+import TagManager from 'react-gtm-module'
 // import "../styles/styleLight.css"
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { useEffect } from 'react';
 function MyApp({ Component, pageProps }) {
-  const cook = new Cookies();
-  const [session, setSession] = useState();
-  useEffect(() =>{
-    setSession(cook.get("key"));
-    const TagManagerAgs ={
-      gtmld: 'GTM-KXPX8H6'
-    }
-    TagManager.initialize(TagManagerAgs)
-  },[])
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-KXPX8H6' });
+}, []);
   return (
     <>
     <Head>
