@@ -11,10 +11,11 @@ import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerCol
 import ContainerAnimation from "../components/ContainerAnimation";
 import HomePageShop from "../components/HomePageShop";
 import useOnScreen from "../utils/utils";
-import dynamic from "next/dynamic";
+
 import ContainerDetail from "../components/ContainerDetail";
 import buroData from "../data/ShopDeutsch.json";
-const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
+import VideoCorausel from "../components/VideoCorausel";
+
 import Head from 'next/head'
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
@@ -47,6 +48,7 @@ const Burocontaıner = () => {
         data={BuroContarinerColorSelector}
       />
       <WhyWeComponent/>
+      <VideoCorausel></VideoCorausel>
       <ContainerAnimation/>
      
     </div>
