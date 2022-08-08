@@ -3,28 +3,26 @@ import React from "react";
 const WhyWeComponent = () => {
   return (
     <>
-      <div >
-            <div className="container-fluid WhyWeBg text-light">
+      <div className="container-fluid WhyWeBg ">
+            <div className="container text-light">
               <div className="row justify-content-center">
                 <div className="col-lg-12 col-md-10 mt-30 text-center">
                   <h4
                     data-splitting
-                    className="words chars splitting display-1 fz-50"
+                    className="words chars splitting display-1 fz-25 pt-3"
                   >
-                   Wieso den
-
+                   Wieso
                   </h4>
-
-                  <h1>CONTAIN HAUS?</h1>
+                  <h3 className="mb-0">CONTAIN HAUS?</h3>
                 </div>
-                <div className="row d-flex justify-content-center mb-4">
-                  <div className="col-lg-3 col-md-6 col-sm-8 ">
-                    <div className="BorderWyWe mx-auto text-center  mb-4 mt-4">
-                      <div className="d-flex justify-content-center mt-5">
+                <div className="row d-flex justify-content-center mb-3">
+                  <div className="col-lg-2 col-md-3 col-6 ">
+                    <div className="BorderWyWe mx-auto text-center  mb-2 mt-4 ">
+                      <div className="d-flex justify-content-center mt-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="60"
-                          height="60"
+                          width="35"
+                          height="35"
                           fill="currentColor"
                           className="bi zoomWhyWe me-2 mb-4 bi-brightness-high-fill"
                           viewBox="0 0 16 16"
@@ -33,8 +31,8 @@ const WhyWeComponent = () => {
                         </svg>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="60"
-                          height="60"
+                          width="35"
+                          height="35"
                           fill="currentColor"
                           className="bi zoomWhyWe mb-4 bi-cloud-lightning-rain-fill"
                           viewBox="0 0 16 16"
@@ -46,8 +44,8 @@ const WhyWeComponent = () => {
                       <div className="d-flex justify-content-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="60"
-                          height="60"
+                          width="35"
+                          height="35"
                           fill="currentColor"
                           className="bi zoomWhyWe me-2 bi-snow2"
                           viewBox="0 0 16 16"
@@ -56,8 +54,8 @@ const WhyWeComponent = () => {
                         </svg>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="60"
-                          height="60"
+                          width="35"
+                          height="35"
                           fill="currentColor"
                           className="bi zoomWhyWe bi-flower1"
                           viewBox="0 0 16 16"
@@ -67,19 +65,19 @@ const WhyWeComponent = () => {
                       </div>
                     </div>
                     <div className="text-center">
-                      <h5 className="display-4 fz-25">4 JAHRESZEITEN</h5>
+                      <h5 className="display-4 fz-15">4 JAHRESZEITEN</h5>
 
                       <h6 className="fw-700">PRAKTISCH</h6>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-6 col-sm-12 ">
-                    <div className="BorderWyWe mx-auto text-center  mb-4 mt-4">
+                  <div className="col-lg-2 col-md-3 col-6 ">
+                    <div className="BorderWyWe mx-auto text-center  mb-2 mt-4 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="100"
+                        width="90"
+                        height="90"
                         fill="currentColor"
-                        className=" mt-6 zoomWhyWe bi bi-person-check-fill"
+                        className=" mt-4 ms-2 zoomWhyWe bi bi-person-check-fill"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -90,21 +88,21 @@ const WhyWeComponent = () => {
                       </svg>
                     </div>
                     <div className="text-center">
-                      <h5 className="display-4 fz-25">NACH DEM VERKAUF
+                      <h5 className="display-4 fz-15">NACH DEM VERKAUF
 </h5>
 
                       <h6 className="fw-700">VOLLE UNTERSTÜTZUNG
 </h6>
                     </div>{" "}
                   </div>
-                  <div className="col-lg-3 col-md-6 col-sm-12 ">
-                    <div className="BorderWyWe mx-auto text-center  mb-4 mt-4">
+                  <div className="col-lg-2 col-md-3 col-6 ">
+                    <div className="BorderWyWe mx-auto text-center  mb-2 mt-4 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="100"
+                        width="90"
+                        height="90"
                         fill="currentColor"
-                        className="bi mt-6 zoomWhyWe bi-clipboard-data-fill"
+                        className="bi mt-4 zoomWhyWe bi-clipboard-data-fill"
                         viewBox="0 0 16 16"
                       >
                         <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z" />
@@ -112,7 +110,7 @@ const WhyWeComponent = () => {
                       </svg>
                     </div>
                     <div className="text-center">
-                      <h5 className="display-4 fz-25">
+                      <h5 className="display-4 fz-15">
                       1. KLASSSE
 
                       </h5>
@@ -120,14 +118,14 @@ const WhyWeComponent = () => {
                       <h6 className="fw-700">MATERIAL</h6>
                     </div>{" "}
                   </div>
-                  <div className="col-lg-3 col-md-6 col-sm-12 ">
-                    <div className="BorderWyWe mx-auto text-center  mb-4 mt-4">
+                  <div className="col-lg-2 col-md-3 col-6 ">
+                    <div className="BorderWyWe mx-auto text-center  mb-2 mt-4 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="100"
+                        width="90"
+                        height="90"
                         fill="currentColor"
-                        className="bi mt-6 zoomWhyWe bi-pencil-square"
+                        className="bi mt-4 zoomWhyWe bi-pencil-square"
                         viewBox="0 0 16 16"
                       >
                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
@@ -138,7 +136,7 @@ const WhyWeComponent = () => {
                       </svg>
                     </div>
                     <div className="text-center">
-                      <h5 className="display-4 fz-25">FACHMANN</h5>
+                      <h5 className="display-4 fz-15">FACHMANN</h5>
 
                       <h6 className="fw-700">ARCHITEKTURTEAM</h6>
                     </div>

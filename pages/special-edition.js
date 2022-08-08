@@ -12,7 +12,7 @@ import ContainerDetail from '../components/ContainerDetail'
 import intro2Data from "../data/ShopDeutsch.json"; 
 import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
-const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
+
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -34,7 +34,7 @@ const Burocontaıner = () => {
         <ContainerDetail></ContainerDetail>
         <HomePageShop data={Specialfilter}></HomePageShop>
         <WhyWeComponent></WhyWeComponent>
-       <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> 
+       
        
        <ContainerAnimation></ContainerAnimation>
       

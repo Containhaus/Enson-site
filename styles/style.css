@@ -1048,6 +1048,21 @@ floatemail {
   position: fixed;
   left: 2rem;
 }
+
+.BorderWyWe {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.zoomWhyWe:hover {
+  transform: scale(1.10);
+  transition: transform .2s;
+}
+
+
+
 @media only screen and (max-width: 786px) {
   .footerdisMo {
     display: block !important;
@@ -1089,3 +1104,5 @@ color: #616160;
   width: 100% !important;
   height: auto;
 }
+
+
