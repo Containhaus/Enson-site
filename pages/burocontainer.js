@@ -40,16 +40,22 @@ const Burocontaıner = () => {
       </Head>
       <ContainerInto data={buroconteiner}/>
       <ContainerDetail/>
-      <HomePageShop data={burofilter}/>
+    
 
-      {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
-
-      <ContainerColorSelector
+   <div ref={child3Ref}>{child3RefValue ?
+   <>  
+     <HomePageShop data={burofilter}/>
+    {/* <VideoCorausel /> */}
+    <ContainerColorSelector
         data={BuroContarinerColorSelector}
       />
       <WhyWeComponent/>
-      <VideoCorausel></VideoCorausel>
+      
       <ContainerAnimation/>
+   </> 
+  :<div className="loading"></div> }</div> 
+
+    
      
     </div>
   );
