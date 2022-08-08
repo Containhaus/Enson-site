@@ -69,7 +69,7 @@ const Header = () => {
                   <img
                     height={72}
                     width={120}
-                    src="https://www.containhaus.de/assets/img/RedBlack.webp"
+                    src="/assets/img/RedBlack.webp"
                     alt=""
                   />
                 </a>
