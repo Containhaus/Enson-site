@@ -50,7 +50,7 @@ const Burocontaıner = () => {
         data={BuroContarinerColorSelector}
       />
       <WhyWeComponent/>
-      
+      <VideoCorausel/>
       <ContainerAnimation/>
    </> 
   :<div className="loading"></div> }</div> 
