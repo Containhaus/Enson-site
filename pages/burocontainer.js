@@ -1,25 +1,22 @@
 import React from "react";
+
 import ContainerInto from "../components/ContainerInto";
+
 import introContainer from "../data/containerIntro.json";
-import intro2Data from "../data/HaCusAndRefe.json";
+
 import WhyWeComponent from "../components/WhyWeComponent";
+
 import ContainerColorSelector from "../components/ContainerColorSelector";
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
 import HomePageShop from "../components/HomePageShop";
 import useOnScreen from "../utils/utils";
-import HaCusAndRefe from "../components/HaCusAndRefe";
+
 import ContainerDetail from "../components/ContainerDetail";
 import buroData from "../data/ShopDeutsch.json";
-<<<<<<< HEAD
+
 import Head from 'next/head'
 const Burocontaıner = () => {
-=======
-import VideoCorausel from "../components/VideoCorausel";
-
-import Head from "next/head";
-const Burocontaıner = ({buroColorData}) => {
->>>>>>> ae49b2b173f4ddefed5ff7aa232121066238faea
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -31,17 +28,19 @@ const Burocontaıner = ({buroColorData}) => {
     (intro) =>
       intro.category === "burocontainer" || intro.category === "special"
   );
+
   const { buroconteiner } = introContainer;
+
   return (
     <div>
-      <Head>
+        <Head>
         <title>Contain Haus | Bürocontainer Preise kaufen </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <ContainerInto data={buroconteiner} />
-      <ContainerDetail />
+      <ContainerInto data={buroconteiner}/>
+      <ContainerDetail/>
+    
 
-<<<<<<< HEAD
    <div ref={child3Ref}>{child3RefValue ?
    <>  
      <HomePageShop data={burofilter}/>
@@ -50,40 +49,15 @@ const Burocontaıner = ({buroColorData}) => {
         data={BuroContarinerColorSelector}
       />
       <WhyWeComponent/>
-      <HaCusAndRefe data={intro2Data}/>
+      {/* <HaCusAndRefe/> */}
       <ContainerAnimation/>
    </> 
   :<div className="loading"></div> }</div> 
 
     
      
-=======
-      <div ref={child3Ref}>
-        {child3RefValue ? (
-          <>
-            <HomePageShop data={burofilter} />
-            {/* <VideoCorausel /> */}
-            <ContainerColorSelector data={buroColorData} />
-            <WhyWeComponent />
-            <VideoCorausel />
-            <ContainerAnimation />
-          </>
-        ) : (
-          <div className="loading"></div>
-        )}
-      </div>
->>>>>>> ae49b2b173f4ddefed5ff7aa232121066238faea
     </div>
   );
 };
 
 export default Burocontaıner;
-export const getServerSideProps = async (context) => {
-  
- const buroColorData =  BuroContarinerColorSelector
-  return {
-    props: {
-      buroColorData,
-    },
-  };
-};
