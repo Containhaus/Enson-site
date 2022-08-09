@@ -14,7 +14,7 @@ import HomePageShop from "../components/HomePageShop";
 import intro2Data from "../data/ShopDeutsch.json"; 
 import Head from 'next/head'
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
-const WohnContainer = ({wohnColorData}) => {
+const WohnContainer = ({wohnColorData,wohncontainers}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -24,7 +24,7 @@ const WohnContainer = ({wohnColorData}) => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
 
-  const { wohncontainers } = introContainer;
+
 
 
   return (
@@ -51,10 +51,11 @@ const WohnContainer = ({wohnColorData}) => {
 
 export default WohnContainer;
 export const getServerSideProps = async (context) => {
-  
+  const { wohncontainers } = introContainer;
   const wohnColorData =  WohnContainerColorSelector
    return {
      props: {
+      wohncontainers,
       wohnColorData,
      },
    };

@@ -16,7 +16,7 @@ import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 
-const SanitaContainer = ({sanitaColorData}) => {
+const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
   const [isChild3Ref, setIsChild3Ref] =  React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -26,7 +26,7 @@ const SanitaContainer = ({sanitaColorData}) => {
         setIsChild3Ref(child3RefValue);
  }, [child3RefValue])
 
-  const {sanitacontainers} =introContainer
+
   
   return (
     <div>
@@ -50,11 +50,12 @@ const SanitaContainer = ({sanitaColorData}) => {
 
 export default SanitaContainer
 export const getServerSideProps = async (context) => {
-  
+  const {sanitacontainers} =introContainer
   const sanitaColorData =  SanitarContarinerColorSelector
    return {
      props: {
       sanitaColorData,
+      sanitacontainers
      },
    };
  };
