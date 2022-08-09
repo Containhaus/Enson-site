@@ -1,850 +1,381 @@
 [
-    {
-      "id": "1",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/masarawi/5.webp"
-      },
-      "title": "Black Panter",
-      "slug": "black-panter",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Modell Black Panter",
-        "text3": "B:400 | L:800 32,00m²",
-        "price": "29.000,00 €",
-        "text6": "3 x Zimmer, 1x Glas Eingangstür, 1x Standard Eingangstür,2x Fenster, 4 x Bodentiefe Fenster, Standard Fenster, 2 x Kleines Fenster  ",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Kontakt"
-      }
+  {
+    "id": "1",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/1.webp"
     },
-    {
-      "id": "2",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/BLACKDIAMOND/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/BLACKDIAMOND/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/BLACKDIAMOND/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/BLACKDIAMOND/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/BLACKDIAMOND/5.webp"
-      },
-      "title": "Black Diamond",
-      "slug": "black-diamond",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:500 12,00m²",
-        "price": "8.500,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Blackdiomand"
-      },
-      "descriptionBL": {
-        "Seller":"Direkt von Herstseller",
-        "deutsch":"NEUWARE! Deutsche Markenqualität",
-        "text1": "Breite: 2.40m,",
-        "text2": "Länge: 5.00m,",
-        "height":"Höhe: 2.50m",
-        "text3": "Quadratmeter: 12,00m²",        
-        "text4": "Beschreibung:",
-        "text5": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
-        "text6": "Isolation: 80 mm Decke, 50mm Wand ",
-        "text7": "",
-        "text8": "Vinyl Bodenbelag 2-3mm - robust.",
-        "text9": "Kranösen sind Inkl. Zum Entladen mit Kran.",
-        "text10": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
-        "text11": "Individuelle Raumgestaltung ist möglich.",
-        "text12": "Zusätzlich können Sie folgendes dazu bestellen:",
-        "text13": "Rolladen (Inkl. Einabu) : 390 €",
-        "text14": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
-        "text15": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
-        "text16": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
-        "text17": "Frostwächter: 75 €",
-        "text18": "Urinal (inkl. Einbau & Abdichtung): 400 €",
-        "text19": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
-        "text20": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
-      }
-      
-    },
-    {
-      "id": "3",
-      "category": "burocontainer",
-      
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS/5.png"
-      },
-      "title": "Glass",
-      "slug": "glass",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600 | H: 28,80m² 14,40m²",
-        "price": "8.900,00 €",
-        "text6": "1x Zimmer, 2x Eingangstür, 1x Innentür, 3x Fenster, 1x WC mit Waschbacken, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/GlassProductPage"
-      }
-    },
-    {
-      "id": "4",
-      "category": "cafe-container",
-      
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/CAFFE/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/CAFFE/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/CAFFE/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/CAFFE/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/CAFFE/5.webp"
-      },
-      "title": "Cafe Container",
-      "slug": "cafe-container",
-      "content": {
-        "text1": "NEU",
-        "text2": "Cafe Container | Bistro Container",
-        "text3": "B:240 | L:600 14,40m²",
-        "cutprice":"20.200,00 €",
-        "price": "16.000,00 €",
-        "CutPrice": "20,000,00 €",
-        "text6": "Cafe Container Bodentiefe Fenster mit Holzverkleidung, 1x Zimmer,  1x Eingangstür",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/CafeContainerProductPage"
-      }
-    },
-    {
-      "id": "5",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASSXL/5.png"
-      },
-      "title": "Glass XL",
-      "slug": "glass-xl",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "13.584,00 €",
-        "text6": "2x Zimmer, 2x Eingangstür, 1x Innentür 5x Fenster,1x WC mit Waschbacken, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/GlassXLProductPage"
-      }
-    },
-    {
-      "id": "6",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/GLASS2XL/5.webp"
-      },
-      "title": "Glass-2 XL",
-      "slug": "glass-2-xl",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Flatpack Container",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "12.900,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 5x Bodentiefe Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Kontakt"
-      }
-    },
-    {
-      "id": "7",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/3.webp",
-        "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/1.webp",
-        "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/5.webp"
-      },
-      "title": "Black Diamond XL",
-      "slug": "black-diamond-xl",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Flatpack Container",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "13.000,00 €",
-        "text6": "1x Grossraum, 1x Doppel Glas Eingangstür, 2x Fenster, WC Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Kontakt"
-      }
-    },
-    {
-      "id": "8",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SpecialP/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SpecialP/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SpecialP/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SpecialP/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SpecialP/5.webp"
-      },
-      "title": "Rolladen",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600 14,40m²",
-  
-        "price": "9.500,00 €",
-        "text6": "2x Zimmer, 1x Eingangstür, 1x Innentür, 3x Fenster, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/RolladenProductPage"
-      }
-    },
+    "title": "Bürocontainer | Flat Pack Demonte",
     
-    {
-      "id": "9",
-      "category": "sanitärcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/DUSDUS/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/DUSDUS/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/DUSDUS/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/DUSDUS/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/DUSDUS/5.webp"
-      },
-      "title": "DUSCH + DUSCH",
-      "slug": "dusch-dusch",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | Duschcontainer",
-        "text3": "B:120 | L:220 2,60m²",
-        "price": "3.460,00 €",
-        "text6": "2x Zimmer, 2x Eingangstür, 2x Dusche, 2x Eingangstür, 2x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/DuschDuschProductPage"
-      }
-    },
-    {
-      "id": "10",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCWC/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCWC/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCWC/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCWC/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCWC/5.webp"
-      },
-      "title": "WC + WC",
-      "slug": "wc-wc",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | Toilettencontainer",
-        "text3": "B:120 | L:220 2,60m²",
-        "price": "3.440,00 €",
-        "text6": "2x Zimmer, 2x Eingangstür, 2x WC mit Waschbecken, 2x Eingangstür, 2x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCWCProductPage"
-      }
-    },
-    {
-      "id": "11",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCDUSH/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCDUSH/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCDUSH/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCDUSH/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCDUSH/5.webp"
-      },
-      "title": "WC + DUSCH",
-      "slug": "wc-dusch",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | WC-DUSCH Container",
-        "text3": "B:120 | L:220 2,60m²",
-        "price": "2.400,00 €",
-        "text6": "1x WC mit Waschbecken, 1x Dusche, 2x Zimmer, 2x Eingangstür, 2x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCDuschProductPage"
-      }
-    },
-    {
-      "id": "12",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/5.webp"
-      },
-      "title": "WC & DUSCH",
-      "slug": "dusch-und-wc",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | WC mit DUSCH Container",
-        "text3": "B:120 | L:220 2,60m²",
-        "price": "3.440,00 €",
-        "text6": "1x WC mit Waschbecken, 1x Dusche, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCandDuschProductPage"
-      }
-    },
-    {
-      "id": "13",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCURI/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCURI/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCURI/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCURI/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCURI/5.webp"
-      },
-      "title": "WC & Urinal",
-      "slug": "wc-und-urinal",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | WC mit Urinal Container",
-        "text3": "B:120 | L:220  2,60m²",
-        "price": "3.440,00 €",
-        "text6": "1x WC mit Waschbecken, 1x Urinal, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCandUrinalProductPage"
-      }
-    },
-    {
-      "id": "14",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/BES/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/BES/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/BES/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/BES/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/BES/5.webp"
-      },
-      "title": "Behinderten WC",
-      "slug": "behinderten-wc",
-      "content": {
-        "text1": "NEU",
-        "text2": "sanitarcontainer | Behinderten WC Container",
-        "text3": "B:220 | L:220 4,85m²",
-        "price": "4.080,00 €",
-        "text6": "1x WC mit Waschbecken, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/BehindertenWCProductPage"
-      }
-    },
-    {
-      "id": "15",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCWCWC/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCWCWC/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCWCWC/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCWCWC/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCWCWC/5.webp"
-      },
-      "title": "WC + WC + WC",
-      "slug": "wc-wc-wc",
-      "content": {
-        "text1": "NEU",
-        "text2": "sanitarcontainer | WC Container",
-        "text3": "B:110 | L:300 3,30m²",
-        "price": "3.970,00 €",
-        "text6": "3x WC mit Waschbecken, 3x Zimmer, 3x Eingangstür, 3x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCWCWCProductPage"
-      }
-    },
-    {
-      "id": "16",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/5.webp"
-      },
-      "title": "WC + WC + DUSCH",
-      "slug": "wc-wc-dusch",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | DUSCH-WC Container",
-        "text3": "B:110 | L:300 3,30m²",
-        "price": "3.930,00 €",
-        "text6": "2x WC mit Waschbecken, 1x Dusche, 3x Zimmer, 3x Eingangstür, 3x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCWCDuschProductPage"
-      }
-    },
-    {
-      "id": "17",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/LagerWC/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/LagerWC/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/LagerWC/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/LagerWC/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/LagerWC/5.jpg"
-      },
-      "title": "WC + Lagercontainer",
-      "slug": "wc-und-lagercontainer",
-      "content": {
-        "text1": "NEU",
-        "text2": "Sanitärcontainer | Lagercontainer",
-        "text3": "B:150 | L:370 5,55m²",
-        "price": "4.805,00 €",
-        "text6": "1x WC mit Waschbecken, 1x Lager, 2x Zimmer, 2x Eingangstür, 1x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/WCLagercontainerProductPage"
-      }
-    },
-    {
-      "id": "18",
-      "category": "sanitarcontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/SANITE/DUSCH6/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/SANITE/DUSCH6/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/SANITE/DUSCH6/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/SANITE/DUSCH6/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/SANITE/DUSCH6/5.webp"
-      },
-      "title": "DUSCHE x 6  ",
-      "slug": "dusche-6x",
-      "content": {
-        "text1": "NEU",
-        "text2": "Duschcontainer",
-        "text3": "B:240 | L:600  14,40m²",
-        "price": "9.250,00 €",
-        "text6": "6x Dusche, 6x Waschbecken, 7x Zimmer, 1x Eingangstür, 1x Innentüren, 1x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/DuschWaschbacken6ProductPage"
-      }
-    },
-  
-    {
-      "id": "19",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/BuroCon/Con11/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/BuroCon/Con11/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/BuroCon/Con11/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/BuroCon/Con11/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/BuroCon/Con11/5.webp"
-      },
-      "title": "CON-11",
-      "slug": "con-11",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600 | 14,40m²",
-        "price": "7.150,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Con11ProductPage"
-      }
-    },
-    {
-      "id": "20",
-      "category": "burocontainer",
-      
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/BuroCon/Con12/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/BuroCon/Con12/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/BuroCon/Con12/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/BuroCon/Con12/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/BuroCon/Con12/5.webp"
-      },
-      "title": "CON-12",
-      "slug": "con-12",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600 14,40m²",
-  
-        "price": "7.150,00 €",
-        "text6": " 1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Con12ProductPage"
-      }
-    },
-    {
-      "id": "21",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/BuroCon/Con23/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/BuroCon/Con23/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/BuroCon/Con23/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/BuroCon/Con23/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/BuroCon/Con23/5.webp"
-      },
-      "title": "CON-23",
-      "slug": "con-23",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600 14,40m²",
-        "price": "7.736,00 €",
-        "text6": "2x Zimmer, 1x Eingangstür,1x Innentür 3x Fenster mit Rolladen, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Con23ProductPage"
-      }
-    },
-    {
-      "id": "22",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/BuroCon/Con33/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/BuroCon/Con33/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/BuroCon/Con33/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/BuroCon/Con33/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/BuroCon/Con33/5.webp"
-      },
-      "title": "CON-33",
-      "slug": "con-33",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer",
-        "text3": "B:240 | L:600  14,40m²",
-        "price": "7.660,00 €",
-        "text6": "3x Zimmer, 2x Eingangstür, 3x Innentür 2x Fenster,1x WC mit Waschbacken, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/Con33ProductPage"
-      }
-    },
-  
-    {
-      "id": "23",
-      "category": "wohncontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/XL/XL11/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/XL/XL11/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/XL/XL11/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/XL/XL11/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/XL/XL11/5.webp"
-      },
-      "title": "XL-11",
-      "slug": "xl-11",
-      "content": {
-        "text1": "NEU",
-        "text8": "Extra Groß (3.0m x 7.0m)",
-        "text2": "Bürocontainer | Wohncontainer",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "9.915,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster ",
-        "text7 ": ""  
-        
-        
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/XL11ProductPage"
-      }
-    },
-    
-    {
-      "id": "24",
-      "category": "wohncontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/XL/XL12/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/XL/XL12/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/XL/XL12/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/XL/XL12/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/XL/XL12/5.webp"
-      },
-      "title": "XL-12",
-      "slug": "xl-12",
-      "content": {
-        "text1": "NEU",
-        "text8": "Extra Groß (3.0m x 7.0m)",
-        "text2": "Bürocontainer | Wohncontainer",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "9.915,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/XL12ProductPage"
-      }
-    },
-    {
-      "id": "25",
-      "category": "wohncontainer",
-      
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/XL/XL21/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/XL/XL21/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/XL/XL21/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/XL/XL21/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/XL/XL21/5.webp"
-      },
-      "title": "XL-21",
-      "slug": "xl-21",
-      "content": {
-        "text1": "NEU",
-        "text8": "Extra Groß (3.0m x 7.0m)",
-        "text2": "Bürocontainer | Wohncontainer",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "10.075,00 €",
-        "text6": "2x Zimmer, 2x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/XL21ProductPage"
-      }
-    },
-    {
-      "id": "26",
-      "category": "wohncontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/XL/XL33/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/XL/XL33/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/XL/XL33/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/XL/XL33/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/XL/XL33/5.webp"
-      },
-      "title": "XL-33",
-      "slug": "xl-33",
-      "content": {
-        "text1": "NEU",
-        "text8": "Extra Groß (3.0m x 7.0m)",
-        "text2": "Bürocontainer | Wohncontainer",
-        "text3": "B:300 | L:700 21,00m²",
-        "price": "10.340,00 €",
-        "text6": " 3x Zimmer, 2x Eingangstür,1x Innertür, 2x Fenster, 1x WC mit Waschbacken, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/XL33ProductPage"
-      }
-    },
-    
-    
-    
-    
-    {
-      "id": "27",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/PFCO/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/PFCO/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/PFCO/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/PFCO/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/PFCO/5.png"
-      },
-      "title": "Pförtnercontainer",
-      "slug": "pförtnercontainer",
-      "content": {
-        "text1": "NEU",
-        "text2": "Pförtnercontainer | Kassenhaus",
-        "text3": "B:220 | L:220 4,80m²",
-        "price": "3.815,00 €",
-        "text6": "1x Zimmer, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/PfortnercontainerProductPage"
-      }
-    },
-    {
-      "id": "28",
-      "category": "lagercontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/Storage/2.webp",
-        "ima2": "/assets/img/ShopDeutsch/Storage/1.webp",
-        "ima3": "/assets/img/ShopDeutsch/Storage/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/Storage/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/Storage/5.webp"
-      },
-      "title": "Lagercontainer",
-      "slug": "lagercontainer",
-      "content": {
-        "text1": "NEU",
-        "text2": "Lagercontainer | Gartencontainer",
-        "text3": "B:240 | L:300 7,20m²",
-        "price": "6.255,00 €",
-        "text6": " 1x Zimmer, 1x Doppelflügeltür, 1x  Waschbecken, 2x Belüftung",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/LagerContainerProductPage"
-      }
-    },
-    {
-      "id": "29",
-      "category": "wohncontainer",
-     
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/ANLAGE/AnlageBl/5.webp"
-      },
-      "title": "Anlage | Bürocontainer | Wohncontainer",
-      "slug": "anlage-burocontainer-wohncontainer",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Wohncontainer | Anlage",
-        "text3": "B:480 | L:600 28,80m²",
-        "price": "17.676,00 €",
-        "text6": "2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/AnlageProductPage"
-      }
-    },
-    {
-      "id": "30",
-      "category": "wohncontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/ANLAGE/AnlageWH/5.webp"
-      },
-      "title": "Anlage | Bürocontainer | Wohncontainer",
-      "slug": "burocontainer-anlage-wohncontainer",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Wohncontainer | Anlage",
-        "text3": "B:480 | L:600  28,80m²",
-        "price": "17.676,00 €",
-        "text6": "2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/AnlageSEProductPage"
-      }
-    },
-    {
-      "id": "31",
-      "category": "flatpack",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/Flatpack/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/Flatpack/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/Flatpack/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/Flatpack/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/Flatpack/5.webp"
-      },
-      "title": "Flatpack Container",
-      "slug": "flatpack-container",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Flatpack Container",
-        "text3": "B:240 | L:600 14,40m²",
-        "price": "4.469,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/FlatpackProductpage"
-      }
-    },
-    {
-      "id": "32",
-      "category": "burocontainer",
-      "image": {
-        "ima1": "/assets/img/ShopDeutsch/Flatpack/1.webp",
-        "ima2": "/assets/img/ShopDeutsch/Flatpack/2.webp",
-        "ima3": "/assets/img/ShopDeutsch/Flatpack/3.webp",
-        "ima4": "/assets/img/ShopDeutsch/Flatpack/4.webp",
-        "ima5": "/assets/img/ShopDeutsch/Flatpack/5.webp"
-      },
-      "title": "Flatpack Container",
-      "slug": "flatpack-container-2",
-      "content": {
-        "text1": "NEU",
-        "text2": "Bürocontainer | Flatpack Container",
-        "text3": "B:240 | L:600 14,40m²",
-        "price": "4.469,00 €",
-        "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-        "text7 ": ""
-      },
-      "href": {
-        "href1": "/Kontakt",
-        "href2": "/FlatpackProductpage"
-      }
+    "content": {
+      "text2": "Garten",
+      "price": "Bendorf"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
     }
-  ]
+  },
+  {
+    "id": "2",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/2.webp"
+    },
+    "title": "Bürocontainer | Flat Pack Demonte",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Bendorf"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
+    }
+  },
+  {
+    "id": "3",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/3.webp"
+    },
+    "title": "Bürocontainer | Flat Pack Demonte",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Bendorf"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
+    }
+  },
+  {
+    "id": "4",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/4.webp"
+    },
+    "title": "Bürocontainer",
+    
+    "content": {
+      "text2": "Büro",
+      "price": "Forst"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
+    }
+  },
+  {
+    "id": "5",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/5.webp"
+    },
+    "title": "Bürocontainer",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Im Lennelbach"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
+    }
+  },
+  {
+    "id": "6",
+    "category": "buroHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Buro/6.webp"
+    },
+    "title": "Bürocontainer",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Weimar"
+          },
+    "href": {
+      "href1": "/shop/burocontainer"
+    }
+  },
+  {
+    "id": "7",
+    "category": "WohnHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Blackdiaomnd/1.webp"
+    },
+    "title": "Black Diamond",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Berlin"
+          },
+    "href": {
+      "href1": "/shop/wohncontainer"
+    }
+  },
+
+  {
+    "id": "8",
+    "category": "WohnHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Blackdiaomnd/2.webp"
+    },
+    "title": "Black Diamond",
+    
+    "content": {
+      "text2": "Büro",
+      "price": "Berlin"
+          },
+    "href": {
+      "href1": "/shop/wohncontainer"
+    }
+  },
+  {
+    "id": "9",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/1.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Cottbus"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+
+  {
+    "id": "10",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/2.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Acker",
+      "price": "Dötlingen"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "11",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/3.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Straßenrand",
+      "price": "Forst"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+
+  {
+    "id": "12",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/4.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Gevelsberg"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "13",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/5.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Acker",
+      "price": "Isterberg"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "14",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/6.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Fabrik",
+      "price": "Mörlenbach"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "15",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/7.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Fabrik",
+      "price": "München"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "16",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/8.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Garten",
+      "price": "Regensburg"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "17",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/9.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Straßenrand",
+      "price": "Schotten"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "18",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/10.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Garten",
+      "price": "Seelze"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "19",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/11.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Garten",
+      "price": "Seelze"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "20",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/12.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "Straßenrand",
+      "price": "Stetten"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "20",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/13.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Acker",
+      "price": "Uelsen"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "20",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/14.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Fabrik",
+      "price": "Waltrop"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "20",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/HappyCustomer/Sanite/15.webp"
+    },
+    "title": "Sanitärcontainer",
+    
+    "content": {
+      "text2": "der Fabrik",
+      "price": "Weyhe"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+]

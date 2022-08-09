@@ -1,8 +1,7 @@
 import React from 'react'
 import ContainerInto from '../components/ContainerInto'
-
+import SanitaHappyData from "../data/HaCusAndRefe.json"
 import introContainer from "../data/containerIntro.json"
-
 
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
@@ -14,6 +13,7 @@ import ContainerDetail from '../components/ContainerDetail'
 import intro2Data from "../data/ShopDeutsch.json"; 
 import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
+import HaCusAndRefe from '../components/HaCusAndRefe'
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 
 const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
@@ -21,6 +21,10 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
   const Sanitarfilter = intro2Data.filter(intro => intro.category === "sanitarcontainer")
+  const SanitaHappyDatafilter = SanitaHappyData.filter(
+    (intro) =>
+    intro.category === "SanitaHappy"
+  );
   React.useEffect(() => {
     if (!isChild3Ref)
         setIsChild3Ref(child3RefValue);
@@ -42,6 +46,7 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
         {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         <ContainerColorSelector data={sanitaColorData}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
+        <HaCusAndRefe data={SanitaHappyDatafilter}/>
       <ContainerAnimation></ContainerAnimation>
   
     </div>

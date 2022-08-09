@@ -233,7 +233,7 @@
   
   {
     "id": "9",
-    "category": "sanitärcontainer",
+    "category": "sanitarcontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SANITE/DUSDUS/1.webp",
       "ima2": "/assets/img/ShopDeutsch/SANITE/DUSDUS/2.webp",
@@ -724,7 +724,7 @@
   },
   {
     "id": "28",
-    "category": "lagercontainer",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/Storage/2.webp",
       "ima2": "/assets/img/ShopDeutsch/Storage/1.webp",

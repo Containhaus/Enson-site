@@ -1,8 +1,8 @@
 import React from "react";
 import ContainerInto from "../components/ContainerInto";
-
+import HaCusAndRefe from "../components/HaCusAndRefe";
 import introContainer from "../data/containerIntro.json";
-
+import WohnHappyData from "../data/HaCusAndRefe.json";
 import WhyWeComponent from "../components/WhyWeComponent";
 import ContainerColorSelector from "../components/ContainerColorSelector";
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json";
@@ -19,14 +19,13 @@ const WohnContainer = ({wohnColorData,wohncontainers}) => {
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
   const burofilter = intro2Data.filter(intro => intro.category === "burocontainer" || intro.category ===  "special" )  
-  
+  const WohnHappyDatafilter = WohnHappyData.filter(
+    (intro) =>
+    intro.category === "WohnHappy"  ||  intro.category === "buroHappy"
+  );
   React.useEffect(() => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
-
-
-
-
   return (
     <div>
           <Head>
@@ -37,12 +36,13 @@ const WohnContainer = ({wohnColorData,wohncontainers}) => {
       <ContainerDetail></ContainerDetail>
       <HomePageShop data={burofilter}></HomePageShop>
 
-   
+      
       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
       <ContainerColorSelector
         data={wohnColorData}
       ></ContainerColorSelector>
       <WhyWeComponent></WhyWeComponent>
+      <HaCusAndRefe data={WohnHappyDatafilter}/>
       <ContainerAnimation></ContainerAnimation>
    
     </div>

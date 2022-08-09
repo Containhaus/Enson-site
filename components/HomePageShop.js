@@ -44,7 +44,7 @@ const HomePageShop = ({ data }) => {
             return (
               
               <SplideSlide key={Val.id}>
-                 <Link href={`/container/${Val.id}`}> 
+                 <Link href={`/container/${Val.slug}`}> 
                 <div
                   className="card my-3 py-3 col-12 shadow-product"
                   key={Val.id}
@@ -125,7 +125,7 @@ const HomePageShop = ({ data }) => {
                           Kontakt
                         </button>
                       </Link>
-                      <Link href={`/container/${Val.id}`}>
+                      <Link href={`/container/${Val.slug}`}>
                         <button className="btn btn-ms btn-secondary ps-4 pe-4 rounded-pill text-light detail-btn flex-fill ms-1">
                           Kaufen
                         </button>

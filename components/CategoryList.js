@@ -7,7 +7,7 @@ const CategoryList = () => {
       <div className="category-list">
         {categories.map((category) => (
               <Link key={category.id} href={`${category.slug}`}>
-          <div  className=" category-btn mx-1">
+          <div  className=" category-btn mx-1 mb-1">
         
               <a className="category-name" key={category.id}>
                 {category.category}

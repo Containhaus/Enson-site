@@ -1,15 +1,10 @@
 import React from "react";
-
 // import ContainerInto from "../components/ContainerInto";
-
 import introContainer from "../data/containerIntro.json";
-
-
-
-
+import buroHappyData from "../data/HaCusAndRefe.json";
+import HaCusAndRefe from "../components/HaCusAndRefe";
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
-
 import useOnScreen from "../utils/utils";
 import dynamic from 'next/dynamic'
 import ContainerDetail from "../components/ContainerDetail";
@@ -31,9 +26,10 @@ const Burocontaıner = () => {
     (intro) =>
       intro.category === "burocontainer" || intro.category === "special"
   );
-
-
-
+  const buroHappyDatafilter = buroHappyData.filter(
+    (intro) =>
+      intro.category === "buroHappy" 
+  );
   return (
     <div>
         <Head>
@@ -43,8 +39,6 @@ const Burocontaıner = () => {
       {/* <ContainerInto data={buroconteiner}/> */}
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
       <ContainerDetail/>
-    
-
    <div ref={child3Ref}>{child3RefValue ?
    <>  
      <HomePageShop data={burofilter}/>
@@ -53,13 +47,10 @@ const Burocontaıner = () => {
         data={BuroContarinerColorSelector}
       />
       <WhyWeComponent/>
-      {/* <HaCusAndRefe/> */}
+      <HaCusAndRefe data={buroHappyDatafilter}/>
       <ContainerAnimation/>
    </> 
-  :<div className="loading"></div> }</div> 
-
-    
-     
+  :<div className="loading"></div> }</div>
     </div>
   );
 };
