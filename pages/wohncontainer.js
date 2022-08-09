@@ -14,7 +14,7 @@ import HomePageShop from "../components/HomePageShop";
 import intro2Data from "../data/ShopDeutsch.json"; 
 import Head from 'next/head'
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
-const WohnContainer = () => {
+const WohnContainer = ({wohnColorData}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -40,7 +40,7 @@ const WohnContainer = () => {
    
       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
       <ContainerColorSelector
-        data={WohnContainerColorSelector}
+        data={wohnColorData}
       ></ContainerColorSelector>
       <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
@@ -50,3 +50,12 @@ const WohnContainer = () => {
 };
 
 export default WohnContainer;
+export const getServerSideProps = async (context) => {
+  
+  const wohnColorData =  WohnContainerColorSelector
+   return {
+     props: {
+      wohnColorData,
+     },
+   };
+ };

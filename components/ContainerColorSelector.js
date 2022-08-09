@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { useRouter } from 'next/router'
 import Image from "next/image";
 const ContainerColorSelector = ({ data }) => {
-  const [colorText, setColorText] = useState(data[1].color)
-  const [colorImgSrc, setColorImgSrc] = useState(data[1].image);
+   const [colorText, setColorText] = useState(data[0].color)
+   const [colorImgSrc, setColorImgSrc] = useState(data[0].image);
+  
   const handleChangeColor = (src,name) => {
     setColorImgSrc(src);
     setColorText(name)

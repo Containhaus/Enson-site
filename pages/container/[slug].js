@@ -182,19 +182,19 @@ const Product = ({ product }) => {
 
 export default Product;
 
-export const getStaticPaths = async () => {
-  const paths = products.map((pro) => {
-    return {
-      params: { id: pro.id },
-    };
-  });
-  return {
-    paths,
-    fallback: true,
-  };
-};
-export const getStaticProps = async (context) => {
-  const product = products.find((pro) => pro.id === context.params.id);
+//  export const getStaticPaths = async () => {
+//    const paths = products.map((pro) => {
+//     return {
+//        params: { id: pro.id },
+//      };
+//    });
+//    return {
+//     paths,
+//     fallback: true,
+//    };
+//  };
+export const getServerSideProps = async (context) => {
+  const product = products.find((pro) => pro.slug === context.params.slug);
 
   return {
     props: {
