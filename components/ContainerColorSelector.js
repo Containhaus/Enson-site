@@ -31,12 +31,13 @@ const ContainerColorSelector = ({ data }) => {
                 <div
                 
                   className="container-style  mx-1  d-flex justify-content-center"
-                  onMouseOver={() => handleChangeColor(color.image,color.color)}
+                 
                   key={color.id}
                 >
                   <Image
                     className="img-fluid cursor"
                     width={180}
+                    onMouseOver={() => handleChangeColor(color.image,color.color)}
                     height={180}
                     src={color.class}
                     priority

@@ -13,7 +13,7 @@ import intro2Data from "../data/ShopDeutsch.json";
 import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
 
-const Burocontaıner = () => {
+const Burocontaıner = ({specialeditatons}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -23,7 +23,7 @@ const Burocontaıner = () => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
 
-  const {specialeditatons} =introContainer
+
   return (
     <div>
          <Head>
@@ -43,3 +43,13 @@ const Burocontaıner = () => {
 }
 
 export default Burocontaıner
+export const getServerSideProps = async (context) => {
+  const {specialeditatons} =introContainer
+
+   return {
+     props: {
+     
+      specialeditatons
+     },
+   };
+ };

@@ -4,19 +4,22 @@ import ContainerInto from "../components/ContainerInto";
 
 import introContainer from "../data/containerIntro.json";
 
-import WhyWeComponent from "../components/WhyWeComponent";
 
-import ContainerColorSelector from "../components/ContainerColorSelector";
+
+
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
-import ContainerAnimation from "../components/ContainerAnimation";
-import HomePageShop from "../components/HomePageShop";
-import useOnScreen from "../utils/utils";
 
+
+import useOnScreen from "../utils/utils";
+import dynamic from 'next/dynamic'
 import ContainerDetail from "../components/ContainerDetail";
 import buroData from "../data/ShopDeutsch.json";
-
+const ContainerAnimation = dynamic(() => import("../components/ContainerAnimation"))
+const WhyWeComponent = dynamic(() => import("../components/WhyWeComponent"))
+const ContainerColorSelector = dynamic(() => import("../components/ContainerColorSelector"))
+const HomePageShop = dynamic(() => import("../components/HomePageShop"))
 import Head from 'next/head'
-const Burocontaıner = () => {
+const Burocontaıner = ({buroconteiner}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
@@ -29,7 +32,7 @@ const Burocontaıner = () => {
       intro.category === "burocontainer" || intro.category === "special"
   );
 
-  const { buroconteiner } = introContainer;
+
 
   return (
     <div>
@@ -61,3 +64,12 @@ const Burocontaıner = () => {
 };
 
 export default Burocontaıner;
+export const getServerSideProps = async (context) => {
+  const { buroconteiner } = introContainer;
+
+  return {
+    props: {
+      buroconteiner,
+    },
+  };
+};
