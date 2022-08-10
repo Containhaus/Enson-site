@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from "next/image";
 import Link from "next/link";
+
 const HaCusAndRefe = ({ data }) => {
   return (
     <div className="container mt-100">
@@ -40,7 +41,7 @@ const HaCusAndRefe = ({ data }) => {
             {data.map((Val) => {
               return (
                 <SplideSlide key={Val.id}>
-                  <Link href={`/container/${Val.id}`}>
+                  
                     <div
                       className="card p-2 my-3 py-3 col-12 shadow-product"
                       key={Val.id}
@@ -104,7 +105,7 @@ const HaCusAndRefe = ({ data }) => {
                         </div>
                       </div>
                     </div>
-                  </Link>
+                  
                 </SplideSlide>
               );
             })}
