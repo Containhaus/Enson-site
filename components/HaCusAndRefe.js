@@ -41,7 +41,7 @@ const HaCusAndRefe = ({ data }) => {
             {data.map((Val) => {
               return (
                 <SplideSlide key={Val.id}>
-                  
+                  <Link href={`/container/${Val.id}`}>
                     <div
                       className="card p-2 my-3 py-3 col-12 shadow-product"
                       key={Val.id}
@@ -105,7 +105,7 @@ const HaCusAndRefe = ({ data }) => {
                         </div>
                       </div>
                     </div>
-                  
+                  </Link>
                 </SplideSlide>
               );
             })}

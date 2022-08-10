@@ -14,6 +14,7 @@ const ContainerColorSelector = dynamic(() => import("../components/ContainerColo
 const HomePageShop = dynamic(() => import("../components/HomePageShop"))
 import Head from 'next/head'
 import BuroContainerIntro from "../components/BuroContainerIntro";
+import VideoCorausel from "../components/VideoCorausel";
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -48,6 +49,7 @@ const Burocontaıner = () => {
       />
       <WhyWeComponent/>
       <HaCusAndRefe data={buroHappyDatafilter}/>
+      <VideoCorausel></VideoCorausel>
       <ContainerAnimation/>
    </> 
   :<div className="loading"></div> }</div>
