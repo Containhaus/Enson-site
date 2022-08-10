@@ -43,7 +43,7 @@ const Burocontaıner = () => {
    <div ref={child3Ref}>{child3RefValue ?
    <>  
      <HomePageShop data={burofilter}/>
-    {/* <VideoCorausel /> */}
+    
     <ContainerColorSelector
         data={BuroContarinerColorSelector}
       />

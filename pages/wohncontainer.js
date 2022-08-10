@@ -8,12 +8,12 @@ import ContainerColorSelector from "../components/ContainerColorSelector";
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
 import useOnScreen from "../utils/utils";
-import dynamic from "next/dynamic";
+
 import ContainerDetail from "../components/ContainerDetail";
 import HomePageShop from "../components/HomePageShop";
 import intro2Data from "../data/ShopDeutsch.json"; 
 import Head from 'next/head'
-const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
+import VideoCorausel from "../components/VideoCorausel";
 const WohnContainer = ({wohnColorData,wohncontainers}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -42,6 +42,7 @@ const WohnContainer = ({wohnColorData,wohncontainers}) => {
         data={wohnColorData}
       ></ContainerColorSelector>
       <WhyWeComponent></WhyWeComponent>
+      <VideoCorausel></VideoCorausel>
       <HaCusAndRefe data={WohnHappyDatafilter}/>
       <ContainerAnimation></ContainerAnimation>
    
