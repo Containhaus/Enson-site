@@ -17,7 +17,7 @@ const Burocontaıner = ({specialeditatons}) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
-  const Specialfilter = intro2Data.filter(intro => intro.category === "special")
+  
   
   React.useEffect(() => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
@@ -32,7 +32,7 @@ const Burocontaıner = ({specialeditatons}) => {
       </Head>
         <ContainerInto data={specialeditatons}></ContainerInto>
         <ContainerDetail></ContainerDetail>
-        <HomePageShop data={Specialfilter}></HomePageShop>
+        <HomePageShop data={intro2Data}></HomePageShop>
         <WhyWeComponent></WhyWeComponent>
        
        

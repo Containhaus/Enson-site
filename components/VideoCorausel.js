@@ -39,7 +39,7 @@ export default function VideoCorausel() {
   }
   return (
     <>
-      <div className="container mb-5">
+      <div className="container mb-5 mt-30 ">
         {typeof window !== "undefined" && (
           <ModalVideo
             autoplay

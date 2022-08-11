@@ -110,7 +110,7 @@ const HaCusAndRefe = ({ data }) => {
             })}
           </Splide >
         </div>
-        <div className="bg-secondary ">
+        <div className="bg-dark mt-30">
           <Splide
             options={{
               rewind: true,
