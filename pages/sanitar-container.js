@@ -50,8 +50,9 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
        <ContainerColorSelector data={sanitaColorData}></ContainerColorSelector>
        <WhyWeComponent></WhyWeComponent>
-       <VideoCorausel></VideoCorausel>
+       
        <HaCusAndRefe data={SanitaHappyDatafilter}/>
+       <VideoCorausel></VideoCorausel>
      <ContainerAnimation></ContainerAnimation>
           </>
         ) : (

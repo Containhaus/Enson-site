@@ -47,8 +47,9 @@ const WohnContainer = ({ wohnColorData, wohncontainers }) => {
               data={wohnColorData}
             ></ContainerColorSelector>
             <WhyWeComponent></WhyWeComponent>
-            <VideoCorausel></VideoCorausel>
+            
             <HaCusAndRefe data={WohnHappyDatafilter} />
+            <VideoCorausel></VideoCorausel>
             <ContainerAnimation></ContainerAnimation>
           </>
         ) : (
