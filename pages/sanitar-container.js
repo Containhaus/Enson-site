@@ -14,6 +14,7 @@ import intro2Data from "../data/ShopDeutsch.json";
 import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
 import HaCusAndRefe from '../components/HaCusAndRefe'
+import LoadingScreen from '../components/MenuComponents/LoadingScreen'
 
 
 const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
@@ -40,15 +41,30 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
       </Head>
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerDetail></ContainerDetail>
-      <HomePageShop data={Sanitarfilter}></HomePageShop>
+        <div ref={child3Ref}>
+        {child3RefValue ? (
+          <>
+           <HomePageShop data={Sanitarfilter}></HomePageShop>
        
         
-        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
-        <ContainerColorSelector data={sanitaColorData}></ContainerColorSelector>
-        <WhyWeComponent></WhyWeComponent>
-        <VideoCorausel></VideoCorausel>
-        <HaCusAndRefe data={SanitaHappyDatafilter}/>
-      <ContainerAnimation></ContainerAnimation>
+       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
+       <ContainerColorSelector data={sanitaColorData}></ContainerColorSelector>
+       <WhyWeComponent></WhyWeComponent>
+       <VideoCorausel></VideoCorausel>
+       <HaCusAndRefe data={SanitaHappyDatafilter}/>
+     <ContainerAnimation></ContainerAnimation>
+          </>
+        ) : (
+          <div className="loading">
+            <div className='container'>
+              <LoadingScreen></LoadingScreen>
+            </div>
+          </div>
+        )}
+      </div>
+  
+  
+    
   
     </div>
   )

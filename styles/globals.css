@@ -116,6 +116,21 @@ list-style: none !important;
 margin-top: 150px !important;
 }
 .loading{
-  height: 1200px;
+
   width: 100%;
+}
+.loading-bg{
+  background-color: rgb(225, 215, 215);
+  height: 200px;
+  width: 100%;
+}
+.loading-text{
+  background-color: rgb(225, 215, 215);
+  height: 12px;
+  width: 200px;
+}
+.loading-btn{
+  background-color: rgb(225, 215, 215);
+  height: 16px;
+  width: 100px;
 }
