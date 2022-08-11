@@ -18,14 +18,12 @@ export default function VideoCorausel() {
   function showModal1() {
     setOpen1(true);
   }
-
   function showModal2() {
     setOpen2(true);
   }
   function showModal3() {
     setOpen3(true);
   }
-
   function showModal4() {
     setOpen4(true);
   }
@@ -39,39 +37,30 @@ export default function VideoCorausel() {
   function showModal7() {
     setOpen7(true);
   }
-
-  
-  
   return (
     <>
-      <div className="container mb-5 mt-5">
+      <div className="container mb-5">
         {typeof window !== "undefined" && (
           <ModalVideo
-            
             autoplay
-            isOpen={isOpen4}
+            isOpen={isOpen1}
             videoId="3JSit_voEqc"
-            onClose={() => setOpen4(false)}
-            
+            onClose={() => setOpen1(false)}
           />
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-            
             autoplay
             isOpen={isOpen2}
             videoId="hJjpfnFyv74"
-            
             onClose={() => setOpen2(false)}
           />
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-            
             autoplay
             isOpen={isOpen3}
             videoId="xLZ0uFr7LKg"
-            
             onClose={() => setOpen3(false)}
           />
         )}
@@ -79,10 +68,10 @@ export default function VideoCorausel() {
           <ModalVideo
             
             autoplay
-            isOpen={isOpen1}
+            isOpen={isOpen4}
             videoId="As8XIPb9-NA"
             
-            onClose={() => setOpen1(false)}
+            onClose={() => setOpen4(false)}
           />
         )}
         {typeof window !== "undefined" && (
@@ -121,7 +110,9 @@ export default function VideoCorausel() {
 
           }}
           options={{
+            focus: "center",
             rewind: true,
+            rewindSpeed: 1000,
             type: 'loop',
             gap: '1rem',
             arrows: false,
@@ -130,7 +121,6 @@ export default function VideoCorausel() {
             height: '500px',
             padding: '20%',
             perMove: 1,
-            focus: 'center',
             autoplay: 'playing'
            
           }}

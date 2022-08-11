@@ -141,7 +141,14 @@ const ContainerInto = ({ data, className }) => {
   };
   return (
     <>
-      <div className="intro-img" style={{backgroundImage: `url(${test()})`}}>
+      <div className="intro-img">
+        <Image
+          layout="fill"
+          src={test()}
+          priority
+          blurDataURL={test()}
+          placeholder="blur"
+        />
         <div className="intro-content">
           <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
           <h5 className={`mt-1  ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
