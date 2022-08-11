@@ -12,13 +12,14 @@ const ContainerColorSelector = ({ data }) => {
   const router = useRouter()
   return (
     <>
+    <div className="container">
       <div className="row color-select justify-content-center">
-        <div className="col-lg-7 d-flex mt-5 paddingg">
+        <div className="col-lg-7 d-flex p-5">
           <Image
-            priority
             width={router.asPath==="/sanitar-container"?500: 750}
             height={router.asPath==="/sanitar-container"?550: 450}
             className="color-container"
+            priority
             src={colorImgSrc}
           />
         </div>
@@ -39,8 +40,8 @@ const ContainerColorSelector = ({ data }) => {
                     width={180}
                     onMouseOver={() => handleChangeColor(color.image,color.color)}
                     height={180}
-                    src={color.class}
                     priority
+                    src={color.class}
                   />
                 </div>
               ))}
@@ -53,6 +54,7 @@ const ContainerColorSelector = ({ data }) => {
           </div>
         </div>
       
+      </div>
       </div>
     </>
   );

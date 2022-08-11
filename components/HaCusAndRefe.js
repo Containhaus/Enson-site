@@ -6,10 +6,9 @@ import Link from "next/link";
 
 const HaCusAndRefe = ({ data }) => {
   return (
-    <div className="container mt-100">
-      <div className="vh-100">
+    <div className="container vh-100 ">
         <div className="text-center">
-          <h1 className="fw-700 display-1 fz-40">Unsere Referenzen</h1>
+          <h1 className="fw-700 display-1 pt-100 fz-40">Unsere Referenzen</h1>
         </div>
         <div className=" pe-5 ps-5">
           <Splide
@@ -50,7 +49,7 @@ const HaCusAndRefe = ({ data }) => {
                         <Splide
                           options={{
 
-                            height: "300px",
+                            
 
                             pagination: false,
                             arrows: false
@@ -59,11 +58,11 @@ const HaCusAndRefe = ({ data }) => {
                         >
                           <SplideSlide>
                             <Image
-                              layout="fill"
                               className="d-block"
                               src={Val.image.ima1}
+                              width={400}
+                              height={300}
                               alt="First slide"
-                              priority
                             />
                           </SplideSlide>
 
@@ -132,7 +131,6 @@ const HaCusAndRefe = ({ data }) => {
                   perPage: 3,
                 },
               },
-              lazyLoad: 'nearby',
             }}
             aria-label="My Favorite Images"
           >
@@ -142,7 +140,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/1.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -151,7 +149,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/2.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -160,7 +158,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/3.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -169,7 +167,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/4.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -178,7 +176,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/5.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -187,7 +185,7 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/6.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
             <SplideSlide>
@@ -196,12 +194,11 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/7.png"
                 alt="First slide"
-                priority
+                
               />
             </SplideSlide>
           </Splide>
         </div>
-      </div>
     </div >
   );
 };

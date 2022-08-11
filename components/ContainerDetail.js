@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import data from "../data/ContainerDetail.json";
+import Image from "next/image";
 const ContainerDetail = () => {
   return (
     <div>
-      <div className="container-fluid view-height bdbdb">
+      <div className="container view-height bdbdb">
         <div className="row">
           <div className="col-lg-6 col-md-10 mt-3 pt-3 ">
             <div className="caption hmone p-4 m-4">
@@ -28,9 +29,11 @@ const ContainerDetail = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-10 img-fluid ">
-            <img
+            <Image
               className="detail-img"
               src="/assets/img/slid/n/TeknikGorsel.webp"
+              width={600}
+              height={350}
               alt=""
             />
           </div>

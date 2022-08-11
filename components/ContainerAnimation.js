@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const ContainerAnimation = () => {
   return (
     <>
@@ -9,15 +10,18 @@ const ContainerAnimation = () => {
             <div className="col-lg-4 col-md-4 col-sm-12 item position-relative ">
               <div className="d-flex pb-4 justify-content-center position-relative">
                 <div className="p-0 m-0 hoverItemmm">
-                  <img
+                  <Image
                     src="/assets/img/Animation/Container.webp"
+                    width={450}
+                    height={200}
                     alt="Card image cap"
-                    className="indexxx"
+                    
                   />
                 </div>
-                <img
+                <Image
                   src="/assets/img/Animation/DotBase.webp"
-                  className="position-absolute bottom1"
+                 layout="fill"
+                  className=" bottom1"
                   alt=""
                 />
               </div>
@@ -32,15 +36,18 @@ const ContainerAnimation = () => {
             <div className="col-lg-4 col-md-4 col-sm-12 item position-relative ">
               <div className="d-flex pb-4 justify-content-center position-relative">
                 <div className="p-0 m-0 hoverItemmm">
-                  <img
+                  <Image
                     src="/assets/img/Animation/Container.webp"
+                    width={450}
+                    height={200}
                     alt="Card image cap"
-                    className="indexxx"
+                    
                   />
                 </div>
-                <img
+                <Image
                   src="/assets/img/Animation/beton-zemin.webp"
-                  className="position-absolute bottom1"
+                  layout="fill"
+                  className=" bottom1"
                   alt=""
                 />
               </div>
@@ -55,15 +62,18 @@ const ContainerAnimation = () => {
             <div className="col-lg-4 col-md-4 col-sm-12 item position-relative ">
               <div className="d-flex pb-4 justify-content-center position-relative">
                 <div className="p-0 m-0 hoverItemmm">
-                  <img
+                  <Image
                     src="/assets/img/Animation/Container.webp"
+                    width={450}
+                    height={200}
                     alt="Card image cap"
-                    className="indexxx"
+                    
                   />
                 </div>
-                <img
+                <Image
                   src="/assets/img/Animation/2.webp"
-                  className="position-absolute bottom1"
+                  layout="fill"
+                  className=" bottom1"
                   alt=""
                 />
               </div>

@@ -17,10 +17,10 @@ const Product = ({ product }) => {
         <title>Contain Haus | {product?.title} </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="container-fluid ProductPgBgColor ">
-        <div className="container p-5 mt-1">
+      <div className="container-fluid  ProductPgBgColor p-0">
+        <div className="container  p-0">
           <div className="row ">
-            <div className="col-lg-7 col-md-12 col-sm-12 mt-1">
+            <div className="col-lg-7 col-md-12 col-sm-12 ">
               <div>
                 <Swiper
                   style={{
@@ -128,7 +128,7 @@ const Product = ({ product }) => {
                 </Swiper>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 p-5 bg-white border ">
+            <div className="col-lg-5 col-md-12 col-sm-12 p-4 bg-white border ">
               <div>
 
                 <div >
