@@ -167,7 +167,6 @@ const Product = ({ product }) => {
                         href="tel:+4923028894880"
                         className="text-dark fz-18 fw-600"
                       >
-
                         + 49 2302 889 48 80
                       </a>
                     </p>
@@ -177,7 +176,83 @@ const Product = ({ product }) => {
               </div>
             </div>
           </div>
-          <div className="mt-3 mb-3 pb-5 "></div>
+          <div className="mt-3 mb-3 pb-5 ">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-12">
+                  <h3>
+                  {product?.description?.Seller}
+                  </h3>
+                  <h4>
+                  {product?.description?.deutsch}
+                  </h4>
+                  <h6>
+                  {product?.description?.dimension}
+                  </h6>
+                  <p>
+                  {product?.description?.width}
+                  </p>
+                  <p>
+                  {product?.description?.length}
+                  </p>
+                  <p>
+                  {product?.description?.height}
+                  </p>
+                  <p>
+                  {product?.description?.Area}
+                  </p>
+                  <h6>
+                  {product?.description?.Description}
+                  </h6>
+                  <p>
+                  {product?.description?.Features}
+                  </p>
+                  <p>
+                  {product?.description?.Isolation}
+                  </p>
+                  <p>
+                  {product?.description?.strength}
+                  </p>
+                  <p>
+                  {product?.description?.CraneSlot}
+                  </p>
+                  <p>
+                  {product?.description?.TransportCost}
+                  </p>
+                  <p>
+                  {product?.description?.customization}
+                  </p>
+                  <h6>{product?.description?.ExtraAccesories}</h6>
+                  <p>
+                  {product?.description?.Shutar}
+                  </p>
+                  <p>
+                  {product?.description?.heater}
+                  </p>
+                  <p>
+                  {product?.description?.geaser}
+                  </p>
+                  <p>
+                  {product?.description?.cables}
+                  </p>
+                  <p>
+                  {product?.description?.fridge}
+                  </p>
+                  <p>
+                  {product?.description?.Urinate}
+                  </p>
+                  <p>
+                  {product?.description?.ColorSelection}
+                  </p>
+                  <p>
+                  {product?.description?.PricePlusKDV}
+                  </p>
+              </div>
+              <div className="col-lg-6 col-md-6 col-12">
+
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>

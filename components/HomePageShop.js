@@ -22,6 +22,7 @@ const HomePageShop = ({ data }) => {
             rewind: true,
             gap: '0.5rem',
             perPage: 4,
+            speed:3000,
             breakpoints: {
               1400: {
                 perPage: 3,

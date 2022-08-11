@@ -22,6 +22,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 4.80m,",
+      "length": "Länge: 8.00m,",
+      "height":"Höhe: 2.51m",
+      "Area": "Quadratmeter: 32,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 3 x Zimmer ,1x Glas Eingangstür, 1x Standard Eingangstür, 4x Bodentiefe Fenster, 1x Standard Fenster, 2 x kleines Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand, 50mm Boden",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -48,30 +73,46 @@
       "href1": "/Kontakt",
       "href2": "/Blackdiomand"
     },
-    "descriptionBL": {
+    "description": {
       "Seller":"Direkt von Herstseller",
       "deutsch":"NEUWARE! Deutsche Markenqualität",
-      "text1": "Breite: 2.40m,",
-      "text2": "Länge: 5.00m,",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 5.00m,",
       "height":"Höhe: 2.50m",
-      "text3": "Quadratmeter: 12,00m²",        
-      "text4": "Beschreibung:",
-      "text5": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
-      "text6": "Isolation: 80 mm Decke, 50mm Wand ",
-      "text7": "",
-      "text8": "Vinyl Bodenbelag 2-3mm - robust.",
-      "text9": "Kranösen sind Inkl. Zum Entladen mit Kran.",
-      "text10": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
-      "text11": "Individuelle Raumgestaltung ist möglich.",
-      "text12": "Zusätzlich können Sie folgendes dazu bestellen:",
-      "text13": "Rolladen (Inkl. Einabu) : 390 €",
-      "text14": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
-      "text15": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
-      "text16": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
-      "text17": "Frostwächter: 75 €",
-      "text18": "Urinal (inkl. Einbau & Abdichtung): 400 €",
-      "text19": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
-      "text20": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+      "Area": "Quadratmeter: 12,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    },
+    "HappyCustomerBlackdiamond": {
+      "ima1": "/assets/img/HappyCustomer/Blackdiamond/aa.webp",
+      "ima2": "/assets/img/HappyCustomer/Blackdiamond/bb.webp",     
+      "ima3": "/assets/img/HappyCustomer/Buro/Bendorf3.webp",
+      "ima4": "/assets/img/HappyCustomer/Buro/Forst.webp",
+      "ima5": "/assets/img/HappyCustomer/Pfortner/aa.webp",
+      "ima6": "/assets/img/HappyCustomer/Pfortner/bb.webp"             
+    },
+    "LocationBlackdiamond": {
+      "loc1": "Bendorf",
+      "loc2": "Forst",
+      "loc3": "Wiesbaden",
+      "loc4": "Weimar", 
+      "loc5": "Wiesbaden",
+      "loc6": "Weimar"      
     }
     
   },
@@ -91,7 +132,7 @@
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
-      "text3": "B:240 | L:600 | H: 28,80m² 14,40m²",
+      "text3": "B:240 | L:600 | 14,40m²",
       "price": "8.900,00 €",
       "text6": "1x Zimmer, 2x Eingangstür, 1x Innentür, 3x Fenster, 1x WC mit Waschbacken, 1x Küche",
       "text7 ": ""
@@ -99,8 +140,34 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/GlassProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Zimmer, 2x Eingangstür, 1x Innentür, 3x Fenster, 1x WC mit Waschbacken, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
+  
   {
     "id": "4",
     "category": "cafe-container",
@@ -127,7 +194,33 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/CafeContainerProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14,40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Zimmer, 1x Eingangstür, 1x Innentür, 3x Fenster, 1x WC mit Waschbacken, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
+
   },
   {
     "id": "5",
@@ -152,6 +245,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/GlassXLProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 2x Eingangstür, 1x Innentür, 5x Fenster, 1x WC mit Waschbacken, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -177,6 +295,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 5x Bodentiefe Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -202,6 +345,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21,00m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Doppel Glas Eingangstür, 2x Fenster, WC Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -228,6 +396,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/RolladenProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14,40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 1x Eingangstür, 1x Innentür, 3x Fenster, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   
@@ -254,7 +447,33 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/DuschDuschProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 2,60m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 2x Eingangstür, 2x Dusche, 2x Eingangstür, 2x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
+
   },
   {
     "id": "10",
@@ -279,6 +498,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCWCProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 2,60m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 2x Eingangstür, 2x Dusche, 2x Eingangstür, 2x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -297,13 +541,38 @@
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC-DUSCH Container",
       "text3": "B:120 | L:220 2,60m²",
-      "price": "2.400,00 €",
+      "price": "3.400,00 €",
       "text6": "1x WC mit Waschbecken, 1x Dusche, 2x Zimmer, 2x Eingangstür, 2x Belüftung",
       "text7 ": ""
     },
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCDuschProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 2,60m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x WC mit Waschbecken, 1x Dusche, 2x Zimmer, 2x Eingangstür, 2x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -329,6 +598,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCandDuschProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 2,60m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x WC mit Waschbecken, 1x Dusche, 2x Zimmer, 2x Eingangstür, 2x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -354,6 +648,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCandUrinalProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 2,60m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x WC mit Waschbecken, 1x Urinal, 1x Zimmer, 1x Eingangstür, 1x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -379,6 +698,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/BehindertenWCProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 4.85m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x WC mit Waschbecken, 1x Zimmer, 1x Eingangstür, 1x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -404,6 +748,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCWCWCProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.10m,",
+      "length": "Länge: 3.00m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 3.30m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 3x WC mit Waschbecken, 3x Zimmer, 3x Eingangstür, 3x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -429,6 +798,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCWCDuschProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.10m,",
+      "length": "Länge: 3.00m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 3.30m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x WC mit Waschbecken, 1x Dusche, 3x Zimmer, 3x Eingangstür, 3x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -454,6 +848,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/WCLagercontainerProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.50m,",
+      "length": "Länge: 3.70m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 5.55m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x WC mit Waschbecken, 1x Lager, 2x Zimmer, 2x Eingangstür, 1x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -479,6 +898,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/DuschWaschbacken6ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 6x Dusche, 6x Waschbecken, 7x Zimmer, 1x Eingangstür, 1x Innentüren, 1x Belüftung" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
 
@@ -505,6 +949,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Con11ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -532,6 +1001,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Con12ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -557,6 +1051,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Con23ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 1x Eingangstür,1x Innentür 3x Fenster mit Rolladen, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -582,6 +1101,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/Con33ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 3x Zimmer, 2x Eingangstür, 3x Innentür 2x Fenster,1x WC mit Waschbacken, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
 
@@ -611,6 +1155,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/XL11ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21.0m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster " ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   
@@ -665,6 +1234,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/XL21ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21.0m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 2x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -691,6 +1285,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/XL33ProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 3.00m,",
+      "length": "Länge: 7.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 21.0m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 3x Zimmer, 2x Eingangstür,1x Innertür, 2x Fenster, 1x WC mit Waschbacken, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   
@@ -720,6 +1339,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/PfortnercontainerProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 4.80m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 1x Zimmer, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -771,6 +1415,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/AnlageProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 4.80m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 28.80m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -796,6 +1465,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/AnlageSEProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 4.80m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 28.80m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -821,6 +1515,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/FlatpackProductpage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.400m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "1x Grossraum, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   },
   {
@@ -846,6 +1565,31 @@
     "href": {
       "href1": "/Kontakt",
       "href2": "/FlatpackProductpage"
+    },
+    "description": {
+      "Seller":"Direkt von Herstseller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.400m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 14.40m²",        
+      "Description": "Beschreibung:",
+      "Features": "1x Grossraum, 1x Eingangstür, 2x Fenster" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
   }
 ]
