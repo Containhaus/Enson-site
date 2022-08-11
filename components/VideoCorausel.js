@@ -49,9 +49,9 @@ export default function VideoCorausel() {
           <ModalVideo
             
             autoplay
-            isOpen={isOpen1}
+            isOpen={isOpen4}
             videoId="3JSit_voEqc"
-            onClose={() => setOpen1(false)}
+            onClose={() => setOpen4(false)}
             
           />
         )}
@@ -79,10 +79,10 @@ export default function VideoCorausel() {
           <ModalVideo
             
             autoplay
-            isOpen={isOpen4}
+            isOpen={isOpen1}
             videoId="As8XIPb9-NA"
             
-            onClose={() => setOpen4(false)}
+            onClose={() => setOpen1(false)}
           />
         )}
         {typeof window !== "undefined" && (
