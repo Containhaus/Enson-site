@@ -1541,55 +1541,6 @@
       "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
       "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
-  },
-  {
-    "id": "32",
-    "category": "burocontainer",
-    "image": {
-      "ima1": "/assets/img/ShopDeutsch/Flatpack/1.webp",
-      "ima2": "/assets/img/ShopDeutsch/Flatpack/2.webp",
-      "ima3": "/assets/img/ShopDeutsch/Flatpack/3.webp",
-      "ima4": "/assets/img/ShopDeutsch/Flatpack/4.webp",
-      "ima5": "/assets/img/ShopDeutsch/Flatpack/5.webp"
-    },
-    "title": "Flatpack Container",
-    "slug": "flatpack-container-2",
-    "content": {
-      "text1": "NEU",
-      "text2": "Bürocontainer | Flatpack Container",
-      "text3": "B:240 | L:600 14,40m²",
-      "price": "4.469,00 €",
-      "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
-    },
-    "href": {
-      "href1": "/Kontakt",
-      "href2": "/FlatpackProductpage"
-    },
-    "description": {
-      "Seller":"Direkt von Herstseller",
-      "deutsch":"NEUWARE! Deutsche Markenqualität",
-      "dimension": "Maße:",
-      "width": "Breite: 2.400m,",
-      "length": "Länge: 6.00m,",
-      "height":"Höhe: 2.50m",
-      "Area": "Quadratmeter: 14.40m²",        
-      "Description": "Beschreibung:",
-      "Features": "1x Grossraum, 1x Eingangstür, 2x Fenster" ,
-      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
-      "strength": "Vinyl Bodenbelag 2-3mm - robust. Cconmlvqgn",
-      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
-      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
-      "customization": "Individuelle Raumgestaltung ist möglich.",
-      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
-      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
-      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
-      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
-      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
-      "fridge": "Frostwächter: 75 €",
-      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
-      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
-      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
-    }
+  
   }
 ]
