@@ -146,8 +146,6 @@ const ContainerInto = ({ data, className }) => {
           layout="fill"
           src={test()}
           priority
-          blurDataURL={test()}
-          placeholder="blur"
         />
         <div className="intro-content">
           <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>

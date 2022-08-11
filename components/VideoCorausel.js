@@ -111,9 +111,9 @@ export default function VideoCorausel() {
           }}
           options={{
             focus: "center",
-            rewind: true,
-            rewindSpeed: 1000,
-            type: 'loop',
+            rewind:true,
+            loop:true,
+            speed:2000,
             gap: '1rem',
             arrows: false,
             perPage: 1,
@@ -121,8 +121,7 @@ export default function VideoCorausel() {
             height: '500px',
             padding: '20%',
             perMove: 1,
-            autoplay: 'playing'
-           
+            autoplay: true,
           }}
           
           aria-label="My Favorite Images"
@@ -415,6 +414,7 @@ export default function VideoCorausel() {
               </div>
             </div>
           </SplideSlide>
+         
         </Splide>
       </div>
     </>
