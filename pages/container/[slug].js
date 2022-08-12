@@ -28,7 +28,6 @@ const Product = ({ product }) => {
                     "--swiper-pagination-color": "#fff",
                   }}
                   loop={true}
-                  spaceBetween={10}
                   navigation={true}
                   thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
                   modules={[FreeMode, Navigation, Thumbs]}
@@ -36,40 +35,40 @@ const Product = ({ product }) => {
                 >
                   <SwiperSlide>
                     <Image
-                      width={756}
-                      height={534}
+                      width={800}
+                      height={560}
                       className="product-page-img"
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      width={756}
-                      height={534}
+                      width={800}
+                      height={560}
                       className="product-page-img"
                       src={product?.image?.ima2}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      width={756}
-                      height={534}
+                      width={800}
+                      height={560}
                       className="product-page-img"
                       src={product?.image?.ima3}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      width={756}
-                      height={534}
+                      width={800}
+                      height={560}
                       className="product-page-img"
                       src={product?.image?.ima4}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      width={756}
-                      height={534}
+                      width={800}
+                      height={560}
                       className="product-page-img"
                       src={product?.image?.ima5}
                     />
