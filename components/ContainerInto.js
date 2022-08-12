@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import windowSize from "../utils/windowSize";
 import Image from "next/image";
-
 const ContainerInto = ({ data, className }) => {
   const [width] = windowSize();
   const textColor = () => {
@@ -39,7 +38,6 @@ const ContainerInto = ({ data, className }) => {
         return "text-light"
       }
     }
-
   }
   const textColorContent = () => {
     if (width < 768) {
@@ -123,7 +121,6 @@ const ContainerInto = ({ data, className }) => {
         return "text-light"
       }
     }
-
   }
   const router = useRouter();
   const test = () => {
@@ -142,29 +139,23 @@ const ContainerInto = ({ data, className }) => {
   return (
     <>
       <div className="intro-img">
-        
         <Image
-          
-          
           layout="fill"
           objectFit="cover"
-          objectPosition=" center"
-          
+          objectPosition=" center"   
           src={test()}
           priority
         />
-        <div className="intro-content">
-          <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
-          <h5 className={`mt-1  ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
+        <div className="intro-content ">
+          <h1 className={`${textColor()}  fw-600`}>{data.title.second}</h1>
+          <h5 className={`mt-1 ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
           <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
           </Link>
         </div>
         </div>
-      
     </>
   );
 };
-
 export default ContainerInto;

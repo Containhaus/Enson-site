@@ -1,0 +1,105 @@
+{ 
+    "mybigfamily":{
+       "id": 1,
+       "title": { "second": "My Big Family" },
+       "content": {
+         "first": "",
+         "Third": ""
+       },
+       "image": "/assets/img/Tinyhouse/1.webp",
+       "mobileImage": "/assets/img/Tinyhouse/buromobile.webp",
+       "image1": "/assets/img/Tinyhouse/1.webp",
+       "mobileImage1": "/assets/img/InnerPage/BurocontainerMobilInnerPageUpdate.webp",
+       "href":"/kontakt",
+       "homeHref":"/kontakt",
+       "homeButton":"HIER GEHT'S WEITER",
+       "pageButton":"JETZT ANFRAGEN",
+       "MainpgClass":"text-white"
+     },
+     "amazingCountary":{
+       "id": 2,
+       "title": { "second": "Amazing Country" },
+       "content": {
+         "first": "",
+         "Third": ""
+       },
+       "image": "/assets/img/Tinyhouse/2.webp",
+       "image1": "/assets/img/Tinyhouse/2.webp",
+       "mobileImage": "/assets/img/Tinyhouse/XlMobilMainpageUpdate.webp",
+       "mobileImage1": "/assets/img/InnerPage/XLMobilInnerPageUpdate.webp",
+       "href":"/kontakt",
+       "homeHref":"/kontakt",
+       "homeButton":"HIER GEHT'S WEITER",
+       "pageButton":"JETZT ANFRAGEN",
+       "MainpgClass":"text-dark"
+     },
+     "feelGood":{
+       "id": 3,
+       "title": { "second": "Feel Good" },
+       "content": {
+         "first": "(Philosopher)",
+         "Third": ""
+       },
+       "image": "/assets/img/Tinyhouse/3.webp",
+       "mobileImage": "/assets/img/Tinyhouse/SanitaMobilMainpageUpdate.webp",
+       "mobileImage1": "/assets/img/InnerPage/SanitaInnerMobilPageUpdate.webp",
+       "image1": "/assets/img/Tinyhouse/3.webp",
+       "href":"/kontakt",
+       "homeHref":"/kontakt",
+       "homeButton":"HIER GEHT'S WEITER",
+       "pageButton":"JETZT ANFRAGEN",
+       "MainpgClass":"text-dark"
+   
+     },
+     "freedom": {
+       "id": 4,
+       "title": { "second": "Freedom" },
+       "content": {
+         "first": "",
+         "Third": ""
+       },
+       "image": "/assets/img/Tinyhouse/4.webp",
+       "mobileImage": "/assets/img/Tinyhouse/FlatpackMainPageMobil.webp",
+       "mobileImage1": "/assets/img/InnerPage/FlatpackInnerMobilPageUpdate.webp",
+       "image1": "/assets/img/Tinyhouse/4.webp",
+       "href":"/kontakt",
+       "homeHref":"/kontakt",
+       "homeButton":"HIER GEHT'S WEITER",
+       "pageButton":"JETZT ANFRAGEN",
+       "MainpgClass":"text-dark"
+     },
+     "MyLittleFamily":{
+       "id": 5,
+       "title": { "second": "My Little Family" },
+       "content": {
+         "first": "",
+         "Third": ""
+       },
+       "image": "/assets/img/Tinyhouse/5.webp",
+       "mobileImage": "/assets/img/Tinyhouse/SpecialMobilMainpageUpdate.webp",
+       "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
+       "image1": "/assets/img/Tinyhouse/5.webp",
+       "href":"/kontakt",
+       "homeHref":"/kontakt",
+       "homeButton":"HIER GEHT'S WEITER",
+       "pageButton":"JETZT ANFRAGEN",
+       "MainpgClass":"text-dark"
+     },
+     "Spectecular":{
+        "id": 6,
+        "title": { "second": "Spectecular" },
+        "content": {
+          "first": "",
+          "Third": ""
+        },
+        "image": "/assets/img/Tinyhouse/6.webp",
+        "mobileImage": "/assets/img/Tinyhouse/SpecialMobilMainpageUpdate.webp",
+        "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
+        "image1": "/assets/img/Tinyhouse/6.webp",
+        "href":"/kontakt",
+        "homeHref":"/kontakt",
+        "homeButton":"JETZT ANFRAGEN",
+        "pageButton":"JETZT ANFRAGEN",
+        "MainpgClass":"text-dark"
+      }
+   }
