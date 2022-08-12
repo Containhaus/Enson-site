@@ -144,9 +144,12 @@ const ContainerInto = ({ data, className }) => {
       <div className="intro-img">
         
         <Image
-          width={1920}
-          height={1080}
+          
+          
           layout="fill"
+          objectFit="cover"
+          objectPosition=" center"
+          
           src={test()}
           priority
         />
