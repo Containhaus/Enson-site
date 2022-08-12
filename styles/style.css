@@ -630,7 +630,9 @@ CardHeightt .pb-35 {
 }
 
 /* ====================== [ End Helper Classes ] ====================== */
-
+.card-info{
+  min-height: 22.5rem!important;
+}
 /* Intro Components */
 .intro-img {
   position: relative;
