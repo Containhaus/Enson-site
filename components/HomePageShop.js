@@ -47,7 +47,7 @@ const HomePageShop = ({ data }) => {
               <SplideSlide key={Val.id}>
                  <Link href={`/container/${Val.slug}`}> 
                 <div
-                  className="card my-3 py-3 col-12 shadow-product"
+                  className="card my-3 py-3 col-12 "
                   key={Val.id}
                 >
                   <div className="card-img-top text-center ">

@@ -23,7 +23,7 @@ const HaCusAndRefe = ({ data }) => {
               pagination: false,
 
               breakpoints: {
-                1400: {
+                1200: {
                   perPage: 3,
                 },
                 994: {
@@ -91,10 +91,10 @@ const HaCusAndRefe = ({ data }) => {
                           </div>
 
                         </div>
-                        <div className="text-center ">
+                        <div className="text-center bottom-btn-ref">
                           <Link href={Val.href.href1}>
                             <button
-                              type="button"
+                              type="button "
                               className="btn btn-md btn-secondary rounded-pill flex-fill ps-4 pe-4 "
                               data-mdb-ripple-color="dark"
                             >

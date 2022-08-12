@@ -1333,6 +1333,12 @@ text-align: center;
   position: absolute;
   bottom: 15px;
 }
+.bottom-btn-ref{
+  position: absolute;
+  bottom: 0.5rem;
+  left: 14%;
+  
+}
 .navbar {
   display: flex !important;
   justify-content: space-between !important;
@@ -1694,20 +1700,8 @@ floatemail {
 }
 
 
-
-@media only screen and (max-width: 786px) {
-  .footerdisMo {
-    display: block !important;
-  }
-  .footerdisDes {
-    display: none !important;
-  }
-  .VideoDes {
-    display: none !important;
-  }
-  .VideoMob {
-    display: block !important;
-  }
+.shadow-product{
+  height: 387px!important;
 }
 .shadow-product:hover {
   border-color: transparent !important;
@@ -1737,4 +1731,25 @@ color: #616160;
   height: auto;
 }
 
-
+@media only screen and (max-width: 786px) {
+  .footerdisMo {
+    display: block !important;
+  }
+  .footerdisDes {
+    display: none !important;
+  }
+  .VideoDes {
+    display: none !important;
+  }
+  .VideoMob {
+    display: block !important;
+  }
+  .shadow-product{
+    height: 452px!important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .shadow-product{
+    height: 420px!important;
+  }
+}
