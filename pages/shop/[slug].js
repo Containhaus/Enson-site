@@ -26,7 +26,7 @@ const Category = () => {
     </Head>
       <CategoryList></CategoryList>
       <div className="container">
-        <div className="row mt-5 mb-5">
+        <div className="row mt-5 mb-5 justify-content-center">
           {products.map((product) => (
             <ProductList key={product.id} product={product} />
           ))}

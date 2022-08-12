@@ -1747,6 +1747,13 @@ color: #616160;
   .shadow-product{
     height: 452px!important;
   }
+  .bottom-btn {
+    position: absolute;
+    bottom: 6px;
+}
+.card-info {
+  min-height: 19.5rem!important;
+}
 }
 @media only screen and (max-width: 480px) {
   .shadow-product{

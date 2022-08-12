@@ -5,7 +5,7 @@ const ProductList = ({ product }) => {
   return (
     <>
     <Link  href={`/container/${product.slug}`}>
-      <div className="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0 gx-3 mt-2 cursor ">
+      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-xs-10 mb-4  gx-3 mt-2 cursor">
         <div className="card text-black ">
           <Image
             width={306}
