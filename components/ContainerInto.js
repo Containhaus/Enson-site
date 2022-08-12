@@ -142,7 +142,10 @@ const ContainerInto = ({ data, className }) => {
   return (
     <>
       <div className="intro-img">
+        
         <Image
+          width={1920}
+          height={1080}
           layout="fill"
           src={test()}
           priority
@@ -155,7 +158,8 @@ const ContainerInto = ({ data, className }) => {
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
           </Link>
         </div>
-      </div>
+        </div>
+      
     </>
   );
 };
