@@ -114,8 +114,8 @@ const Header = () => {
                   </li>
                 
                   <li className="nav-item">
-                    <Link href="/special-edition">
-                      <a className="nav-link" onClick={handleClick}>Special Edition</a>
+                    <Link href="/tiny-haus">
+                      <a className="nav-link" onClick={handleClick}>Tiny Haus</a>
                     </Link>
                   </li>
                   <li className="nav-item">
