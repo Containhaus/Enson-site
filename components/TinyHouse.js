@@ -159,12 +159,12 @@ const ContainerInto = ({ data, className }) => {
                     layout="fill"
                     objectFit="cover"
                     objectPosition=" center"
-                    src={test()}
+                    src={data.image}
                     priority
                 />
                 <div className="intro-content ">
-                    <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
-                    <h5 className={`mt-1 ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
+                    <h1 className={`${data.titleColor} fw-600`}>{data.title.second}</h1>
+                    <h5 className={`mt-1 text-light fw-600`}>Direkt ab Werk</h5>
                     <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
                     <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
                         <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
