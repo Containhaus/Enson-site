@@ -14,7 +14,9 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-white"
+       "MainpgClass":"text-white",
+       "titleColor":"text-dark"
+
      },
      "amazingCountary":{
        "id": 2,
@@ -31,7 +33,8 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-dark"
+       "MainpgClass":"text-dark",
+       "titleColor":"text-light"
      },
      "feelGood":{
        "id": 3,
@@ -48,8 +51,8 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-dark"
-   
+       "MainpgClass":"text-dark",
+       "titleColor":"text-dark"
      },
      "freedom": {
        "id": 4,
@@ -66,7 +69,8 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-dark"
+       "MainpgClass":"text-dark",
+       "titleColor":"text-dark"
      },
      "MyLittleFamily":{
        "id": 5,
@@ -83,7 +87,8 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-dark"
+       "MainpgClass":"text-dark",
+       "titleColor":"text-light"
      },
      "Spectecular":{
         "id": 6,
@@ -100,6 +105,8 @@
         "homeHref":"/kontakt",
         "homeButton":"JETZT ANFRAGEN",
         "pageButton":"JETZT ANFRAGEN",
-        "MainpgClass":"text-dark"
+        "MainpgClass":"text-dark",
+        "titleColor":"text-light"
+
       }
    }
