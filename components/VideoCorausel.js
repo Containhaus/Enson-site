@@ -110,6 +110,7 @@ export default function VideoCorausel() {
 
             }}
             options={{
+              
               focus: "center",
               rewind: true,
               loop: true,

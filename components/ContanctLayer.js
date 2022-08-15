@@ -43,7 +43,7 @@ const ContanctLayer = () => {
             <FloatingWhatsApp
               phoneNumber="+491736221062"
               accountName="ContainHaus"
-              statusMessage="In kÃžrze werden Sie kontaktiert."
+              statusMessage="In kürze werden Sie kontaktiert."
               
               styles={{
                 top: "18.5rem ",
@@ -51,11 +51,11 @@ const ContanctLayer = () => {
                 width: "2.4rem",
                 height: "2.4rem",
               }}
-              allowClickAway
+      
               notification
               notificationDelay={60000} // 1 minute
               avatar="/assets/img/RedBlack.webp"
-              chatMessage="Hallo! Wie kÃķnnen wir Ihnen behilflich sein?"
+              chatMessage="Hallo! Wie können wir Ihnen behilflich sein?"
             />
           </li>
         </ul>
