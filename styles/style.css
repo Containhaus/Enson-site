@@ -1691,14 +1691,14 @@ floatemail {
 
 .floatemailMobil {
   z-index: 10 !important;
-  bottom: 1rem;
+  bottom: 0.3rem;
   cursor: pointer;
   position: fixed;
   right: 2rem;
 }
 .floatingbuttonnnnMobil {
   z-index: 10 !important;
-  bottom: 1rem;
+  bottom: 0.3rem;
   cursor: pointer;
   position: fixed;
   left: 2rem;
