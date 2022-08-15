@@ -135,7 +135,7 @@ const Product = ({ product }) => {
                   <h6 className="fw-600 fz-20 mt-2">Beschreibung</h6>
                   <p className="font-italic fz-18">{product?.content?.text6}</p>
 
-                  <h6 className="mt-2 fz-20 fw-600">Mabe</h6>
+                  <h6 className="mt-2 fz-20 fw-600">Maße</h6>
                   <p className="fz-18">{product?.content?.text3}</p>
 
                   <p className="fz-20 fw-600">Zustand</p>
