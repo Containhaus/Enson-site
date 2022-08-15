@@ -4,7 +4,7 @@ const Impressum = () => {
   return (
     <div>
       <div className="container mt-10">
-        <div className="col-lg-12 ">
+        <div className="col-lg-12  ">
           <div className="">
             <h2 className=" text-dark d-flex justify-content-center fz-35">
               IMPRESSUM
