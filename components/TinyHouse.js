@@ -4,47 +4,7 @@ import windowSize from "../utils/windowSize";
 import Image from "next/image";
 const ContainerInto = ({ data, className }) => {
     const [width] = windowSize();
-    const textColor = () => {
-        if (width < 768) {
-            if (router.asPath === "/mybigfamily") {
-                return "text-light"
-            }
-            if (router.asPath === "/amazingCountary") {
-                return "text-light"
-            }
-            if (router.asPath === "/feelGood") {
-                return "text-light"
-            }
-            if (router.asPath === "/freedom") {
-                return "text-light"
-            }
-            if (router.asPath === "/MyLittleFamily") {
-                return "text-light"
-            }
-            if (router.asPath === "/Spectecular") {
-                return "text-light"
-            }
-        } else {
-            if (router.asPath === "/mybigfamily") {
-                return "text-light"
-            }
-            else if (router.asPath === "/amazingCountary") {
-                return "text-light"
-            }
-            if (router.asPath === "/feelGood") {
-                return "text-light"
-            }
-            if (router.asPath === "/freedom") {
-                return "text-light"
-            }
-            if (router.asPath === "/MyLittleFamily") {
-                return "text-light"
-            }
-            if (router.asPath === "/Spectecula") {
-                return "text-light"
-            }
-        }
-    }
+  
     const textColorContent = () => {
         if (width < 768) {
             if (router.asPath === "/") {
@@ -93,65 +53,9 @@ const ContainerInto = ({ data, className }) => {
         }
 
     }
-    const textColorContentDirekt = () => {
-        if (width < 768) {
-            if (router.asPath === "/") {
-                return "text-danger"
-            }
-            if (router.asPath === "/mybigfamily") {
-                return "text-danger"
-            }
-            if (router.asPath === "/amazingCountary") {
-                return "text-danger"
-            }
-            if (router.asPath === "/feelGood") {
-                return "text-danger"
-            }
-            if (router.asPath === "/freedom") {
-                return "text-light"
-            }
-            if (router.asPath === "/MyLittleFamily") {
-                return "text-danger"
-            }
-            if (router.asPath === "/Spectecular") {
-                return "text-danger"
-            }
-        } else {
-            if (router.asPath === "/") {
-                return "text-danger"
-            }
-            if (router.asPath === "/mybigfamily") {
-                return "text-danger"
-            }
-            else if (router.asPath === "/amazingCountary") {
-                return "text-danger"
-            }
-            if (router.asPath === "/feelGood") {
-                return "text-danger"
-            }
-            if (router.asPath === "/freedom") {
-                return "text-light"
-            }
-            if (router.asPath === "/MyLittleFamily") {
-                return "text-light"
-            }if (router.asPath === "/Spectecular") {
-                return "text-light"
-            }
-        }
-    }
+  
     const router = useRouter();
-    const test = () => {
-        if (router.asPath === "/") {
-
-
-            return data.image;
-        } else {
-            if (width < 768) {
-                return data.mobileImage1;
-            }
-            return data.image1;
-        }
-    };
+  
     return (
         <>
             <div className="intro-img">
@@ -159,12 +63,12 @@ const ContainerInto = ({ data, className }) => {
                     layout="fill"
                     objectFit="cover"
                     objectPosition=" center"
-                    src={data.image}
+                    src={width < 768 ? data.mobileImage: data.image}
                     priority
                 />
                 <div className="intro-content ">
-                    <h1 className={`${data.titleColor} fw-600`}>{data.title.second}</h1>
-                    <h5 className={`mt-1 text-light fw-600`}>Direkt ab Werk</h5>
+                    <h1 className={`${width < 768?data.mobileTitleColor: data.titleColor} fw-600`}>{data.title.second}</h1>
+                    <h5 className={`mt-1 ${width < 768 ? "text-dark":"text-light"} fw-600`}>Direkt ab Werk</h5>
                     <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
                     <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
                         <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
