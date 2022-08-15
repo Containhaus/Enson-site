@@ -1,5 +1,4 @@
 import React from "react";
-import FloatingWhatsApp from "react-floating-whatsapp";
 const ContactLayerMobile = () => {
   return (
     <div>
@@ -26,23 +25,14 @@ const ContactLayerMobile = () => {
             </a>
           </li>
           <li>
-            <FloatingWhatsApp
-              phoneNumber="+491736221062"
-              accountName="ContainHaus"
-              statusMessage="In kÃžrze werden Sie kontaktiert."
-              styles={{
-                backgroundColor: "#25d366",
-                bottom: "0.5rem",
-                left: "43%",
-                width: "40px",
-                height: "40px",
-              }}
-              allowClickAway
-              notification
-              notificationDelay={60000} // 1 minute
-              avatar="/assets/img/RedBlack.webp"
-              chatMessage="Hallo! Wie kÃķnnen wir Ihnen behilflich sein?"
+            <a href="https://wa.me/491736221062" className="floaWhatsapplMobil    sm-mb-10">
+            <img
+              src="/assets/img/wp.svg"
+              width={37}
+              height={37}
             />
+  
+            </a>
           </li>
           <li>
             <a  href="mailto:info@containhaus.de" className="floatingbuttonnnnMobil">

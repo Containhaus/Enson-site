@@ -1649,6 +1649,25 @@ floatemail {
   user-select: none;
   width: 45px;
 }
+.floatWhatsApplDes {
+  z-index: 10 !important;
+  top: 18.2rem !important;
+  align-items: center;
+  
+  bottom: 2rem;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
+  cursor: pointer;
+  display: grid !important;
+  height: 45px;
+  justify-content: center;
+  position: fixed;
+  right: 0rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 45px;
+}
 .stCoBtnMo {
   z-index: 10 !important;
   bottom: 0px;
@@ -1683,6 +1702,13 @@ floatemail {
   cursor: pointer;
   position: fixed;
   left: 2rem;
+}
+.floaWhatsapplMobil {
+  z-index: 10 !important;
+  bottom: 0.3rem;
+  cursor: pointer;
+  position: fixed;
+  right: 44%;
 }
 
 .BorderWyWe {
