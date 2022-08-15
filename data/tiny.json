@@ -7,14 +7,14 @@
          "Third": ""
        },
        "image": "/assets/img/Tinyhouse/1.webp",
-       "mobileImage": "/assets/img/Tinyhouse/buromobile.webp",
+       "mobileImage": "/assets/img/Tinyhouse/1.webp",
        "image1": "/assets/img/Tinyhouse/1.webp",
        "mobileImage1": "/assets/img/InnerPage/BurocontainerMobilInnerPageUpdate.webp",
        "href":"/kontakt",
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "MainpgClass":"text-white",
+       "mobileTitleColor":"text-dark",
        "titleColor":"text-dark"
 
      },
@@ -26,14 +26,15 @@
          "Third": ""
        },
        "image": "/assets/img/Tinyhouse/2.webp",
-       "image1": "/assets/img/Tinyhouse/2.webp",
-       "mobileImage": "/assets/img/Tinyhouse/XlMobilMainpageUpdate.webp",
+       "image1": "/assets/img/Tinyhouse/amazingcountrymobile.webp",
+       "mobileImage": "/assets/img/Tinyhouse/amazingcountrymobile.webp",
        "mobileImage1": "/assets/img/InnerPage/XLMobilInnerPageUpdate.webp",
        "href":"/kontakt",
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
+       "mobileTitleColor":"text-dark",
        "titleColor":"text-light"
      },
      "feelGood":{
@@ -44,7 +45,7 @@
          "Third": ""
        },
        "image": "/assets/img/Tinyhouse/3.webp",
-       "mobileImage": "/assets/img/Tinyhouse/SanitaMobilMainpageUpdate.webp",
+       "mobileImage": "/assets/img/Tinyhouse/fellgoodmobile.webp",
        "mobileImage1": "/assets/img/InnerPage/SanitaInnerMobilPageUpdate.webp",
        "image1": "/assets/img/Tinyhouse/3.webp",
        "href":"/kontakt",
@@ -52,6 +53,7 @@
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
+       "mobileTitleColor":"text-dark",
        "titleColor":"text-dark"
      },
      "freedom": {
@@ -62,7 +64,7 @@
          "Third": ""
        },
        "image": "/assets/img/Tinyhouse/4.webp",
-       "mobileImage": "/assets/img/Tinyhouse/FlatpackMainPageMobil.webp",
+       "mobileImage": "/assets/img/Tinyhouse/freedommobile.webp",
        "mobileImage1": "/assets/img/InnerPage/FlatpackInnerMobilPageUpdate.webp",
        "image1": "/assets/img/Tinyhouse/4.webp",
        "href":"/kontakt",
@@ -80,7 +82,7 @@
          "Third": ""
        },
        "image": "/assets/img/Tinyhouse/5.webp",
-       "mobileImage": "/assets/img/Tinyhouse/SpecialMobilMainpageUpdate.webp",
+       "mobileImage": "/assets/img/Tinyhouse/mylittlemobile.webp",
        "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
        "image1": "/assets/img/Tinyhouse/5.webp",
        "href":"/kontakt",
@@ -88,6 +90,7 @@
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
+       "mobileTitleColor":"text-light",
        "titleColor":"text-light"
      },
      "Spectecular":{
@@ -98,7 +101,7 @@
           "Third": ""
         },
         "image": "/assets/img/Tinyhouse/6.webp",
-        "mobileImage": "/assets/img/Tinyhouse/SpecialMobilMainpageUpdate.webp",
+        "mobileImage": "/assets/img/Tinyhouse/spectecularmobile.webp",
         "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
         "image1": "/assets/img/Tinyhouse/6.webp",
         "href":"/kontakt",
@@ -106,7 +109,9 @@
         "homeButton":"JETZT ANFRAGEN",
         "pageButton":"JETZT ANFRAGEN",
         "MainpgClass":"text-dark",
+        "mobileTitleColor":"text-light",
         "titleColor":"text-light"
+        
 
       }
    }
