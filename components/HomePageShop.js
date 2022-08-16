@@ -69,7 +69,7 @@ const HomePageShop = ({ data }) => {
                           className="d-block w-100"
                           src={Val.image.ima1}
                           alt="First slide"
-                          quality={5}
+                          quality={50}
                         />
                       </SplideSlide>
                       
