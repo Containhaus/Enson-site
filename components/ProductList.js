@@ -10,6 +10,7 @@ const ProductList = ({ product }) => {
           <Image
             width={306}
             height={229}
+            quality={5}
             src={product.image.ima1}
             className="card-img-top"
             priority

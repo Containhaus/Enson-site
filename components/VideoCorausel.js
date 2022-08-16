@@ -140,11 +140,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/1.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/2.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
                       <a
@@ -182,11 +184,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/2.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/4.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
                       <a
@@ -223,11 +227,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/3.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/3.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
                       <a
@@ -262,11 +268,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/4.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/1.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
                       <a
@@ -303,11 +311,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/5.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/5.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
                       <a
@@ -344,11 +354,13 @@ export default function VideoCorausel() {
                       className="VideoDes"
                       src="/assets/img/Youtubekapak2/6.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/2.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
 
@@ -387,11 +399,13 @@ export default function VideoCorausel() {
                     <Image
                       src="/assets/img/Youtubekapak2/7.jpg"
                       layout="fill"
+                      quality={70}
                     />
                     <Image
                       className="VideoMob"
                       src="/assets/img/Youtubekapak2/Mobil/6.webp"
                       layout="fill"
+                      quality={70}
                     />
                     <div className="full-width text-center">
 

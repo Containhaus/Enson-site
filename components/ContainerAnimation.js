@@ -14,6 +14,7 @@ const ContainerAnimation = () => {
                     src="/assets/img/Animation/Container.webp"
                     width={450}
                     height={200}
+                    quality={5}
                     alt="Card image cap"
                     
                   />
@@ -21,6 +22,7 @@ const ContainerAnimation = () => {
                 <Image
                   src="/assets/img/Animation/DotBase.webp"
                  layout="fill"
+                 quality={5}
                   className=" bottom1"
                   alt=""
                 />
@@ -40,6 +42,7 @@ const ContainerAnimation = () => {
                     src="/assets/img/Animation/Container.webp"
                     width={450}
                     height={200}
+                    quality={5}
                     alt="Card image cap"
                     
                   />
@@ -47,6 +50,7 @@ const ContainerAnimation = () => {
                 <Image
                   src="/assets/img/Animation/beton-zemin.webp"
                   layout="fill"
+                  quality={5}
                   className=" bottom1"
                   alt=""
                 />
@@ -66,6 +70,7 @@ const ContainerAnimation = () => {
                     src="/assets/img/Animation/Container.webp"
                     width={450}
                     height={200}
+                    quality={5}
                     alt="Card image cap"
                     
                   />
@@ -73,6 +78,7 @@ const ContainerAnimation = () => {
                 <Image
                   src="/assets/img/Animation/2.webp"
                   layout="fill"
+                  quality={5}
                   className=" bottom1"
                   alt=""
                 />

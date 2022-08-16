@@ -69,41 +69,10 @@ const HomePageShop = ({ data }) => {
                           className="d-block w-100"
                           src={Val.image.ima1}
                           alt="First slide"
-                          priority
+                          quality={5}
                         />
                       </SplideSlide>
-                      <SplideSlide>
-                        <Image
-                          layout="fill"
-                          className="d-block w-100"
-                          src={Val.image.ima2}
-                          alt="Second slide"
-                        />
-                      </SplideSlide>
-                      <SplideSlide>
-                        <Image
-                          layout="fill"
-                          className="d-block w-100"
-                          src={Val.image.ima3}
-                          alt="Third slide"
-                        />
-                      </SplideSlide>
-                      <SplideSlide>
-                        <Image
-                          layout="fill"
-                          className="d-block w-100"
-                          src={Val.image.ima4}
-                          alt="Third slide"
-                        />
-                      </SplideSlide>
-                      <SplideSlide>
-                        <Image
-                          layout="fill"
-                          className="d-block w-100"
-                          src={Val.image.ima5}
-                          alt="Third slide"
-                        />
-                      </SplideSlide>
+                      
                     </Splide>
                   </div>
                   <div className="card-body card-info">
