@@ -1,4 +1,40 @@
 
+.pulse::before{
+  content: "";
+  position: absolute;
+  right: 0.2rem;
+  
+  width: calc(40% + 20px);
+  height: calc(40% + 20px);
+  border: 2px solid #44bd32;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+.pulse::after{
+  content: "";
+  position: absolute;
+  right: 0rem;
+  width: calc(50% + 22px);
+  height: calc(50% + 22px);
+  border: 2px solid #44bd32;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+  animation-delay: 0.4s;
+}
+@keyframes animate{
+  0%{
+    transition: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    transition: scale(1);
+    opacity: 1;
+  }
+  100%{
+    transition: scale(1.5);
+    opacity: 0;
+  }
+}
 /* ====================== [ End Slider ] ====================== */
 /*------------------------------------------------------- font-weight -------------------------------------------------------*/
 .fw-100 {
@@ -1778,6 +1814,43 @@ color: #616160;
 }
 .card-info {
   min-height: 18rem!important;
+}
+.pulse::before{
+  content: "";
+  position: absolute;
+  right: -0.2rem;
+  top: -0.2rem;
+  width: calc(65% + 20px);
+  height: calc(65% + 20px);
+  border: 2px solid #44bd32;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+.pulse::after{
+  content: "";
+  position: absolute;
+  right: -0.4rem;
+  top: -0.6rem;
+  width: calc(75% + 25px);
+  height: calc(75% + 25px);
+  border: 2px solid #44bd32;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+  animation-delay: 0.4s;
+}
+@keyframes animate{
+  0%{
+    transition: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    transition: scale(1);
+    opacity: 1;
+  }
+  100%{
+    transition: scale(1.5);
+    opacity: 0;
+  }
 }
 }
 @media only screen and (max-width: 480px) {

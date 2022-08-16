@@ -17,7 +17,7 @@ const ContactLayerMobile = () => {
             </a>
           </li>
           <li>
-            <a href="https://wa.me/491736221062" className="floaWhatsapplMobil    sm-mb-10">
+            <a href="https://wa.me/491736221062" className="floaWhatsapplMobil  pulse  sm-mb-10">
             <img
               src="/assets/img/wp.svg"
               width={37}

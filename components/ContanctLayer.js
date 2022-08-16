@@ -29,8 +29,8 @@ const ContanctLayer = () => {
             <a href="https://wa.me/491736221062" className="floatWhatsApplDes pulse  sm-mb-10">
             <img
               src="/assets/img/wp.svg"
-              width={37}
-              height={37}
+              width={25}
+              height={25}
             />
   
             </a>
