@@ -1,48 +1,4 @@
 
-.pulse {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.pulse::before{
-  content: "";
-  position: absolute;
-  right: 0rem;
-  width: calc(60% + 20px);
-  height: calc(60% + 20px);
-  border: 2px solid #44bd32;
-  border-radius: 50%;
-  animation: animate 1.5s linear infinite;
-}
-.pulse::after{
-  content: "";
-  position: absolute;
-  right: 0rem;
-  width: calc(70% + 20px);
-  height: calc(70% + 20px);
-  border: 2px solid #44bd32;
-  border-radius: 50%;
-  animation: animate 1.5s linear infinite;
-  animation-delay: 0.4s;
-}
-@keyframes animate{
-  0%{
-    transition: scale(0.5);
-    opacity: 0;
-  }
-  50%{
-    transition: scale(1);
-    opacity: 1;
-  }
-  100%{
-    transition: scale(1.5);
-    opacity: 0;
-  }
-}
 /* ====================== [ End Slider ] ====================== */
 /*------------------------------------------------------- font-weight -------------------------------------------------------*/
 .fw-100 {
