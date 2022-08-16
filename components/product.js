@@ -246,7 +246,7 @@ const Product = ({ product }) => {
               >
                 <a
                   className="btn btn-focuss mx-1"
-                  tabindex="1"
+                  tabIndex="1"
                   onClick={() => {
                     detailtextdiv();
                     HideYoutubevieodiv();
@@ -258,7 +258,7 @@ const Product = ({ product }) => {
                 </a>
                 <a
                   className="btn btn-focuss mx-1"
-                  tabindex="1"
+                  tabIndex="1"
                   onClick={() => {
                     Youtubevieodiv();
                     Hidedetailtextdiv();
@@ -270,7 +270,7 @@ const Product = ({ product }) => {
                 </a>
                 <a
                   className="btn btn-focuss mx-1"
-                  tabindex="1"
+                  tabIndex="1"
                   onClick={() => {
                     referencediv();
                     Hidedetailtextdiv();
