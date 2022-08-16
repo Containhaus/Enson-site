@@ -62,7 +62,7 @@ const HaCusAndRefe = ({ data }) => {
                               src={Val.image.ima1}
                               width={400}
                               height={300}
-                              quality={5}
+                              quality={50}
                               alt="First slide"
                             />
                           </SplideSlide>
@@ -138,7 +138,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/1.png"
                 alt="First slide"
@@ -148,7 +148,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/2.png"
                 alt="First slide"
@@ -158,7 +158,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/3.png"
                 alt="First slide"
@@ -168,7 +168,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/4.png"
                 alt="First slide"
@@ -178,7 +178,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/5.png"
                 alt="First slide"
@@ -188,7 +188,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/6.png"
                 alt="First slide"
@@ -198,7 +198,7 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 layout="fill"
-                quality={5}
+                quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/7.png"
                 alt="First slide"
