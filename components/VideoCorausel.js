@@ -130,13 +130,10 @@ export default function VideoCorausel() {
             hasTrack={true}
             aria-label="My Favorite Images"
           >
-            
               <SplideSlide >
-
                 <div className="container-fluid pl-0 pr-0">
                   <div
                     className="video-wrapper section-padding bg-img parallaxie valign"
-
                     data-overlay-dark="4"
                   >
                     <Image

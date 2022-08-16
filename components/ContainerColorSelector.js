@@ -21,6 +21,7 @@ const ContainerColorSelector = ({ data }) => {
             className="color-container"
             priority
             src={colorImgSrc}
+            quality ={10}
           />
         </div>
 

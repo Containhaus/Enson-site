@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.css";
 import products from "../../data/ShopDeutsch.json";
 import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,13 +13,75 @@ import Image from "next/image";
 import Head from 'next/head'
 const Product = ({ product }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [isOpen1, setOpen1] = React.useState(false);
+  function detailtextdiv() {
+    const x = document.getElementById('textdiv');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function Hidedetailtextdiv() {
+    var x = document.getElementById("textdiv");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function Youtubevieodiv() {
+    const x = document.getElementById('youtubevideoo');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function HideYoutubevieodiv() {
+    var x = document.getElementById("youtubevideoo");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function referencediv() {
+    const x = document.getElementById('referenceediv');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function Hidereferencediv() {
+    var x = document.getElementById("referenceediv");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showModal1() {
+    setOpen1(true);
+  }
   return (
     <div>
       <Head>
         <title>Contain Haus | {product?.title} </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      
       <div className="container-fluid  ProductPgBgColor p-0">
+      {typeof window !== "undefined" && (
+          <ModalVideo
+            autoplay
+            isOpen={isOpen1}
+            videoId="3JSit_voEqc"
+            onClose={() => setOpen1(false)}
+          />
+        )}
         <div className="container  p-0">
           <div className="row ">
             <div className="col-lg-7 col-md-12 col-sm-12 ">
@@ -177,77 +241,159 @@ const Product = ({ product }) => {
           </div>
           <div className="mt-3 mb-3 pb-5 ">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-12">
-                  <h3>
-                  {product?.description?.Seller}
-                  </h3>
-                  <h4>
-                  {product?.description?.deutsch}
-                  </h4>
-                  <h6>
-                  {product?.description?.dimension}
-                  </h6>
-                  <p>
-                  {product?.description?.width}
-                  </p>
-                  <p>
-                  {product?.description?.length}
-                  </p>
-                  <p>
-                  {product?.description?.height}
-                  </p>
-                  <p>
-                  {product?.description?.Area}
-                  </p>
-                  <h6>
-                  {product?.description?.Description}
-                  </h6>
-                  <p>
-                  {product?.description?.Features}
-                  </p>
-                  <p>
-                  {product?.description?.Isolation}
-                  </p>
-                  <p>
-                  {product?.description?.strength}
-                  </p>
-                  <p>
-                  {product?.description?.CraneSlot}
-                  </p>
-                  <p>
-                  {product?.description?.TransportCost}
-                  </p>
-                  <p>
-                  {product?.description?.customization}
-                  </p>
-                  <h6>{product?.description?.ExtraAccesories}</h6>
-                  <p>
-                  {product?.description?.Shutar}
-                  </p>
-                  <p>
-                  {product?.description?.heater}
-                  </p>
-                  <p>
-                  {product?.description?.geaser}
-                  </p>
-                  <p>
-                  {product?.description?.cables}
-                  </p>
-                  <p>
-                  {product?.description?.fridge}
-                  </p>
-                  <p>
-                  {product?.description?.Urinate}
-                  </p>
-                  <p>
-                  {product?.description?.ColorSelection}
-                  </p>
-                  <p>
-                  {product?.description?.PricePlusKDV}
-                  </p>
-              </div>
-              <div className="col-lg-6 col-md-6 col-12">
+              <div className="text-center "
+                key={product.id}
+              >
+                <a
+                  className="btn btn-focuss mx-1"
+                  tabindex="1"
+                  onClick={() => {
+                    detailtextdiv();
+                    HideYoutubevieodiv();
+                    Hidereferencediv();
 
+                  }}
+                >
+                  Beschreibung
+                </a>
+                <a
+                  className="btn btn-focuss mx-1"
+                  tabindex="1"
+                  onClick={() => {
+                    Youtubevieodiv();
+                    Hidedetailtextdiv();
+                    Hidereferencediv();
+
+                  }}
+                >
+                  Youtube Video
+                </a>
+                <a
+                  className="btn btn-focuss mx-1"
+                  tabindex="1"
+                  onClick={() => {
+                    referencediv();
+                    Hidedetailtextdiv();
+                    HideYoutubevieodiv();
+
+                  }}
+                >
+                  Reference
+                </a>
+              </div>
+              <div className="col-lg-6 col-md-6 col-12" id="textdiv">
+                <h3>
+                  {product?.description?.Seller}
+                </h3>
+                <h4>
+                  {product?.description?.deutsch}
+                </h4>
+                <h6 className="mb-4 fw-600">
+                  {product?.description?.dimension}
+                </h6>
+                <p>
+                  {product?.description?.width}
+                </p>
+                <p>
+                  {product?.description?.length}
+                </p>
+                <p>
+                  {product?.description?.height}
+                </p>
+                <p>
+                  {product?.description?.Area}
+                </p>
+                <h6 className="mb-4 fw-600">
+                  {product?.description?.Description}
+                </h6>
+                <p>
+                  {product?.description?.Features}
+                </p>
+                <p>
+                  {product?.description?.Isolation}
+                </p>
+                <p>
+                  {product?.description?.strength}
+                </p>
+                <p> 
+                  {product?.description?.CraneSlot}
+                </p>
+                <p>
+                  {product?.description?.TransportCost}
+                </p>
+                <p>
+                  {product?.description?.customization}
+                </p>
+                <h6 className="mb-4 fw-600">{product?.description?.ExtraAccesories}</h6>
+                <p>
+                  {product?.description?.Shutar}
+                </p>
+                <p>
+                  {product?.description?.heater}
+                </p>
+                <p>
+                  {product?.description?.geaser}
+                </p>
+                <p>
+                  {product?.description?.cables}
+                </p>
+                <p>
+                  {product?.description?.fridge}
+                </p>
+                <p>
+                  {product?.description?.Urinate}
+                </p>
+                <p>
+                  {product?.description?.ColorSelection}
+                </p>
+                <p>
+                  {product?.description?.PricePlusKDV}
+                </p>
+              </div>
+              <div className="col-12" id="youtubevideoo" style={{ display: "none" }}>
+              
+                  <div
+                    className="valign"
+
+                    data-overlay-dark="4"
+                  >
+                    <Image
+                      className="VideoDes"
+                      src="/assets/img/Youtubekapak2/1.jpg"
+                      width={2000}
+                      height={2000}
+                    />
+                    <Image
+                      className="VideoMob"
+                      src="/assets/img/Youtubekapak2/Mobil/2.webp"
+                      width={2000}
+                      height={2000}
+                    />
+                    <div className="full-width text-center">
+                      <a
+                        className="vid"
+                        onClick={(e) => {
+                          showModal1
+                          e.preventDefault();
+                          setOpen1(true);
+                        }}
+                        href="https://youtu.be/3JSit_voEqc"
+                      >
+                        <div className="vid-butn">
+                          <span className="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                    
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-12" id="referenceediv" style={{ display: "none" }}>
+                <h1>Ben </h1>
               </div>
 
             </div>
