@@ -6,8 +6,8 @@ import Link from "next/link";
 const HaCusAndRefe = ({ data }) => {
   return (
     <div className="container vh-100">
-        <div className="text-center">
-          <h1 className="fw-700 display-1 pt-100 fz-40">Unsere Referenzen</h1>
+        <div className="text-center pt-90">
+          <h3 className="fw-700 display-1 pt-10 mb-0  fz-40">Unsere Referenzen</h3>
         </div>
         <div className=" pe-5 ps-5">
           <Splide

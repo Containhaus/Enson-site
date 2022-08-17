@@ -6,7 +6,7 @@ const ContainerAnimation = () => {
     <>
       <div>
         <div className="container mt-4 vh-100 border-bottom">
-          <div className="row pt-100">
+          <div className="row pt-60">
             <div className="col-lg-4 col-md-4 col-sm-12 item position-relative ">
               <div className="d-flex pb-4 justify-content-center position-relative">
                 <div className="p-0 m-0 hoverItemmm">
