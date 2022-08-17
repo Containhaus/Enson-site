@@ -10,7 +10,7 @@ const BuroContainerIntro = ({data}) => {
       <div className="intro-content">
        <h1 className="fw-600">{data.title.second}</h1>
        <h5 className="text-danger fw-600">Direkt ab Werk</h5>
-        <h5 className="fw-400">{data.content.first}</h5>
+        <h5 className="fw-400 text-light">{data.content.first}</h5>
        <Link href={`${data.href}`}>
           <button className="intro-button ">JETZT ZUM SHOP</button>
         </Link>

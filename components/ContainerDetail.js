@@ -5,10 +5,11 @@ import Image from "next/image";
 const ContainerDetail = () => {
   return (
     <div>
-      <div className="container view-height bdbdb">
-        <div className="row pt-70">
+      <div className="container vh-100 ">
+        
+        <div className="row pt-200">
           <div className="col-lg-6 col-md-10 mt-3 pt-3 ">
-            <div className="caption hmone p-4 m-4 ">
+            <div className=" p-4 m-4 ">
               <Link href="#">
                 <h1 data-splitting className="detail-subtitle text-45">
                   {data.title.second}

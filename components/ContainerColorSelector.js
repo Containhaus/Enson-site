@@ -12,8 +12,8 @@ const ContainerColorSelector = ({ data }) => {
   const router = useRouter()
   return (
     <>
-    <div className="container">
-      <div className="row color-select justify-content-center">
+    <div className="container vh-100">
+      <div className="row color-select justify-content-center pt-200">
         <div className="col-lg-7 d-flex p-5">
           <Image
             width={router.asPath==="/sanitar-container"?500: 750}

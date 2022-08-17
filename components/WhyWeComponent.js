@@ -3,8 +3,8 @@ import React from "react";
 const WhyWeComponent = () => {
   return (
     <>
-      <div className="container-fluid WhyWeBg ">
-            <div className="container text-light">
+      <div className="container-fluid WhyWeBg vh-100">
+            <div className="container text-light pt-200">
               <div className="row justify-content-center">
                 <div className="col-lg-12 col-md-10 mt-30 text-center">
                   <h4

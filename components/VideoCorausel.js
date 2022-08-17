@@ -51,7 +51,8 @@ export default function VideoCorausel() {
   }
   return (
     <>
-      <div className="container mb-50 mt-30">
+      <div className="container vh-100">
+        
         {typeof window !== "undefined" && (
           <ModalVideo
             autoplay
@@ -133,7 +134,7 @@ export default function VideoCorausel() {
             onClose={() => setOpen10(false)}
           />
         )}
-        <div className="wrapper">
+        <div className="wrapper pt-120">
           <Splide
             classes={{
               pagination: 'splide__pagvideo',
@@ -162,7 +163,7 @@ export default function VideoCorausel() {
             aria-label="My Favorite Images"
           >
               <SplideSlide >
-                <div className="container-fluid pl-0 pr-0">
+                <div className="container-fluid pl-0 pr-0 ">
                   <div
                     className="video-wrapper section-padding bg-img parallaxie valign"
                     data-overlay-dark="4"

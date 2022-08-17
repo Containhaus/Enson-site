@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 const HaCusAndRefe = ({ data }) => {
   return (
-    <div className="container">
+    <div className="container vh-100">
         <div className="text-center">
           <h1 className="fw-700 display-1 pt-100 fz-40">Unsere Referenzen</h1>
         </div>
@@ -110,7 +110,7 @@ const HaCusAndRefe = ({ data }) => {
             })}
           </Splide >
         </div>
-        <div className="bg-dark mt-30">
+        <div className="bg-dark ">
           <Splide
             options={{
               rewind: true,
