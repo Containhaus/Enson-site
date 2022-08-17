@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainerInto from '../components/ContainerInto'
-
+import Footer from '../components/Footer'
 import introContainer from "../data/containerIntro.json"
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import WhyWeComponent from '../components/WhyWeComponent'
@@ -37,6 +37,7 @@ const Shop= () => {
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
          <ContainerAnimation></ContainerAnimation>
+         <Footer/>
        
     </div>
   )

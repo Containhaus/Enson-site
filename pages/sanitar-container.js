@@ -15,6 +15,7 @@ import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
 import HaCusAndRefe from '../components/HaCusAndRefe'
 import LoadingScreen from '../components/MenuComponents/LoadingScreen'
+import Footer from '../components/Footer'
 
 
 const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
@@ -41,9 +42,7 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
       </Head>
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerDetail></ContainerDetail>
-        <div ref={child3Ref}>
-        {child3RefValue ? (
-          <>
+       
            <HomePageShop data={Sanitarfilter}></HomePageShop>
        
         
@@ -54,15 +53,8 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
        <HaCusAndRefe data={SanitaHappyDatafilter}/>
        <VideoCorausel></VideoCorausel>
      <ContainerAnimation></ContainerAnimation>
-          </>
-        ) : (
-          <div className="loading">
-            <div className='container'>
-              <LoadingScreen></LoadingScreen>
-            </div>
-          </div>
-        )}
-      </div>
+          
+      <Footer/>
   
   
     

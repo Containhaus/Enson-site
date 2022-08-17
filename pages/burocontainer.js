@@ -52,6 +52,7 @@ const Burocontaıner = () => {
             <HaCusAndRefe data={buroHappyDatafilter} />
             <VideoCorausel></VideoCorausel>
             <ContainerAnimation />
+            <Footer/>
        
         
       

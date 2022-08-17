@@ -37,6 +37,7 @@ const Burocontaıner = ({specialeditatons}) => {
        
        
        <ContainerAnimation></ContainerAnimation>
+       <Footer/>
       
     </div>
   )
