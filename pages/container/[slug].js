@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import VideoCorausel from "../../components/VideoCorausel"
 import products from "../../data/ShopDeutsch.json";
 import Link from "next/link"
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -10,6 +11,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
 import Head from 'next/head'
+import Footer from "../../components/Footer";
 const Product = ({ product }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [isOpen1, setOpen1] = React.useState(false);
@@ -451,6 +453,7 @@ const Product = ({ product }) => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
