@@ -1,5 +1,6 @@
 import React from 'react'
 import beforeAndAfterSlider from "../utils/utils";
+import Footer from './Footer';
 const BeforeAndAfterSlider = () => {
     React.useEffect(() => {
         beforeAndAfterSlider();
@@ -55,6 +56,7 @@ const BeforeAndAfterSlider = () => {
                 </div>
             </div>
         </section>
+        <Footer/>
     </div>
   )
 }
