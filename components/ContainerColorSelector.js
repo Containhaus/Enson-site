@@ -24,7 +24,6 @@ const ContainerColorSelector = ({ data }) => {
             quality ={30}
           />
         </div>
-
         <div className="col-lg-3  gx-5 ">
           <div className="text-start">
             <h1 className="mb-4 justify-content-center d-flex fw-600">Farbe</h1>

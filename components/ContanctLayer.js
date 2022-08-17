@@ -6,7 +6,6 @@ const ContanctLayer = () => {
         <ul className="stCoBtn footerdisDes">
           <li>
             <a href="tel:+4923028894880"
-              
               className="floatPhoneDes sm-mb-20"
             >
              <img
@@ -32,15 +31,11 @@ const ContanctLayer = () => {
               width={25}
               height={25}
             />
-  
             </a>
           </li>
-
-          
         </ul>
       </div>
     </div>
   );
 };
-
 export default ContanctLayer;

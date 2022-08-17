@@ -15,6 +15,9 @@ export default function VideoCorausel() {
   const [isOpen5, setOpen5] = React.useState(false);
   const [isOpen6, setOpen6] = React.useState(false);
   const [isOpen7, setOpen7] = React.useState(false);
+  const [isOpen8, setOpen8] = React.useState(false);
+  const [isOpen9, setOpen9] = React.useState(false);
+  const [isOpen10, setOpen10] = React.useState(false);
   function showModal1() {
     setOpen1(true);
   }
@@ -37,9 +40,18 @@ export default function VideoCorausel() {
   function showModal7() {
     setOpen7(true);
   }
+  function showModal8() {
+    setOpen8(true);
+  }
+  function showModal9() {
+    setOpen9(true);
+  }
+  function showModal10() {
+    setOpen10(true);
+  }
   return (
     <>
-      <div className="container mb-5 mt-30 ">
+      <div className="container mb-50 mt-30">
         {typeof window !== "undefined" && (
           <ModalVideo
             autoplay
@@ -66,7 +78,6 @@ export default function VideoCorausel() {
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-
             autoplay
             isOpen={isOpen4}
             videoId="As8XIPb9-NA"
@@ -76,7 +87,6 @@ export default function VideoCorausel() {
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-
             autoplay
             isOpen={isOpen5}
             videoId="xHqGD4TSAtM"
@@ -85,7 +95,6 @@ export default function VideoCorausel() {
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-
             autoplay
             isOpen={isOpen6}
             videoId="a8FQaW9XVlU"
@@ -94,11 +103,34 @@ export default function VideoCorausel() {
         )}
         {typeof window !== "undefined" && (
           <ModalVideo
-
             autoplay
             isOpen={isOpen7}
             videoId="jDHpSpilFuU"
             onClose={() => setOpen7(false)}
+          />
+        )}
+        {typeof window !== "undefined" && (
+          <ModalVideo
+            autoplay
+            isOpen={isOpen8}
+            videoId="hJjpfnFyv74"
+            onClose={() => setOpen8(false)}
+          />
+        )}
+        {typeof window !== "undefined" && (
+          <ModalVideo
+            autoplay
+            isOpen={isOpen9}
+            videoId="W_kfISQx0pM"
+            onClose={() => setOpen9(false)}
+          />
+        )}
+        {typeof window !== "undefined" && (
+          <ModalVideo
+            autoplay
+            isOpen={isOpen10}
+            videoId="YGVXtLyGD5Q"
+            onClose={() => setOpen10(false)}
           />
         )}
         <div className="wrapper">
@@ -107,10 +139,10 @@ export default function VideoCorausel() {
               pagination: 'splide__pagvideo',
               prev: 'ArowVideoPrev',
               next: 'ArowVideoNext',
-
+              height: 'YTCardHe'
             }}
             options={{
-              
+              autoHeight: true,
               focus: "center",
               rewind: true,
               loop: true,
@@ -119,7 +151,6 @@ export default function VideoCorausel() {
               arrows: false,
               perPage: 1,
               lazyLoad: 'nearby',
-              height: '500px',
               padding: '20%',
               perMove: 1,
               autoplay: true,
@@ -397,7 +428,7 @@ export default function VideoCorausel() {
                     data-overlay-dark="4"
                   >
                     <Image
-                      src="/assets/img/Youtubekapak2/7.jpg"
+                      src="/assets/img/Youtubekapak2/7.webp"
                       layout="fill"
                       quality={70}
                     />
@@ -433,6 +464,139 @@ export default function VideoCorausel() {
                 </div>
 
               </SplideSlide>
+              <SplideSlide >
+                <div className="container-fluid pl-0 pr-0">
+                  <div
+                    className="video-wrapper section-padding bg-img parallaxie valign"
+
+                    data-overlay-dark="4"
+                  >
+                    <Image
+                      src="/assets/img/Youtubekapak2/8.jpg"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <Image
+                      className="VideoMob"
+                      src="/assets/img/Youtubekapak2/Mobil/8.jpg"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <div className="full-width text-center">
+
+                      <a
+                        className="vid"
+
+                        onClick={(e) => {
+                          showModal8
+                          e.preventDefault();
+                          setOpen8(true);
+                        }}
+                        href="https://youtu.be/hJjpfnFyv74"
+                      >
+                        <div className="vid-butn">
+                          <span className="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </SplideSlide>
+              <SplideSlide >
+                <div className="container-fluid pl-0 pr-0">
+                  <div
+                    className="video-wrapper section-padding bg-img parallaxie valign"
+
+                    data-overlay-dark="4"
+                  >
+                    <Image
+                      src="/assets/img/Youtubekapak2/9.webp"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <Image
+                      className="VideoMob"
+                      src="/assets/img/Youtubekapak2/Mobil/9.webp"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <div className="full-width text-center">
+
+                      <a
+                        className="vid"
+
+                        onClick={(e) => {
+                          showModal9
+                          e.preventDefault();
+                          setOpen9(true);
+                        }}
+                        href="https://youtu.be/W_kfISQx0pM"
+                      >
+                        <div className="vid-butn">
+                          <span className="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </SplideSlide>
+              <SplideSlide >
+                <div className="container-fluid pl-0 pr-0">
+                  <div
+                    className="video-wrapper section-padding bg-img parallaxie valign"
+
+                    data-overlay-dark="4"
+                  >
+                    <Image
+                      src="/assets/img/Youtubekapak2/10.jpg"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <Image
+                      className="VideoMob"
+                      src="/assets/img/Youtubekapak2/Mobil/10.jpg"
+                      layout="fill"
+                      quality={70}
+                    />
+                    <div className="full-width text-center">
+
+                      <a
+                        className="vid"
+
+                        onClick={(e) => {
+                          showModal10
+                          e.preventDefault();
+                          setOpen10(true);
+                        }}
+                        href="https://youtu.be/YGVXtLyGD5Q"
+                      >
+                        <div className="vid-butn">
+                          <span className="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </SplideSlide>
+              
             
               
           </Splide>

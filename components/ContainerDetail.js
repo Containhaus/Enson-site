@@ -6,21 +6,18 @@ const ContainerDetail = () => {
   return (
     <div>
       <div className="container view-height bdbdb">
-        <div className="row">
+        <div className="row pt-70">
           <div className="col-lg-6 col-md-10 mt-3 pt-3 ">
-            <div className="caption hmone p-4 m-4">
-   
+            <div className="caption hmone p-4 m-4 ">
               <Link href="#">
                 <h1 data-splitting className="detail-subtitle text-45">
                   {data.title.second}
                 </h1>
               </Link>
-
               <p className="mt-1">
                 {data.content.first} <br />
                 {data.content.second}
               </p>
-
               <Link href="/assets/img/TeknikDetaylar.pdf">
                 <a className="detail-btn mt-3" id="PdfDetail" target="_blank">
                   <span className="text-light">Weiterlesen</span>
@@ -42,5 +39,4 @@ const ContainerDetail = () => {
     </div>
   );
 };
-
 export default ContainerDetail;

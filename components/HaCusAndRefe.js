@@ -3,10 +3,9 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from "next/image";
 import Link from "next/link";
-
 const HaCusAndRefe = ({ data }) => {
   return (
-    <div className="container vh-100 ">
+    <div className="container">
         <div className="text-center">
           <h1 className="fw-700 display-1 pt-100 fz-40">Unsere Referenzen</h1>
         </div>
@@ -142,7 +141,6 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/1.png"
                 alt="First slide"
-                
               />
             </SplideSlide>
             <SplideSlide>
@@ -152,7 +150,6 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/2.png"
                 alt="First slide"
-                
               />
             </SplideSlide>
             <SplideSlide>
@@ -162,7 +159,6 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/3.png"
                 alt="First slide"
-                
               />
             </SplideSlide>
             <SplideSlide>
@@ -172,7 +168,6 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/4.png"
                 alt="First slide"
-                
               />
             </SplideSlide>
             <SplideSlide>
@@ -182,7 +177,6 @@ const HaCusAndRefe = ({ data }) => {
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/5.png"
                 alt="First slide"
-                
               />
             </SplideSlide>
             <SplideSlide>

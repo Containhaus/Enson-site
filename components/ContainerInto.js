@@ -146,10 +146,12 @@ const ContainerInto = ({ data, className }) => {
           src={test()}
           priority
         />
-        <div className="intro-content ">
+        <div className="intro-content mx-3">
           <h1 className={`${textColor()}  fw-600`}>{data.title.second}</h1>
           <h5 className={`mt-1 ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
+          <div className="mr-1 ">
           <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
+          </div>
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
           </Link>

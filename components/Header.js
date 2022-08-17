@@ -1,19 +1,16 @@
 import React from "react";
 import Link from "next/link";
-
 const Header = () => {
   const first = React.useRef(null)
   const handleClick=()=>{
     setTimeout(() => {
       first.current.className ="navbar-collapse collapse"
-    }, 200);
-    
+    }, 200); 
   }
- 
   return (
     <>
       <header role="banner ">
-        <div className="fixed-top">
+        <div className="fixed-top bg-light navbaropa" >
           <div className="navbar-catalog ">
             <div className="navbar-info"> 
             <span className=" navbar-info-span">
@@ -62,10 +59,10 @@ const Header = () => {
             </span>
             </div>
           </div>
-          <nav className="navbar navbar-expand-md navbar-light bg-light ">
+          <nav className="navbar navbar-expand-md navbar-light bg-transparent pt-0 pb-0">
             <div className="container">
               <Link href="/">
-                <a className="navbar-brand " >
+                <a className="navbar-brand pt-0 pb-0" >
                   <img
                     height={72}
                     width={120}
@@ -94,14 +91,14 @@ const Header = () => {
                 <ul className="navbar-nav ms-auto pl-lg-5 mx-2 pl-0 text-center">
                   <li className="nav-item">
                     <Link href="/burocontainer">
-                      <a className="nav-link" aria-current="page" onClick={handleClick} >
+                      <a className="nav-link " aria-current="page" onClick={handleClick} >
                         Bürocontainer
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/wohncontainer">
-                      <a className="nav-link" onClick={handleClick} >
+                      <a className="nav-link " onClick={handleClick} >
                         XL Wohncontainer
                       </a>
                     </Link>
@@ -109,25 +106,25 @@ const Header = () => {
 
                   <li className="nav-item">
                     <Link href="/sanitar-container">
-                      <a className="nav-link" onClick={handleClick}>Sanitär Container</a>
+                      <a className="nav-link " onClick={handleClick}>Sanitär Container</a>
                     </Link>
                   </li>
                 
                   <li className="nav-item">
                     <Link href="/tiny-haus">
-                      <a className="nav-link" onClick={handleClick}>Tiny House</a>
+                      <a className="nav-link " onClick={handleClick}>Tiny House</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/shop/alle">
-                      <a className="nav-link" onClick={handleClick}>Shop</a>
+                      <a className="nav-link " onClick={handleClick}>Shop</a>
                     </Link>
                   </li>
                 </ul>
                 <ul className="navbar-nav ms-auto text-center">
                   <li className="nav-item cta-btn">
                     <a
-                      className="nav-link"
+                      className="nav-link "
                       type="button"
                       data-bs-toggle="offcanvas"
                       data-bs-target="#offcanvasRight"
@@ -138,7 +135,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item cta-btn">
                     <Link href="/kontakt">
-                      <a onClick={handleClick} className="nav-link" href="">
+                      <a onClick={handleClick} className="nav-link " href="">
                         Kontakt
                       </a>
                     </Link>
@@ -224,9 +221,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      
     </>
   );
 };
-
 export default Header;

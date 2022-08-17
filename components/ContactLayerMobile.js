@@ -5,9 +5,8 @@ const ContactLayerMobile = () => {
       <div>
         <ul className="stCoBtnMo footerdisMo">
           <li>
-            <a  href="tel:+4923028894880" 
-             
-              className="floatemailMobil  sm-mb20"
+            <a  href="tel:+4923028894880"   
+              className="floatemailMobil  "
             >
               <img
               src="/assets/img/phone.svg"
@@ -17,7 +16,7 @@ const ContactLayerMobile = () => {
             </a>
           </li>
           <li>
-            <a href="https://wa.me/491736221062" className="floaWhatsapplMobil  pulse  sm-mb-10">
+            <a href="https://wa.me/491736221062" className="floaWhatsapplMobil  pulse ">
             <img
               src="/assets/img/wp.svg"
               width={37}
@@ -30,8 +29,8 @@ const ContactLayerMobile = () => {
             <a  href="mailto:info@containhaus.de" className="floatingbuttonnnnMobil">
             <img
               src="/assets/img/message.svg"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
             />
             </a>
           </li>

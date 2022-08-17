@@ -46,7 +46,6 @@ const Product = ({ product }) => {
       x.style.display = "none";
     }
   }
-
   function referencediv() {
     const x = document.getElementById('referenceediv');
     if (x.style.display === "none") {
@@ -72,7 +71,6 @@ const Product = ({ product }) => {
         <title>Contain Haus | {product?.title} </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      
       <div className="container-fluid  ProductPgBgColor p-0">
       {typeof window !== "undefined" && (
           <ModalVideo
@@ -392,9 +390,102 @@ const Product = ({ product }) => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 col-12" id="referenceediv" style={{ display: "none" }}>
-                <h1>Ben </h1>
-              </div>
+              <div id="referenceediv" style={{ display: "none" }}>
+                            <div className="col-12 mt-70">
+                                <div className="row ">
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-danger  text-light me-1 ">
+                                            <span className=" mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
+                                        </div>
+                                    </div>
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-secondary text-light me-1">
+                                          <div className="me-1"></div>
+                                            <span className="mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
+                                        </div>
+                                    </div>
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-secondary text-light me-1">
+                                          <div className="me-1"></div>
+                                            <span className="mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
+                                        </div>
+                                    </div>
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-secondary text-light me-1">
+                                          <div className="me-1"></div>
+                                            <span className="mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">dsfs</p>
+                                        </div>
+                                    </div>
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-secondary text-light me-1">
+                                          <div className="me-1"></div>
+                                            <span className="mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">fdgfdgd</p>
+                                        </div>
+                                    </div>
+                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                                      <div className="me-1">
+                                        <Image
+                                          src={"/assets/img/Tinyhouse/1.webp"}
+                                          width={430}
+                                          height={250}
+                                        
+                                        />
+                                        </div>
+                                        <div className="d-flex bg-secondary text-light me-1">
+                                          <div className="me-1"></div>
+                                            <span className="mr-2 display-4 "></span>
+                                            <p className="mt-3 ml-5 text-light fz-20">ghjhfhfd</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>
 
             </div>
           </div>

@@ -7,10 +7,10 @@ import "@splidejs/react-splide/css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer ">
-        <div className="container ">
+      <footer className="footer vh-100">
+        <div className="container mt-200">
           <div className="row justify-content-center">
-            <div className="col-lg-3 col-md-6 col-sm-6 ">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
               <div className="footer-top ">
                 <Image
                   height={65}
@@ -121,22 +121,22 @@ const Footer = () => {
             <div className="col-lg-2 gx-1 col-md-6 col-sm-6">
               <h5 className="mt-2 footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
-                <div className="mt-3 cursor footer-color">FlatPack</div>
+                <div className="mt-3  cursor footer-color">FlatPack</div>
               </Link>
               <Link href="/menu/wohncontainer">
-                <div className="mt-3 cursor footer-color">Wohncontainer</div>
+                <div className="mt-3  cursor footer-color">Wohncontainer</div>
               </Link>
               <Link href="/menu/burocontainer">
-                <div className="mt-3 cursor footer-color">Bürocontainer</div>
+                <div className="mt-3  cursor footer-color">Bürocontainer</div>
               </Link>
               <Link href="/menu/xlwohncontainer">
-                <div className="mt-3 cursor footer-color">XL Wohncontainer</div>
+                <div className="mt-3  cursor footer-color">XL Wohncontainer</div>
               </Link>
               <Link href="/menu/sanitarcontainer">
-                <div className="mt-3 cursor footer-color">Sanitärcontainer</div>
+                <div className="mt-3  cursor footer-color">Sanitärcontainer</div>
               </Link>
               <Link href="/menu/pfortnercontainer">
-                <div className="mt-3 cursor footer-color">
+                <div className="mt-3  cursor footer-color">
                   Pförtnercontainer
                 </div>
               </Link>
@@ -184,7 +184,7 @@ const Footer = () => {
                 <div className="mt-3 cursor footer-color">AGB</div>
               </Link>
               <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
-                <div className="mt-3 cursor footer-color">
+                <div className="mt-3 cursor p-1 footer-color border border-light d-inline-block">
                   CATALOG HERUNTERLADEN
                 </div>
               </Link>

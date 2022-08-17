@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+import VideoCorausel from "../../components/VideoCorausel"
 import products from "../../data/ShopDeutsch.json";
 import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -47,22 +46,7 @@ const Product = ({ product }) => {
     }
   }
 
-  function referencediv() {
-    const x = document.getElementById('referenceediv');
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  function Hidereferencediv() {
-    var x = document.getElementById("referenceediv");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "none";
-    }
-  }
+  
   function showModal1() {
     setOpen1(true);
   }
@@ -72,19 +56,12 @@ const Product = ({ product }) => {
         <title>Contain Haus | {product?.title} </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      
+
       <div className="container-fluid  ProductPgBgColor p-0">
-      {typeof window !== "undefined" && (
-          <ModalVideo
-            autoplay
-            isOpen={isOpen1}
-            videoId="3JSit_voEqc"
-            onClose={() => setOpen1(false)}
-          />
-        )}
+        
         <div className="container  p-0">
           <div className="row ">
-            <div className="col-lg-7 col-md-12 col-sm-12 ">
+            <div className="col-lg-7 col-md-12 col-12 ">
               <div>
                 <Swiper
                   style={{
@@ -191,7 +168,7 @@ const Product = ({ product }) => {
                 </Swiper>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 p-4 bg-white border ">
+            <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border ">
               <div>
 
                 <div >
@@ -235,13 +212,40 @@ const Product = ({ product }) => {
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
           <div className="mt-3 mb-3 pb-5 ">
             <div className="row">
-              
+              <div className="text-center "
+                key={product.id}
+              >
+                <a
+                  className="btn btn-focuss me-1"
+                  tabIndex="1"
+                  onClick={() => {
+                    detailtextdiv();
+                    HideYoutubevieodiv();
+                    
+
+                  }}
+                >
+                  Beschreibung
+                </a>
+                <a
+                  className="btn btn-focuss me-1"
+                  tabIndex="1"
+                  onClick={() => {
+                    Youtubevieodiv();
+                    Hidedetailtextdiv();
+                    
+
+                  }}
+                >
+                  Youtube Video
+                </a>
+                
+              </div>
               <div className="col-lg-6 col-md-6 col-12" id="textdiv">
                 <h3>
                   {product?.description?.Seller}
@@ -276,7 +280,7 @@ const Product = ({ product }) => {
                 <p>
                   {product?.description?.strength}
                 </p>
-                <p> 
+                <p>
                   {product?.description?.CraneSlot}
                 </p>
                 <p>
@@ -311,8 +315,17 @@ const Product = ({ product }) => {
                   {product?.description?.PricePlusKDV}
                 </p>
               </div>
-              
 
+              <div className="row">
+
+
+                <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
+                  <VideoCorausel/>
+                </div>
+              
+              </div>
+
+              
             </div>
           </div>
         </div>
