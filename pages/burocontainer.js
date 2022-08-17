@@ -44,24 +44,17 @@ const Burocontaıner = () => {
       {/* <ContainerInto data={buroconteiner}/> */}
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
       <ContainerDetail />
-      <div ref={child3Ref}>
-        {child3RefValue ? (
-          <>
+      
+          
             <HomePageShop data={burofilter} />
             <ContainerColorSelector data={BuroContarinerColorSelector} />
             <WhyWeComponent />
             <HaCusAndRefe data={buroHappyDatafilter} />
             <VideoCorausel></VideoCorausel>
             <ContainerAnimation />
-          </>
-        ) : (
-          <div className="loading">
-              <div className='container '>
-            <LoadingScreen></LoadingScreen>
-            </div>
-          </div>
-        )}
-      </div>
+       
+        
+      
     </div>
   );
 };

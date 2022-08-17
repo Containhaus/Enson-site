@@ -7,10 +7,10 @@ import "@splidejs/react-splide/css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer vh-100">
+      <footer className="footer vh-100 ">
         <div className="container mt-200">
           <div className="row justify-content-center">
-            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
+            <div className="col-lg-3 col-md-6 col-2 ">
               <div className="footer-top ">
                 <Image
                   height={65}
@@ -21,31 +21,31 @@ const Footer = () => {
               </div>
               <div className="mb-2">
                 <div className="footer-head">
-                  Inhaber:<span className="footer-color">Abraham Wach </span>{" "}
+                  Inhaber:<span className="footer-color ">Abraham Wach </span>
                 </div>
                 <div className="footer-head">
                   BANKNAME:
-                  <span className="footer-color">Volksbank Sprockhövel</span>{" "}
+                  <span className="footer-color ">Volksbank Sprockhövel</span>
                 </div>
                 <div className="footer-head">
-                  SWIFTCODE:<span className="footer-color">GENODEM1SPO </span>
+                  SWIFTCODE:<span className="footer-color ">GENODEM1SPO </span>
                 </div>
                 <div className="footer-head">
                   KONTOINHABER:
-                  <span className="footer-color">CONTAIN HAUS CONTAINER</span>{" "}
+                  <span className="footer-color ">CONTAIN HAUS CONTAINER</span>
                 </div>
-                <div className="footer-head">
+                <div className="footer-head ">
                   IBAN:
-                  <span className="footer-color">
+                  <span className="footer-color ">
                     DE4145 2615 4700 1398 6200
-                  </span>{" "}
+                  </span>
                 </div>
                 <div className="footer-head">
                   Steuernummer. :
-                  <span className="footer-color">348/5203/3253</span>{" "}
+                  <span className="footer-color">348/5203/3253</span>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-1">
                 <Link href="https://www.facebook.com/ContainHaus">
                   <a className="">
                     <svg
@@ -118,79 +118,79 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-2 gx-1 col-md-6 col-sm-6">
-              <h5 className="mt-2 footer-head">ÜBERSICHT</h5>
+            <div className="col-lg-2 gx-1 col-md-6 col-2 ">
+              <h5 className="mt-1 fzMob footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
-                <div className="mt-3  cursor footer-color">FlatPack</div>
+                <div className="mt-1 fzMob  cursor footer-color">FlatPack</div>
               </Link>
               <Link href="/menu/wohncontainer">
-                <div className="mt-3  cursor footer-color">Wohncontainer</div>
+                <div className="mt-1 fzMob  cursor footer-color">Wohncontainer</div>
               </Link>
               <Link href="/menu/burocontainer">
-                <div className="mt-3  cursor footer-color">Bürocontainer</div>
+                <div className="mt-1 fzMob  cursor footer-color">Bürocontainer</div>
               </Link>
               <Link href="/menu/xlwohncontainer">
-                <div className="mt-3  cursor footer-color">XL Wohncontainer</div>
+                <div className="mt-1 fzMob  cursor footer-color">XL Wohncontainer</div>
               </Link>
               <Link href="/menu/sanitarcontainer">
-                <div className="mt-3  cursor footer-color">Sanitärcontainer</div>
+                <div className="mt-1 fzMob  cursor footer-color">Sanitärcontainer</div>
               </Link>
               <Link href="/menu/pfortnercontainer">
-                <div className="mt-3  cursor footer-color">
+                <div className="mt-1 fzMob  cursor footer-color">
                   Pförtnercontainer
                 </div>
               </Link>
               <Link href="/menu/specialcontainer">
-                <div className="mt-3 cursor footer-color">Specialcontainer</div>
+                <div className="mt-1 fzMob cursor footer-color">Specialcontainer</div>
               </Link>
               <Link href="/menu/cafe-container">
-                <div className="mt-3  cursor footer-color">Cafe-Container</div>
+                <div className="mt-1 fzMob  cursor footer-color">Cafe-Container</div>
               </Link>
               <Link href="/menu/schulcontainer">
-                <div className="mt-3 cursor footer-color">Schulcontainer</div>
+                <div className="mt-1 fzMob cursor footer-color">Schulcontainer</div>
               </Link>
             </div>
-            <div className="col-lg-2 col-md-6  col-sm-6 ">
-              {" "}
-              <h5 className="mt-2 footer-head">KONTAKTIEREN SIE UNS</h5>
-              <div className="mt-3 footer-color">
+            <div className="col-lg-2 col-md-6 col-2">
+              
+              <h5 className="mt-1 fzMob footer-head">KONTAKTIEREN SIE UNS</h5>
+              <div className="mt-1 fzMob footer-color">
                 Am Huchtert 44, 58456 Witten Deutschland
               </div>
-              <div className="mt-3 footer-color">
+              <div className="mt-1 fzMob footer-color">
                 <a href="tel:+4923028894880">+49 2302 889 4880</a>
               </div>
-              <div className="mt-3 footer-color">
+              <div className="mt-1 fzMob footer-color">
                 <a href="tel:+491736221062">+49 173 622 1062</a>
               </div>
-              <div className="mt-3 footer-color">
+              <div className="mt-1 fzMob footer-color">
                 <a href="mailto:info@containhaus.de">info@containhaus.de</a>
               </div>
             </div>
-            <div className="col-lg-3 gx-5 col-md-6 col-sm-6 ">
-              {" "}
-              <h5 className="mt-2 cursor head-footer footer-head">
+            <div className="col-lg-3 gx-5 col-md-6 col-2">
+              
+              <h5 className="mt-1 fzMob cursor head-footer footer-head">
                 WEITERE SEITEN
               </h5>
               <Link href="/impressum">
-                <div className="mt-3 cursor footer-color">IMPRESSUM</div>
+                <div className="mt-1 fzMob cursor footer-color">IMPRESSUM</div>
               </Link>
               <Link href="/uber-uns">
-                <div className="mt-3 cursor footer-color">ÜBER UNS</div>
+                <div className="mt-1 fzMob cursor footer-color">ÜBER UNS</div>
               </Link>
               <Link href="faq">
-                <div className="mt-3 cursor footer-color">FAQ</div>
+                <div className="mt-1 fzMob cursor footer-color">FAQ</div>
               </Link>
               <Link href="agb">
-                <div className="mt-3 cursor footer-color">AGB</div>
+                <div className="mt-1 fzMob cursor footer-color">AGB</div>
               </Link>
               <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
-                <div className="mt-3 cursor p-1 footer-color border border-light d-inline-block">
+                <div className="mt-1 fzMob cursor p-1 footer-color border border-light d-inline-block">
                   CATALOG HERUNTERLADEN
                 </div>
               </Link>
             </div>
 
-            <p className="mt-5 text-center">
+            <p className=" text-center">
               © 2022, Developed by Contain Haus
             </p>
           </div>

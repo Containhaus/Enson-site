@@ -761,9 +761,9 @@ CardHeightt .pb-35 {
 }
 
 .footer-color {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
+  font-size: 13px;
+  
+  
 }
 
 .footer-mid p {
@@ -826,14 +826,7 @@ CardHeightt .pb-35 {
   
  
 }
-@media only screen and (max-width: 400px) {
-  .footer-bot .footer-text{
-    font-size: 10px;
-  }
-  .footer-mid-bot .footer-bot-text{
-    font-size: 15px !important;
-  }
-} 
+
 
 */
 .medium-footer {
@@ -852,10 +845,7 @@ CardHeightt .pb-35 {
   margin-top: 30px;
 }
 
-.footer-logo {
-  width: 200px;
-  height: 120px;
-}
+
 
 .cursor {
   cursor: pointer;
@@ -1829,7 +1819,7 @@ floatemail {
 
 .floatemailMobil {
   z-index: 10 !important;
-  bottom: 1.5rem;
+  bottom: 0.5rem;
   cursor: pointer;
   position: fixed;
   right: 2rem;
@@ -1837,7 +1827,7 @@ floatemail {
 
 .floatingbuttonnnnMobil {
   z-index: 10 !important;
-  bottom: 1.8rem;
+  bottom: 0.8rem;
   cursor: pointer;
   position: fixed;
   left: 2rem;
@@ -1845,7 +1835,7 @@ floatemail {
 
 .floaWhatsapplMobil {
   z-index: 10 !important;
-  bottom: 1.2rem;
+  bottom: 0.3rem;
   cursor: pointer;
   position: fixed;
   right: 47%;
@@ -1906,8 +1896,14 @@ floatemail {
   }
 }
 @media screen and (max-width: 786px) {
-  .mt-3 {
-    margin-top: 2px !important;
+  .footer-logo {
+    position: relative !important;
+    width: 30px!important;
+    height: 50px !important;
+  }
+ 
+  .fzMob{
+    font-size: 12px !important;
   }
   .YTCardHe {
     height: 30px !important;
@@ -1944,7 +1940,7 @@ floatemail {
 
   
   .mt-200 {
-    margin-top: 100px !important;
+    margin-top: 200px !important;
   }
 
   
@@ -2096,3 +2092,12 @@ floatemail {
     height: 420px !important;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .footer-bot .footer-text{
+    font-size: 10px;
+  }
+  .footer-mid-bot .footer-bot-text{
+    font-size: 15px !important;
+  }
+} 

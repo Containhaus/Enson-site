@@ -183,7 +183,7 @@ const Product = ({ product }) => {
                 </Swiper>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border ">
+            <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border mt-100">
               <div>
 
                 <div >
