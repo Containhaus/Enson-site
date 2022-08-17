@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <>
       <footer className="footer vh-100 ">
-        <div className="container">
-          <div className="row justify-content-center mt-100">
+        <div className="container mt-100">
+          <div className="row justify-content-center ">
             <div className="col-lg-3 col-md-6 col-sm-6 col-6  ">
-              <div className="footer-top ">
+              <div className="">
                 <Image
                   height={65}
                   width={150}
-                  className="footer-logo"
+                  
                   src="/assets/img/1.png"
                 />
               </div>
@@ -118,7 +118,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-2 gx-1 col-md-6 col-sm-6 col-6  pt-60">
+            <div className="col-lg-2 gx-1 col-md-6 col-sm-6 col-6  ">
               <h5 className="mt-1 fzMob footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
                 <div className="mt-1 fzMob  cursor footer-color">FlatPack</div>

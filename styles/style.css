@@ -1896,11 +1896,7 @@ floatemail {
   }
 }
 @media screen and (max-width: 786px) {
-  .footer-logo {
-    position: relative !important;
-    width: 30px!important;
-    height: 50px !important;
-  }
+  
  
   .fzMob{
     font-size: 12px !important;
@@ -1939,9 +1935,6 @@ floatemail {
   }
 
   
-  .mt-200 {
-    margin-top: 200px !important;
-  }
 
   
 
