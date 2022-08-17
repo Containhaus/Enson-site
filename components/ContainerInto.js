@@ -6,6 +6,10 @@ const ContainerInto = ({ data, className }) => {
   const [width] = windowSize();
   const textColor = () => {
     if (width < 768) {
+      if (router.asPath === "/") {
+        return data.TitleColor
+      }
+     
       if (router.asPath === "/burocontainer") {
         return "text-dark"
       }
@@ -22,6 +26,10 @@ const ContainerInto = ({ data, className }) => {
         return "text-dark"
       }
     } else {
+      if (router.asPath === "/") {
+        return data.TitleColor
+      }
+      
       if (router.asPath === "/burocontainer") {
         return "text-dark"
       }
@@ -147,7 +155,7 @@ const ContainerInto = ({ data, className }) => {
           priority
         />
         <div className="intro-content mx-3">
-          <h1 className={`${textColor()}  fw-600`}>{data.title.second}</h1>
+          <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
           <h5 className={`mt-1 ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
           <div className="mr-1 ">
           <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>

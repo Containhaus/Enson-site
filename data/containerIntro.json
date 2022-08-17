@@ -14,7 +14,8 @@
     "homeHref":"/burocontainer",
     "homeButton":"HIER GEHT'S WEITER",
     "pageButton":"JETZT ZUM SHOP",
-    "MainpgClass":"text-white"
+    "MainpgClass":"text-white",
+    "TitleColor":"text-light"
   },
   "wohncontainers":{
     "id": 1,
@@ -48,7 +49,7 @@
     "homeHref":"/sanitar-container",
     "homeButton":"HIER GEHT'S WEITER",
     "pageButton":"JETZT ZUM SHOP",
-    "MainpgClass":"text-dark"
+    "MainpgClass":"text-light"
 
   },
   "flatpackcontainers": {
@@ -83,6 +84,8 @@
     "homeHref":"/special-edition",
     "homeButton":"HIER GEHT'S WEITER",
     "pageButton":"JETZT ZUM SHOP",
-    "MainpgClass":"text-dark"
+    "MainpgClass":"text-light",
+    "TitleColor":"text-light"
+    
   }
 }
