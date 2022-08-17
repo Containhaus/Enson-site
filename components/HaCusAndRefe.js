@@ -7,7 +7,7 @@ const HaCusAndRefe = ({ data }) => {
   return (
     <div className="container vh-100">
         <div className="text-center pt-90">
-          <h5 className=" fw-400 pt-10 mb-0  fz-30">Unsere Referenzen</h5>
+          <h5 className=" fw-400 pt-10 mb-0    fz-30">Unsere Referenzen</h5>
         </div>
         <div className=" pe-5 ps-5">
           <Splide
