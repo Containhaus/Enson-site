@@ -56,7 +56,7 @@ const Burocontaıner = () => {
           </>
         ) : (
           <div className="loading">
-              <div className='container'>
+              <div className='container '>
             <LoadingScreen></LoadingScreen>
             </div>
           </div>

@@ -68,7 +68,7 @@ const Kontakt = () => {
                   </a>
                 </h5>
               </div>
-              <div className="d-flex mt-4">
+              <div className="d-flex       mt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
