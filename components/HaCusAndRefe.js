@@ -7,7 +7,7 @@ const HaCusAndRefe = ({ data }) => {
   return (
     <div className="container vh-100">
         <div className="text-center pt-90">
-          <h3 className="fw-700 display-1 pt-10 mb-0  fz-40">Unsere Referenzen</h3>
+          <h5 className=" fw-400 pt-10 mb-0  fz-30">Unsere Referenzen</h5>
         </div>
         <div className=" pe-5 ps-5">
           <Splide
@@ -41,7 +41,7 @@ const HaCusAndRefe = ({ data }) => {
                 <SplideSlide key={Val.id}>
                   
                     <div
-                      className="card p-2 my-3 py-3 col-12 shadow-product"
+                      className="card p-2  col-12 shadow-product"
                       key={Val.id}
                     >
                       <div className="card-img-top text-center ">

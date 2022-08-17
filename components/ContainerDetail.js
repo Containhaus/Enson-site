@@ -7,8 +7,8 @@ const ContainerDetail = () => {
     <div>
       <div className="container vh-100 ">
         
-        <div className="row pt-120">
-          <div className="col-lg-6 col-md-10 mt-3 pt-3 ">
+        <div className="row pt-100">
+          <div className="col-lg-6 col-md-10 ">
             <div className=" p-4 m-4 ">
               <Link href="#">
                 <h1 data-splitting className="detail-subtitle text-45">
