@@ -5,7 +5,7 @@ import introContainer from "../data/containerIntro.json"
 import WhyWeComponent from '../components/WhyWeComponent'
 
 import ContainerAnimation from '../components/ContainerAnimation'
-
+import Footer from "../components/Footer"
 import useOnScreen from "../utils/utils";
 import dynamic from "next/dynamic";
 import ContainerDetail from '../components/ContainerDetail'
