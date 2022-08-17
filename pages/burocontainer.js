@@ -3,6 +3,7 @@ import React from "react";
 import introContainer from "../data/containerIntro.json";
 import buroHappyData from "../data/HaCusAndRefe.json";
 import HaCusAndRefe from "../components/HaCusAndRefe";
+import Footer from "../components/Footer";
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
 import useOnScreen from "../utils/utils";

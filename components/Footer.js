@@ -15,7 +15,6 @@ const Footer = () => {
                 <Image
                   height={65}
                   width={150}
-                  
                   src="/assets/img/1.png"
                 />
               </div>
