@@ -7,10 +7,10 @@ import "@splidejs/react-splide/css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer vh-100 ">
-        <div className="container pt-200 pt5rem">
+      <footer className="footer ">
+        <div className="container ">
           <div className="row justify-content-center ">
-            <div className="col-lg-3 col-md-6 col-sm-6 col-6  ">
+            <div className="col-lg-3 col-md-6 col-sm-6   ">
               <div className="">
                 <Image
                   height={65}
@@ -117,7 +117,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-2 gx-1 col-md-6 col-sm-6 col-6  ">
+            <div className="col-lg-2 gx-1 col-md-6 col-sm-6   ">
               <h5 className="mt-1 fzMob footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
                 <div className="mt-1 fzMob  cursor footer-color">FlatPack</div>
@@ -149,7 +149,7 @@ const Footer = () => {
                 <div className="mt-1 fzMob cursor footer-color">Schulcontainer</div>
               </Link>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-6 col-6 ">
+            <div className="col-lg-2 col-md-6 col-sm-6  ">
               
               <h5 className="mt-1 fzMob footer-head">KONTAKTIEREN SIE UNS</h5>
               <div className="mt-1 fzMob footer-color">
@@ -165,7 +165,7 @@ const Footer = () => {
                 <a href="mailto:info@containhaus.de">info@containhaus.de</a>
               </div>
             </div>
-            <div className="col-lg-3 gx-5 col-md-6 col-sm-6 col-6 ">
+            <div className="col-lg-3 gx-5 col-md-6 col-sm-6  ">
               
               <h5 className="mt-1 fzMob cursor head-footer footer-head">
                 WEITERE SEITEN
