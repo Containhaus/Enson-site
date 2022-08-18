@@ -176,7 +176,7 @@ const Burocontaıner = () => {
       <Splide
 
         options={{
-          speed : 1000,
+          speed : 2000,
           waitForTransition: true,
           direction: 'ttb',
           height: '100vh',
