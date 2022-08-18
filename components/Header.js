@@ -59,7 +59,7 @@ const Header = () => {
             </span>
             </div>
           </div>
-          <nav className="navbar navbar-expand-md navbar-light bg-transparent pt-0 pb-0">
+          <nav className="navbar navbar-expand-lg navbar-light bg-transparent pt-0 pb-0">
             <div className="container">
               <Link href="/">
                 <a className="navbar-brand pt-0 pb-0" >
@@ -73,7 +73,7 @@ const Header = () => {
               </Link>
 
               <button
-                className="navbar-toggler"
+                className="navbar-toggler "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"

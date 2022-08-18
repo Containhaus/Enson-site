@@ -9,7 +9,7 @@ const HomePageShop = ({ data }) => {
 
   return (
     <div className="container  vh-100">
-      <div className="pe-5 ps-5 pt-100">
+      <div className="pe-5 ps-5 pt-100 pt4rem">
         <Splide
           classes={{
             prev: 'splide__arrow--prev ArowPrevOut',

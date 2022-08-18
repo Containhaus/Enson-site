@@ -712,12 +712,13 @@ CardHeightt .pb-35 {
 
 .intro-button {
   background-color: #171a20cc;
-  border: 1px solid #171a20cc;
+  
   border-radius: 24px;
   outline: none;
-  padding: 10px 20px;
+  padding: 5px 20px;
   color: white;
-  font-size: 15px;
+  font-size: 11px;
+  border: none;
 }
 
 /* Banner Components */
@@ -1901,13 +1902,35 @@ floatemail {
   }
 }
 @media screen and (max-width: 786px) {
-  .pt5rem{
-    padding-top: 5rem !important;
+  .pt2rem{
+    padding-top: 2rem !important;
   }
- .ImgWidthAnimi{
-  width: 10px !important;
-  height: 10px !important;
- }
+  .pt3rem{
+    padding-top: 3rem !important;
+  }
+  .pt4rem{
+    padding-top: 4rem !important;
+  }
+  .pt1rem{
+    padding-top: 1rem !important;
+  }
+  .pb1rem{
+    padding-bottom: 1rem !important;
+  }
+  .AnimiH{
+    font-size: 10px !important;
+    font-weight: 600 !important;
+  }
+  .AnimiP{
+    font-size: 10px;
+    margin-bottom: 0px !important;
+  }
+  .AnimiImgSize{
+    position: relative;
+    width: 200px !important;
+    height: 100px !important;
+  }
+ 
   .fzMob{
     font-size: 12px !important;
   }

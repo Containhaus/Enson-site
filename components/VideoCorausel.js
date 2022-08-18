@@ -154,7 +154,7 @@ export default function VideoCorausel() {
               lazyLoad: 'nearby',
               padding: '20%',
               perMove: 1,
-              autoplay: true,
+              
               pauseOnHover: false,
               resetProgress: false,
             }}
