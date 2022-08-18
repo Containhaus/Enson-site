@@ -17,7 +17,7 @@ export default function Home() {
       <Splide
 
         options={{
-          speed: 2000,
+          speed: 1500,
           waitForTransition: true,
           direction: 'ttb',
           height: '100vh',
