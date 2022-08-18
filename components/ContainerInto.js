@@ -4,132 +4,7 @@ import windowSize from "../utils/windowSize";
 import Image from "next/image";
 const ContainerInto = ({ data, className }) => {
   const [width] = windowSize();
-  const textColor = () => {
-    if (width < 768) {
-      if (router.asPath === "/") {
-        return data.TitleColor
-      }
-     
-      if (router.asPath === "/burocontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/wohncontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-light"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-dark"
-      }
-    } else {
-      if (router.asPath === "/") {
-        return data.TitleColor
-      }
-      
-      if (router.asPath === "/burocontainer") {
-        return "text-dark"
-      }
-      else if (router.asPath === "/wohncontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-dark"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-light"
-      }
-    }
-  }
-  const textColorContent = () => {
-    if (width < 768) {
-      if (router.asPath === "/") {
-        return data.MainpgClass
-      }
-      if (router.asPath === "/burocontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/wohncontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-light"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-dark"
-      }
-    } else {
-      if (router.asPath === "/") {
-        return data.MainpgClass
-      }
-      if (router.asPath === "/burocontainer") {
-        return "text-dark"
-      }
-      else if (router.asPath === "/wohncontainer") {
-        return "text-dark"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-dark"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-light"
-      }
-    }
-
-  }
-  const textColorContentDirekt = () => {
-    if (width < 768) {
-      if (router.asPath === "/") {
-        return "text-danger"
-      }
-      if (router.asPath === "/burocontainer") {
-        return "text-danger"
-      }
-      if (router.asPath === "/wohncontainer") {
-        return "text-danger"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-danger"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-danger"
-      }
-    } else {
-      if (router.asPath === "/") {
-        return "text-danger"
-      }
-      if (router.asPath === "/burocontainer") {
-        return "text-danger"
-      }
-      else if (router.asPath === "/wohncontainer") {
-        return "text-danger"
-      }
-      if (router.asPath === "/sanitar-container") {
-        return "text-danger"
-      }
-      if (router.asPath === "/flat-pack") {
-        return "text-dark"
-      }
-      if (router.asPath === "/special-edition") {
-        return "text-light"
-      }
-    }
-  }
+ 
   const router = useRouter();
   const test = () => {
     if (router.asPath === "/") {
@@ -155,11 +30,9 @@ const ContainerInto = ({ data, className }) => {
           priority
         />
         <div className="intro-content mx-3">
-          <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
-          <h5 className={`mt-1 ${textColorContentDirekt()} fw-600`}>Direkt ab Werk</h5>
-          <div className="mr-1 ">
-          <h5 className={`${textColorContent()} fw-400`}>{data.content.first}</h5>
-          </div>
+          <h1 className={`text-dark fw-600`}>{data.title.second}</h1>
+          <h5 className={`mt-1 fw-600`}>Direkt ab Werk</h5>
+          
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
           </Link>

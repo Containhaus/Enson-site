@@ -110,6 +110,7 @@ const HaCusAndRefe = ({ data }) => {
             })}
           </Splide >
         </div>
+        <div className="pt-4">
         <div className="bg-dark ">
           <Splide
             options={{
@@ -200,6 +201,7 @@ const HaCusAndRefe = ({ data }) => {
               />
             </SplideSlide>
           </Splide>
+        </div>
         </div>
     </div >
   );

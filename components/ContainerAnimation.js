@@ -6,7 +6,7 @@ const ContainerAnimation = () => {
     <>
       <div>
         <div className="container mt-4 vh-100 border-bottom">
-          <div className="row pt-60">
+          <div className="row pt-200 pt5rem">
             <div className="col-lg-4 col-md-4 col-sm-12 item position-relative ">
               <div className="d-flex pb-4 justify-content-center position-relative">
                 <div className="p-0 m-0 hoverItemmm">
@@ -15,7 +15,8 @@ const ContainerAnimation = () => {
                     width={400}
                     height={200}
                     quality={50}
-                    alt="Card image cap"  
+                    alt="Card image cap" 
+                    className="ImgWidthAnimi"
                   />
                 </div>
                 <Image
@@ -43,6 +44,7 @@ const ContainerAnimation = () => {
                     height={200}
                     quality={50}
                     alt="Card image cap"
+                    className="ImgWidthAnimi"
                   />
                 </div>
                 <Image
@@ -70,6 +72,7 @@ const ContainerAnimation = () => {
                     height={200}
                     quality={50}
                     alt="Card image cap"
+                    className="ImgWidthAnimi"
                   />
                 </div>
                 <Image

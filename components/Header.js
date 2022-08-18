@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <>
       <header role="banner ">
-        <div className="fixed-top bg-light navbaropa" >
-          <div className="navbar-catalog ">
+        <div className="fixed-top bg-transparent navbaropa" >
+          <div className="navbar-catalog bg-light">
             <div className="navbar-info"> 
             <span className=" navbar-info-span">
               <svg

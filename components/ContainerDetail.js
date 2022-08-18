@@ -7,7 +7,7 @@ const ContainerDetail = () => {
     <div>
       <div className="container vh-100 ">
         
-        <div className="row pt-100">
+        <div className="row pt-300 pt5rem">
           <div className="col-lg-6 col-md-10 ">
             <div className=" p-4 m-4 ">
               <Link href="#">
