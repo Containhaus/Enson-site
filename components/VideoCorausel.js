@@ -51,7 +51,7 @@ export default function VideoCorausel() {
   }
   return (
     <>
-      <div className="container vh-100">
+      <div className="container">
         
         {typeof window !== "undefined" && (
           <ModalVideo
