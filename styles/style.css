@@ -1900,6 +1900,9 @@ floatemail {
   .section-padding {
     padding-top: 15px !important;
   }
+  .navbar-collapse {
+    background: white;
+  }
 }
 @media screen and (max-width: 786px) {
   .pt2rem{
