@@ -1,13 +1,13 @@
 import ContainerInto from "../components/ContainerInto";
-import introContainer from "../data/containerIntro.json"
-import Head from 'next/head'
+import introContainer from "../data/containerIntro.json";
+import Head from "next/head";
 import Footer from "../components/Footer";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 export default function Home() {
-  const { buroconteiner } = introContainer
-  const { wohncontainers } = introContainer
-  const { sanitacontainers } = introContainer
-  const { specialeditatons } = introContainer
+  const { buroconteiner } = introContainer;
+  const { wohncontainers } = introContainer;
+  const { sanitacontainers } = introContainer;
+  const { specialeditatons } = introContainer;
   return (
     <>
       <Head>
@@ -15,32 +15,43 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Splide
-
         options={{
           speed: 1000,
           waitForTransition: true,
-          direction: 'ttb',
-          height: '100vh',
+          direction: "ttb",
+          height: "100vh",
           wheel: true,
-          pagination:false,
-          arrows:true,
+          pagination: false,
+          arrows: true,
         }}
         aria-label="My Favorite Images"
       >
         <SplideSlide>
-        <ContainerInto data={buroconteiner} />
+          <div>
+            <ContainerInto data={buroconteiner} />
+          </div>
+        </SplideSlide>
+
+        <SplideSlide>
+          <div>
+            <ContainerInto data={wohncontainers} />
+          </div>
         </SplideSlide>
         <SplideSlide>
-        <ContainerInto data={wohncontainers} />
+          <div>
+            <ContainerInto data={sanitacontainers} />
+          </div>
         </SplideSlide>
         <SplideSlide>
-        <ContainerInto data={sanitacontainers} />
+          <div>
+            <ContainerInto data={specialeditatons} />
+          </div>
         </SplideSlide>
+
         <SplideSlide>
-        <ContainerInto data={specialeditatons} />
-        </SplideSlide>
-        <SplideSlide>
-        <Footer/>
+          <div>
+            <Footer />
+          </div>
         </SplideSlide>
       </Splide>
     </>

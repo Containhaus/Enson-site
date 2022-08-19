@@ -78,14 +78,16 @@ const Product = ({ product }) => {
                 >
                   <SwiperSlide>
                     <Image
-                      width={800}
-                      height={560}
+                     objectFit="cover"
+                     width={800}
+                     height={560}
                       className="product-page-img"
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={800}
                       height={560}
                       className="product-page-img"
@@ -94,6 +96,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={800}
                       height={560}
                       className="product-page-img"
@@ -102,6 +105,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={800}
                       height={560}
                       className="product-page-img"
@@ -110,6 +114,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                   
                       width={800}
                       height={560}
                       className="product-page-img"
@@ -129,6 +134,7 @@ const Product = ({ product }) => {
                 >
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -137,6 +143,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -145,6 +152,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -153,6 +161,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                      objectFit="cover"
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -161,6 +170,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
+                    
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -288,6 +298,7 @@ const Product = ({ product }) => {
                 <p>
                   {product?.description?.TransportCost}
                 </p>
+               
                 <p>
                   {product?.description?.customization}
                 </p>
@@ -333,6 +344,7 @@ const Product = ({ product }) => {
         </div>
       </div>
       <Footer/>
+   
     </div>
   );
 };
