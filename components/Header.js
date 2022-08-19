@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       <header role="banner ">
-        <div className="fixed-top bg-transparent navbaropa" >
+        <div className="fixed-top bg-light navbaropa" >
           <div className="navbar-catalog bg-light">
             <div className="navbar-info"> 
             <span className=" navbar-info-span">
@@ -59,7 +59,7 @@ const Header = () => {
             </span>
             </div>
           </div>
-          <nav className="navbar navbar-expand-md navbar-light bg-transparent pt-0 pb-0">
+          <nav className="navbar navbar-expand-lg navbar-light bg-transparent pt-0 pb-0">
             <div className="container">
               <Link href="/">
                 <a className="navbar-brand pt-0 pb-0" >
@@ -73,7 +73,7 @@ const Header = () => {
               </Link>
 
               <button
-                className="navbar-toggler"
+                className="navbar-toggler "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -85,10 +85,10 @@ const Header = () => {
               </button>
               <div
               ref={first}
-                className="collapse navbar-collapse "
+                className="collapse  navbar-collapse "
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ms-auto pl-lg-5 mx-2 pl-0 text-center">
+                <ul className="navbar-nav ms-auto pl-lg-5 mx-2 pl-0  text-center ">
                   <li className="nav-item">
                     <Link href="/burocontainer">
                       <a className="nav-link " aria-current="page" onClick={handleClick} >

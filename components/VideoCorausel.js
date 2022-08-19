@@ -51,7 +51,7 @@ export default function VideoCorausel() {
   }
   return (
     <>
-      <div className="container vh-100">
+      <div className="container">
         
         {typeof window !== "undefined" && (
           <ModalVideo
@@ -154,7 +154,7 @@ export default function VideoCorausel() {
               lazyLoad: 'nearby',
               padding: '20%',
               perMove: 1,
-              autoplay: true,
+              
               pauseOnHover: false,
               resetProgress: false,
             }}

@@ -5,9 +5,9 @@ import Image from "next/image";
 const ContainerDetail = () => {
   return (
     <div>
-      <div className="container vh-100 ">
+      <div className="container mt-4 mb-4">
         
-        <div className="row pt-300 pt5rem">
+        <div className="row ">
           <div className="col-lg-6 col-md-10 ">
             <div className=" p-4 m-4 ">
               <Link href="#">

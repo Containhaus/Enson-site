@@ -30,8 +30,8 @@ const ContainerInto = ({ data, className }) => {
           priority
         />
         <div className="intro-content mx-3">
-          <h1 className={`text-dark fw-600`}>{data.title.second}</h1>
-          <h5 className={`mt-1 fw-600`}>Direkt ab Werk</h5>
+          <h1 className={`text-dark mb-0 fw-600`}>{data.title.second}</h1>
+          <h5 className={`mt-1 fw-500`}>Direkt ab Werk</h5>
           
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
