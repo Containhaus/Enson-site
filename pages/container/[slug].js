@@ -170,7 +170,6 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                    
                       width={147}
                       height={110}
                       className="product-page-img"
@@ -182,7 +181,6 @@ const Product = ({ product }) => {
             </div>
             <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border mt-100 mobMt0">
               <div>
-
                 <div >
                   <h4 className="fw-600 fz-30">{product?.title}</h4>
                   <h6 className="fw-600 fz-20 mt-2">Beschreibung</h6>

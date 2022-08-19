@@ -35,7 +35,7 @@
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
        "mobileTitleColor":"text-dark",
-       "titleColor":"text-light"
+       "titleColor":"text-dark"
      },
      "feelGood":{
        "id": 3,
@@ -72,7 +72,8 @@
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
-       "titleColor":"text-dark"
+       "titleColor":"text-dark",
+       "direktColor":"text-light"
      },
      "MyLittleFamily":{
        "id": 5,
@@ -91,7 +92,9 @@
        "pageButton":"JETZT ANFRAGEN",
        "MainpgClass":"text-dark",
        "mobileTitleColor":"text-light",
-       "titleColor":"text-light"
+       "titleColor":"text-light",
+       "direktColor":"text-light"
+       
      },
      "Spectecular":{
         "id": 6,
@@ -110,7 +113,8 @@
         "pageButton":"JETZT ANFRAGEN",
         "MainpgClass":"text-dark",
         "mobileTitleColor":"text-light",
-        "titleColor":"text-light"
+        "titleColor":"text-light",
+        "direktColor":"text-light"
         
 
       }

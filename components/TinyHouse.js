@@ -20,7 +20,7 @@ const ContainerInto = ({ data, className }) => {
                 />
                 <div className="intro-content ">
                     <h1 className={`${width < 768?data.mobileTitleColor: data.titleColor} fw-600`}>{data.title.second}</h1>
-                    <h5 className={`mt-1  fw-600`}>Direkt ab Werk</h5>
+                    <h5 className={`${data.direktColor} mt-1 fw-600`}>Direkt ab Werk</h5>
                     <h5 className={` fw-400`}>{data.content.first}</h5>
                     <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
                         <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
