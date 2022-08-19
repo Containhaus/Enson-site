@@ -9,7 +9,7 @@ const MenuContentBuroContainer = ({ data }) => {
             <div className="container text-justify">
               <div className="row">
                 <div className="col-lg-12  ">
-                  <div className=" mt-10">
+                  <div className=" mt-200">
                     <h1 className=" text-dark d-flex  justify-content-center ">
                       {data.title.first}
                     </h1>

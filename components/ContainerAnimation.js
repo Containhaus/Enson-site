@@ -5,7 +5,7 @@ const ContainerAnimation = () => {
   return (
     <>
       <div>
-        <div className="container mt-4 mb-4 ">
+        <div className="container mt-100 mb-4 ">
           <div className="row  justify-content-center">
             <div className="col-lg-4 col-md-4 col-sm-6 col-9  item position-relative ">
               <div className="d-flex pb-4  justify-content-center position-relative">
