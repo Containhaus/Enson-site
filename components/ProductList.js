@@ -5,21 +5,36 @@ const ProductList = ({ product }) => {
   return (
     <>
     <Link  href={`/container/${product.slug}`}>
+   
       <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-xs-10 mb-4  gx-3 mt-2 cursor">
-        <div className="card text-black ">
+  
+        <div className="card text-black position-relative">
           <Image
             objectFit="cover"
             width={306}
             height={229}
+          
             src={product.image.ima1}
             className="card-img-top"
             priority
             alt="iPhone"
           />
+      
+      {
+        product.isInStock && (
+          <div className="position-absolute product-stock fz-12 mt-1 ms-1">Sofort Lieferbereit</div>
+        )
+      }
+    
+          
           <div className="card-body card-info">
             <div className=" mt-1 ">
               <h4 className="card-title fw-600">{product.title}</h4>
-              <h6 className="text-dark mb-1 pb-1  fz-10">{product.content.text1}</h6>
+              <div className="d-flex justify-content-between align-items-center">
+              <h6 className="text-dark mb-1 pb-1  fz-12">{product.content.text1}</h6>
+           
+              </div>
+             
               <h5 className="text-dark mb-1 fw-600 pb-1 text-decoration-line-through">{product.content.cutprice}</h5>
               <h5 className="text-dark mb-1 fw-600 pb-1">{product.content.price}</h5>
               <h6 className="card-title mb-1 pb-1 fw-600">{product.content.text2}</h6>
@@ -45,6 +60,7 @@ const ProductList = ({ product }) => {
           </div>
         </div>
       </div>
+ 
       </Link>
     </>
   );
