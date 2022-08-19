@@ -47,39 +47,26 @@ const Burocontaıner = () => {
         <title>Contain Haus | Bürocontainer Preise kaufen </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      
-      
+
       {/* <ContainerInto data={buroconteiner}/> */}
-      
+
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
-      
-      
+
       <ContainerDetail />
-      
-          
-            <HomePageShop data={burofilter} />
-            
-            
-            <ContainerColorSelector data={BuroContarinerColorSelector} />
-            
-            
-            <WhyWeComponent />
-            
-            
-            <HaCusAndRefe data={buroHappyDatafilter} />
-            
-            
-            
-            <VideoCorausel/>
-            
-            <ContainerAnimation />
-            
-            
-            <Footer/>
-            
-       
-            
-      
+
+      <HomePageShop data={burofilter} />
+
+      <ContainerColorSelector data={BuroContarinerColorSelector} />
+
+      <WhyWeComponent />
+
+      <HaCusAndRefe data={buroHappyDatafilter} />
+
+      <VideoCorausel />
+
+      <ContainerAnimation />
+
+      <Footer />
     </div>
   );
 };

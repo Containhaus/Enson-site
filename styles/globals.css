@@ -134,3 +134,7 @@ margin-top: 150px !important;
   height: 16px;
   width: 100px;
 }
+.box-size{
+width: 500 !important;
+height: 500 !important;
+}
