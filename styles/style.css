@@ -2144,3 +2144,9 @@ floatemail {
     font-size: 15px !important;
   }
 } 
+.product-stock{
+ padding: 5px;
+ background-color: rgb(129, 185, 45);
+ color: white;
+ font-weight: 600;
+}

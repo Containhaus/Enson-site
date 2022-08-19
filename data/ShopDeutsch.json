@@ -537,6 +537,7 @@
     },
     "title": "WC + DUSCH",
     "slug": "wc-dusch",
+    "isInStock":true,
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC-DUSCH Container",
@@ -580,13 +581,14 @@
     "category": "sanitarcontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/1.jpg",
-      "ima2": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/2.webp",
+      "ima2": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/2.jpg",
       "ima3": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/3.jpg",
-      "ima4": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/3.webp",
-      "ima5": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/13.jpg"
+      "ima4": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/SANITE/WCwithDUSH/5.png"
     },
     "title": "WC & DUSCH",
     "slug": "dusch-und-wc",
+    "isInStock":true,
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | WC mit DUSCH Container",
@@ -779,14 +781,15 @@
     "id": "16",
     "category": "sanitarcontainer",
     "image": {
-      "ima1": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/1.webp",
-      "ima2": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/2.webp",
-      "ima3": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/3.webp",
-      "ima4": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/4.webp",
+      "ima1": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/4.jpg",
       "ima5": "/assets/img/ShopDeutsch/SANITE/WCWCDUSHW/5.webp"
     },
     "title": "WC + WC + DUSCH",
     "slug": "wc-wc-dusch",
+    "isInStock":true,
     "content": {
       "text1": "NEU",
       "text2": "Sanitärcontainer | DUSCH-WC Container",
@@ -1032,20 +1035,21 @@
     "id": "21",
     "category": "burocontainer",
     "image": {
-      "ima1": "/assets/img/ShopDeutsch/BuroCon/Con23/1.webp",
-      "ima2": "/assets/img/ShopDeutsch/BuroCon/Con23/2.webp",
-      "ima3": "/assets/img/ShopDeutsch/BuroCon/Con23/3.webp",
-      "ima4": "/assets/img/ShopDeutsch/BuroCon/Con23/4.webp",
-      "ima5": "/assets/img/ShopDeutsch/BuroCon/Con23/5.webp"
+      "ima1": "/assets/img/ShopDeutsch/CON23/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/CON23/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/CON23/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/CON23/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/CON23/5.jpg"
     },
     "title": "CON-23",
     "slug": "con-23",
+    "isInStock":true,
     "content": {
       "text1": "NEU",
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600 14,40m²",
-      "price": "7.736,00 €",
-      "text6": "2x Zimmer, 1x Eingangstür,1x Innentür 3x Fenster mit Rolladen, 1x Küche",
+      "price": "7.620,00 €",
+      "text6": "2x Zimmer, 1x Eingangstür,1x Innentür, 1x Schiebefenster, 1x WC mit Waschbecken, 1x Küche",
       "text7 ": ""
     },
     "href": {
@@ -1061,7 +1065,7 @@
       "height":"Höhe: 2.50m",
       "Area": "Quadratmeter: 14.40m²",        
       "Description": "Beschreibung:",
-      "Features": "Ausstattung: 2x Zimmer, 1x Eingangstür,1x Innentür 3x Fenster mit Rolladen, 1x Küche" ,
+      "Features": "2x Zimmer, 1x Eingangstür,1x Innentür, 1x Schiebefenster, 1x WC mit Waschbecken, 1x Küche" ,
       "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
       "strength": "Vinyl Bodenbelag 2-3mm - robust.",
       "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
@@ -1784,7 +1788,7 @@
       "text2": "Sanitärcontainer | WC Container | Toilettencontainer",
       "text3": "B:120 | L:220 | 2.42 m²",
       "price": "3.800,00 €",
-      "text6": "2x WC mit Waschbecken, 2x Eingangstür mit mattierter Glastür, 2x Belüftung",
+      "text6": "2x WC mit Waschbecken, 2x Eingangstür mit mattierter Glas, 2x Belüftung",
       "text7 ": ""
     },
     "href": {
@@ -1869,7 +1873,7 @@
   },
   {
     "id": "38",
-    "category": "sanitarcontainer",
+    "category": "burocontainer",
     "image": {
       "ima1": "/assets/img/ShopDeutsch/CoronaContainer/1.jpg",
       "ima2": "/assets/img/ShopDeutsch/CoronaContainer/2.jpg",
@@ -1916,7 +1920,212 @@
       "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
       "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
+  },
+  {
+    "id": "39",
+    "category": "burocontainer",
+    "image": {
+      "ima1": "/assets/img/ShopDeutsch/PfortnerSanite/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/PfortnerSanite/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/PfortnerSanite/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/PfortnerSanite/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/PfortnerSanite/5.jpeg"
+    },
+    "title": "Pförtnercontainer ",
+    "slug": "pförtnercontainer-contain",
+    "isInStock":true,
+    "content": {
+      "text1": "NEU",
+      "text2": "Pförtnercontainer",
+      "text3": "B:240 | L:120 | 2.88 m²",
+      "price": "3.000,00 €",
+      "text6": "1x Zimmer,  1x Eingangstür mit 1 x kleines Fenster, 2x  Doppel Fenster",
+      "text7 ": ""
+    },
+    "href": {
+      "href1": "/Kontakt",
+      "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Hersteller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 1.20m,",
+      "height":"Höhe: 2.45m",
+      "Area": "Quadratmeter: 3.84m²",        
+      "Description": "Beschreibung:",
+      "Features": "1x Zimmer,  1x Eingangstür mit 1 x kleines Fenster, 2x  Doppel Fenster" ,
+      "Isolation": "Isolation mit 80 mm Minerallwolle Dachisolation, 50 mm PUR Wandisolation.",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust.",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    }
+  },
+  {
+    "id": "40",
+    "category": "sanitarcontainer",
+    "image": {
+      "ima1": "/assets/img/ShopDeutsch/2XWC/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/2XWC/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/2XWC/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/2XWC/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/2XWC/5.jpeg"
+    },
+    "title": "2X WC + 2X DUSCH",
+    "slug": "2x-wc-2x-dusch",
+    "isInStock":true,
+    "content": {
+      "text1": "NEU",
+      "text2": "Sanitärcontainer",
+      "text3": "B:240 | L:240 | 5.76 m²",
+      "price": "3.900,00 €",
+      "text6": "4x Zimmer, 2x WC mit Waschbecken, 2x Dusch,  4x Eingangstür",
+      "text7 ": ""
+    },
+    "href": {
+      "href1": "/Kontakt",
+      "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Hersteller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 2.40m,",
+      "length": "Länge: 2.40m,",
+      "height":"Höhe: 2.40m",
+      "Area": "Quadratmeter: 5.76m²",        
+      "Description": "Beschreibung:",
+      "Features": "4x Zimmer, 2x WC mit Waschbecken, 2x Dusch,  4x Eingangstür" ,
+      "Isolation": "Isolation mit 80 mm Minerallwolle Dachisolation, 50 mm PUR Wandisolation.",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust.",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    }
+  },
+  {
+    "id": "41",
+    "category": "sanitarcontainer",
+    "image": {
+      "ima1": "/assets/img/ShopDeutsch/1XDUSH/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/1XDUSH/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/1XDUSH/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/1XDUSH/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/1XDUSH/5.jpg"
+    },
+    "title": "DUSCHE ",
+    "slug": "dushe",
+    "isInStock":true,
+    "content": {
+      "text1": "NEU",
+      "text2": "Sanitärcontainer",
+      "text3": "B:120 | L:220 | 2.64 m²",
+      "price": "2.900,00 €",
+      "text6": "1x Zimmer, 1x Dusche, 1x Waschbecken, 1x Eingangstür, 1x WC Fenster",
+      "text7 ": ""
+    },
+    "href": {
+      "href1": "/Kontakt",
+      "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Hersteller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.20m,",
+      "length": "Länge: 2.20m,",
+      "height":"Höhe: 2.45m",
+      "Area": "Quadratmeter: 2.64m²",        
+      "Description": "Beschreibung:",
+      "Features": "1x Zimmer, 1x Dusche, 1x Waschbecken, 1x Eingangstür, 1x WC Fenster" ,
+      "Isolation": "Isolation mit 80 mm Minerallwolle Dachisolation, 50 mm PUR Wandisolation.",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust.",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    }
+  },
+  {
+    "id": "42",
+    "category": "sanitarcontainer",
+    "image": {
+      "ima1": "/assets/img/ShopDeutsch/1XWC/1.jpg",
+      "ima2": "/assets/img/ShopDeutsch/1XWC/2.jpg",
+      "ima3": "/assets/img/ShopDeutsch/1XWC/3.jpg",
+      "ima4": "/assets/img/ShopDeutsch/1XWC/4.jpg",
+      "ima5": "/assets/img/ShopDeutsch/1XWC/5.jpeg"
+    },
+    "title": "WC ",
+    "slug": "wc",
+    "content": {
+      "text1": "NEU",
+      "text2": "Sanitärcontainer",
+      "text3": "B:110 | L:120 | 1.32 m²",
+      "price": "2.885,00 €",
+      "text6": "1x Zimmer, 1x WC mit Waschbecken, 1x Eingangstür, 1x WC Fenster",
+      "text7 ": ""
+    },
+    "href": {
+      "href1": "/Kontakt",
+      "href2": "/Kontakt"
+    },
+    "description": {
+      "Seller":"Direkt von Hersteller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 1.10m,",
+      "length": "Länge: 1.20m,",
+      "height":"Höhe: 2.45m",
+      "Area": "Quadratmeter: 1.32m²",        
+      "Description": "Beschreibung:",
+      "Features": "1x Zimmer, 1x WC mit Waschbecken, 1x Eingangstür, 1x WC Fenster" ,
+      "Isolation": "Isolation mit 80 mm Minerallwolle Dachisolation, 50 mm PUR Wandisolation.",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust.",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    }
   }
+  
+ 
  
   
   
