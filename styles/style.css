@@ -712,12 +712,20 @@ CardHeightt .pb-35 {
 
 .intro-button {
   background-color: #171a20cc;
-  
   border-radius: 24px;
   outline: none;
   padding: 5px 20px;
   color: white;
   font-size: 11px;
+  border: none;
+}
+.ProductPageButton {
+  background-color: #171a20cc;
+  border-radius: 24px;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
   border: none;
 }
 
@@ -1903,8 +1911,14 @@ floatemail {
   .navbar-collapse {
     background: white;
   }
+  .mobMt0{
+    margin-top: 0!important;
+  }
 }
 @media screen and (max-width: 786px) {
+  .ProductDesJustify{
+    justify-content: center !important;
+  }
   .pt2rem{
     padding-top: 2rem !important;
   }

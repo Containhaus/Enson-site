@@ -205,7 +205,7 @@ const Product = ({ product }) => {
                   <h4 className="fz-18 fw-600 mb-3">{product?.content?.price}</h4>
                   <Link href="/kontakt">
                     <a className="mt-4 ">
-                      <span className="intro-button ">Jetzt Anfragen</span>
+                      <span className="ProductPageButton">Jetzt Anfragen</span>
                     </a>
                   </Link>{" "}
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>

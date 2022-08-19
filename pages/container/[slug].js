@@ -170,7 +170,7 @@ const Product = ({ product }) => {
                 </Swiper>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border mt-100">
+            <div className="col-lg-5 col-md-12 col-12 p-4 bg-white border mt-100 mobMt0">
               <div>
 
                 <div >
@@ -186,7 +186,7 @@ const Product = ({ product }) => {
                   <h4 className="fz-18 fw-600 mb-3">{product?.content?.price}</h4>
                   <Link href="/kontakt">
                     <a className="mt-4 ">
-                      <span className="intro-button ">Jetzt Anfragen</span>
+                      <span className="ProductPageButton ">Jetzt Anfragen</span>
                     </a>
                   </Link>{" "}
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
@@ -218,7 +218,7 @@ const Product = ({ product }) => {
             </div>
           </div>
           <div className="mt-3 mb-3 pb-5 ">
-            <div className="row">
+            <div className="row ProductDesJustify">
               <div className="text-center "
                 key={product.id}
               >
@@ -248,7 +248,8 @@ const Product = ({ product }) => {
                 </a>
                 
               </div>
-              <div className="col-lg-6 col-md-6 col-12" id="textdiv">
+
+              <div className="col-lg-6 col-md-6 col-11" id="textdiv">
                 <h3>
                   {product?.description?.Seller}
                 </h3>
