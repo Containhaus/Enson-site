@@ -1681,11 +1681,11 @@
       "ima4": "/assets/img/ShopDeutsch/GrunerSanitar/4.png",
       "ima5": "/assets/img/ShopDeutsch/GrunerSanitar/5.png"
     },
-    "title": "Grüner WC & DUSCH",
+    "title": "WC & DUSCH",
     "slug": "grüner-sanitärcontainer-2x-wc",
     "content": {
       "text1": "NEU",
-      "text2": "Sanitärcontainer | Toilettencontainer",
+      "text2": "Grüner Sanitärcontainer | Toilettencontainer ",
       "text3": "B:120 | L:220 | | H:245 2.42 m²",
       "price": "3.850,00 €",
       "text6": "1x WC mit Waschbecken, 1 x Dusche, 1x Eingangstür, 1x Belüftung",
@@ -1731,7 +1731,7 @@
       "ima4": "/assets/img/ShopDeutsch/GrunerDushSanite/4.jpg",
       "ima5": "/assets/img/ShopDeutsch/GrunerDushSanite/5.png"
     },
-    "title": "Grüner Sanitärcontainer WC + Umkleide + DUSCH ",
+    "title": "WC + Umkleide + DUSCH ",
     "slug": "grüner-sanitärcontainer-toilettencontainer",
     "content": {
       "text1": "NEU",
@@ -1781,7 +1781,7 @@
       "ima4": "/assets/img/ShopDeutsch/GlasturWcSanite/4.jpg",
       "ima5": "/assets/img/ShopDeutsch/GlasturWcSanite/5.jpg"
     },
-    "title": "WC + WC mit mattierter Glastür ",
+    "title": "WC + WC",
     "slug": "sanitärcontainer-WC-Glastür",
     "content": {
       "text1": "NEU",
@@ -1831,7 +1831,7 @@
       "ima4": "/assets/img/ShopDeutsch/KomplettSanite/4.jpg",
       "ima5": "/assets/img/ShopDeutsch/KomplettSanite/5.png"
     },
-    "title": "Komplett weiß WC + DUSCH",
+    "title": "WC + DUSCH",
     "slug": "komplett-wc-dusch",
     "content": {
       "text1": "NEU",
