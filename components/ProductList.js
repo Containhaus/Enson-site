@@ -15,8 +15,8 @@ const ProductList = ({ product }) => {
             height={229}
           
             src={product.image.ima1}
-            className="card-img-top"
-            priority
+            
+            
             alt={product.content.AltTag}
           />
       {
