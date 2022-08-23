@@ -79,7 +79,7 @@ const Product = ({ product }) => {
                      objectFit="cover"
                      width={800}
                      height={560}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
@@ -88,7 +88,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima2}
                     />
                   </SwiperSlide>
@@ -97,7 +97,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima3}
                     />
                   </SwiperSlide>
@@ -106,7 +106,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima4}
                     />
                   </SwiperSlide>
@@ -115,7 +115,7 @@ const Product = ({ product }) => {
                    
                       width={800}
                       height={560}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima5}
                     />
                   </SwiperSlide>
@@ -135,7 +135,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
@@ -144,7 +144,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima2}
                     />
                   </SwiperSlide>
@@ -153,7 +153,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima3}
                     />
                   </SwiperSlide>
@@ -162,7 +162,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima4}
                     />
                   </SwiperSlide>
@@ -170,7 +170,7 @@ const Product = ({ product }) => {
                     <Image
                       width={147}
                       height={110}
-                      className="product-page-img"
+                      
                       src={product?.image?.ima5}
                     />
                   </SwiperSlide>
