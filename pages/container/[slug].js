@@ -10,7 +10,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
 import Head from 'next/head'
-import Footer from "../../components/Footer";
+
 const Product = ({ product }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [isOpen1, setOpen1] = React.useState(false);
@@ -341,7 +341,7 @@ const Product = ({ product }) => {
           </div>
         </div>
       </div>
-      <Footer/>
+      
    
     </div>
   );

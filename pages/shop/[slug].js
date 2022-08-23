@@ -4,7 +4,7 @@ import ProductList from "../../components/ProductList";
 import { useRouter } from 'next/router'
 import productsData from "../../data/ShopDeutsch.json"
 import Head from 'next/head'
-import Footer from "../../components/Footer";
+
 const Category = () => {
     const router = useRouter()
     
@@ -33,7 +33,7 @@ const Category = () => {
           ))}
         </div>
       </div>
-      <Footer/>
+      
     </>
   );
 };
