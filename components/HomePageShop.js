@@ -65,11 +65,12 @@ const HomePageShop = ({ data }) => {
                     >
                       <SplideSlide>
                         <Image
-                          layout="fill"
-                          className="d-block w-100"
+                          objectFit="cover"
+                          width={306}
+                          height={229}
                           src={Val.image.ima1}
-                          alt="First slide"
-                          quality={100}
+                          alt={Val.content.AltTag}
+                          
                         />
                       </SplideSlide>
                       
