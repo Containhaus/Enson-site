@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Footer from "../components/Footer";
+
 const Kontakt = () => {
   const form = useRef();
   const name = useRef();
@@ -231,7 +231,7 @@ const Kontakt = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      
     </>
     // <div className="contact-page container">
     //   <div className="row contact-title">Kontakt Sie uns</div>

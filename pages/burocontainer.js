@@ -4,7 +4,7 @@ import introContainer from "../data/containerIntro.json";
 import buroHappyData from "../data/HaCusAndRefe.json";
 import HaCusAndRefe from "../components/HaCusAndRefe";
 import VideoCorausel from "../components/VideoCorausel";
-import Footer from "../components/Footer";
+
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
 import useOnScreen from "../utils/utils";
@@ -66,7 +66,7 @@ const Burocontaıner = () => {
 
       <ContainerAnimation />
 
-      <Footer />
+     
     </div>
   );
 };

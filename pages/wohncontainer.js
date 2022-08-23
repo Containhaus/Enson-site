@@ -15,7 +15,6 @@ import intro2Data from "../data/ShopDeutsch.json";
 import Head from "next/head";
 import VideoCorausel from "../components/VideoCorausel";
 
-import Footer from "../components/Footer";
 const WohnContainer = ({ wohnColorData, wohncontainers }) => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -49,7 +48,7 @@ const WohnContainer = ({ wohnColorData, wohncontainers }) => {
             <HaCusAndRefe data={WohnHappyDatafilter} />
             <VideoCorausel></VideoCorausel>
             <ContainerAnimation></ContainerAnimation>
-            <Footer/>
+           
           
       
     </div>

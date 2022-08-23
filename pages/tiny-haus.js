@@ -1,7 +1,7 @@
 import TinyHouse from "../components/TinyHouse";
 import introTiny from "../data/tiny.json"
 import Head from 'next/head'
-import Footer from "../components/Footer";
+
 export default function Home() {
   const {mybigfamily} =introTiny
   const {amazingCountary} =introTiny
@@ -21,7 +21,7 @@ export default function Home() {
       <TinyHouse data={freedom}/>
       <TinyHouse data={MyLittleFamily}/>
       <TinyHouse data={Spectecular}/>
-      <Footer/>
+      
     </>
   );
 }

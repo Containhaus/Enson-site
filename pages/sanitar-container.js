@@ -15,7 +15,7 @@ import HomePageShop from '../components/HomePageShop'
 import Head from 'next/head'
 import HaCusAndRefe from '../components/HaCusAndRefe'
 import LoadingScreen from '../components/MenuComponents/LoadingScreen'
-import Footer from '../components/Footer'
+
 
 
 const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
@@ -54,7 +54,7 @@ const SanitaContainer = ({sanitaColorData,sanitacontainers}) => {
        <VideoCorausel></VideoCorausel>
      <ContainerAnimation></ContainerAnimation>
           
-      <Footer/>
+     
   
   
     

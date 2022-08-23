@@ -7,6 +7,7 @@ import TagManager from 'react-gtm-module'
 // import "../styles/styleLight.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from 'react';
+import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-KXPX8H6' });
@@ -37,6 +38,7 @@ function MyApp({ Component, pageProps }) {
       />
       <Layout>
         <Component {...pageProps} />
+        <Footer></Footer>
       </Layout>
     </>
   );

@@ -1,7 +1,7 @@
 import ContainerInto from "../components/ContainerInto";
 import introContainer from "../data/containerIntro.json";
 import Head from "next/head";
-import Footer from "../components/Footer";
+
 
 export default function Home() {
   const { buroconteiner } = introContainer;
@@ -23,7 +23,7 @@ export default function Home() {
 
       <ContainerInto data={specialeditatons} />
 
-      <Footer />
+     
     </>
   );
 }
