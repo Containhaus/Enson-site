@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import VideoCorausel from "../../components/VideoCorausel"
 import products from "../../data/ShopDeutsch.json";
 import Link from "next/link"
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -47,7 +46,6 @@ const Product = ({ product }) => {
       x.style.display = "none";
     }
   }
-
  
   function showModal1() {
     setOpen1(true);
@@ -231,7 +229,7 @@ const Product = ({ product }) => {
                 key={product.id}
               >
                 <a
-                  className="btn btn-focuss me-1"
+                  className="btn btn-focuss mx-1"
                   tabIndex="1"
                   onClick={() => {
                     detailtextdiv();
@@ -243,7 +241,7 @@ const Product = ({ product }) => {
                   Beschreibung
                 </a>
                 <a
-                  className="btn btn-focuss me-1"
+                  className="btn btn-focuss mx-1"
                   tabIndex="1"
                   onClick={() => {
                     Youtubevieodiv();
@@ -254,9 +252,8 @@ const Product = ({ product }) => {
                 >
                   Youtube Video
                 </a>
-                
+               
               </div>
-
               <div className="col-lg-6 col-md-6 col-11" id="textdiv">
                 <h3>
                   {product?.description?.Seller}
@@ -336,6 +333,8 @@ const Product = ({ product }) => {
                 </div>
               
               </div>
+
+              
 
               
             </div>

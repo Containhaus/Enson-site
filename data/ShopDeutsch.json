@@ -17,7 +17,9 @@
       "text3": "B:480 | L:800 38,40m²",
       "price": "29.000,00 €",
       "text6": "3 x Zimmer, 1x Glas Eingangstür, 1x Standard Eingangstür,2x Fenster, 4 x Bodentiefe Fenster, Standard Fenster, 2 x Kleines Fenster  ",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Black Panter"
+
     },
     "href": {
       "href1": "/Kontakt",
@@ -47,6 +49,33 @@
       "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
       "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
       "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    },
+    "ReferenceImg":{
+      "img1":"/assets/img/ReferansCustomer/Buro/1.webp",
+      "img2":"/assets/img/ReferansCustomer/Buro/2.webp",
+      "img3":"/assets/img/ReferansCustomer/Buro/3.webp",
+      "img4":"/assets/img/ReferansCustomer/Buro/4.webp",
+      "img5":"/assets/img/ReferansCustomer/Buro/5.webp",
+      "img6":"/assets/img/ReferansCustomer/Buro/6.webp",
+      "img7":"/assets/img/ReferansCustomer/Buro/7.webp"
+      
+    },
+    "ReferInfo":{
+      "Name1":"Referenzkunde Reimer Hennings",
+      "location1":"Bendorf",
+      "Name2":"Referenzkunde Thomas Sprenger",
+      "location2":"Dorsten",
+      "Name3":"Referenzkunde Mehmet Muskal",
+      "location3":"Högel",
+      "Name4":"Referenzkunde Mehmet Muskal",
+      "location4":"Högel",
+      "Name5":"Referenzkunde Phillip Schmehl",
+      "location5":"Sinn",
+      "Name6":"Referenzkunde Peter Krestin Kaspar",
+      "location6":"Weimar",
+      "Name7":"Referenzkunde  Markus Junga",
+      "location7":"Hannover"
+      
     }
   },
   {
@@ -67,7 +96,8 @@
       "text3": "B:240 | L:500 12,00m²",
       "price": "8.500,00 €",
       "text6": "1x Grossraum, 1x Glass Eingangstür, 1x Standard Fenster, 1x Bodentiefe Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Black Diamond"
     },
     "href": {
       "href1": "/Kontakt",
@@ -135,7 +165,8 @@
       "text3": "B:240 | L:600 | 14,40m²",
       "price": "8.900,00 €",
       "text6": "1x Zimmer, 1x Glass Eingangstür, 1x Standard Eingangstür, 2x Bodentiefe Fenster, 1x WC mit Waschbacken, 1x Küche, 1 x Schiebefenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Glass"
     },
     "href": {
       "href1": "/Kontakt",
@@ -189,7 +220,8 @@
       "price": "16.000,00 €",
       "CutPrice": "20,000,00 €",
       "text6": "Cafe Container Bodentiefe Fenster mit Holzverkleidung, 1x Zimmer,  1x Eingangstür",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Cafe Container"
     },
     "href": {
       "href1": "/Kontakt",
@@ -240,7 +272,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "13.584,00 €",
       "text6": "1x Zimmer, 1x Glass Eingangstür, 1x Standard Eingangstür, 4x Bodentiefe Fenster, 1x WC mit Waschbacken, 1 x Küche, 1 x Schiebefenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Glass XL"
     },
     "href": {
       "href1": "/Kontakt",
@@ -290,7 +323,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "12.900,00 €",
       "text6": "1x Grossraum, 1x Standart Glass Eingangstür, 1x Standard Fenster, 3x Bodentiefe Fenster, 1x WC mit Waschbacken, 1 x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Glass2XL"
     },
     "href": {
       "href1": "/Kontakt",
@@ -340,7 +374,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "13.000,00 €",
       "text6": "1x Grossraum, 1x Doppel Glas Eingangstür, 2x Fenster, WC Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Black Diamond XL"
     },
     "href": {
       "href1": "/Kontakt",
@@ -391,7 +426,8 @@
 
       "price": "9.500,00 €",
       "text6": "2x Zimmer, 1x Glas Eingangstür mit Rolladen, 1x Bodentiefe Fenster mit Rolladen, 1 x Schiebefenster mit Rolladen, 1 x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Messe One"
     },
     "href": {
       "href1": "/Kontakt",
@@ -442,7 +478,8 @@
       "text3": "B:120 | L:220 2,60m²",
       "price": "3.460,00 €",
       "text6": "2x Zimmer, 2x Eingangstür, 2x Dusche, 2x Eingangstür, 2x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Dusch Dusch"
     },
     "href": {
       "href1": "/Kontakt",
@@ -493,7 +530,8 @@
       "text3": "B:120 | L:220 2,60m²",
       "price": "3.440,00 €",
       "text6": "2x Zimmer, 2x Eingangstür, 2x WC mit Waschbecken, 2x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Wc + WC"
     },
     "href": {
       "href1": "/Kontakt",
@@ -544,7 +582,8 @@
       "text3": "B:120 | L:220 2,60m²",
       "price": "3.400,00 €",
       "text6": "1x WC mit Waschbecken, 1x Dusche, 2x Zimmer, 2x Eingangstür, 2x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -595,7 +634,8 @@
       "text3": "B:120 | L:220 2,60m²",
       "price": "3.440,00 €",
       "text6": "1x WC mit Waschbecken, 1x Dusche, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC & DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -645,7 +685,8 @@
       "text3": "B:120 | L:220  2,60m²",
       "price": "3.440,00 €",
       "text6": "1x WC mit Waschbecken, 1x Urinal, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC & Urinal"
     },
     "href": {
       "href1": "/Kontakt",
@@ -695,7 +736,8 @@
       "text3": "B:220 | L:220 4,85m²",
       "price": "4.080,00 €",
       "text6": "1x WC mit Waschbecken, 1x Zimmer, 1x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Behinderten WC"
     },
     "href": {
       "href1": "/Kontakt",
@@ -745,7 +787,8 @@
       "text3": "B:110 | L:300 3,30m²",
       "price": "3.970,00 €",
       "text6": "3x WC mit Waschbecken, 3x Zimmer, 3x Eingangstür, 3x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + WC + WC"
     },
     "href": {
       "href1": "/Kontakt",
@@ -796,7 +839,8 @@
       "text3": "B:110 | L:300 3,30m²",
       "price": "3.930,00 €",
       "text6": "2x WC mit Waschbecken, 1x Dusche, 3x Zimmer, 3x Eingangstür, 3x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + WC + DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -846,7 +890,8 @@
       "text3": "B:150 | L:370 5,55m²",
       "price": "4.805,00 €",
       "text6": "1x WC mit Waschbecken, 1x Lager, 2x Zimmer, 2x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + Lagercontainer"
     },
     "href": {
       "href1": "/Kontakt",
@@ -896,7 +941,8 @@
       "text3": "B:240 | L:600  14,40m²",
       "price": "9.250,00 €",
       "text6": "6x Dusche, 6x Waschbecken, 6x Zimmer, 1x Eingangstür, 1x Innentüren, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"DUSCHE x 6  "
     },
     "href": {
       "href1": "/Kontakt",
@@ -947,7 +993,8 @@
       "text3": "B:240 | L:600 | 14,40m²",
       "price": "7.150,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"CON-11"
     },
     "href": {
       "href1": "/Kontakt",
@@ -999,7 +1046,8 @@
 
       "price": "7.150,00 €",
       "text6": " 1x Grossraum, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"CON-12"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1050,7 +1098,8 @@
       "text3": "B:240 | L:600 14,40m²",
       "price": "7.620,00 €",
       "text6": "2x Zimmer, 1x Eingangstür,1x Innentür, 1x Schiebefenster, 1x WC mit Waschbecken, 1x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"CON-23"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1100,7 +1149,8 @@
       "text3": "B:240 | L:600  14,40m²",
       "price": "7.660,00 €",
       "text6": "3x Zimmer, 2x Eingangstür, 3x Innentür 2x Fenster,1x WC mit Waschbacken, 1x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"CON-33"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1152,7 +1202,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "9.915,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster ",
-      "text7 ": ""  
+      "text7 ": "",
+      "AltTag":"XL-11"
       
       
     },
@@ -1206,7 +1257,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "9.915,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"XL-12"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1233,7 +1285,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "10.075,00 €",
       "text6": "2x Zimmer, 2x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"XL-21"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1284,7 +1337,8 @@
       "text3": "B:300 | L:700 21,00m²",
       "price": "10.340,00 €",
       "text6": " 3x Zimmer, 2x Eingangstür,3x Innertür, 2x Fenster, 1x WC mit Waschbacken, 1x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"XL-33"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1338,7 +1392,8 @@
       "text3": "B:220 | L:220 4,80m²",
       "price": "3.815,00 €",
       "text6": "1x Zimmer, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Pförtnercontainer"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1388,7 +1443,8 @@
       "text3": "B:240 | L:300 7,20m²",
       "price": "6.255,00 €",
       "text6": " 1x Zimmer, 1x Doppelflügeltür, 1x  Waschbecken, 2x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Lagercontainer"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1439,7 +1495,8 @@
       "text3": "B:480 | L:600 28,80m²",
       "price": "17.676,00 €",
       "text6": "2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Anlage"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1489,7 +1546,8 @@
       "text3": "B:480 | L:600  28,80m²",
       "price": "17.676,00 €",
       "text6": "2x Zimmer, 1x Eingangstür, 1x Innentür, 4x Fenster, 1x WC mit Waschbacken, 1x Dusche, 1x Küche",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Anlage"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1539,7 +1597,8 @@
       "text3": "B:240 | L:600 14,40m²",
       "price": "4.469,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Flatpack Container"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1589,7 +1648,8 @@
       "text3": "B:110 | L:400 | 4.4 m²",
       "price": "4.355,00 €",
       "text6": "4 x WC,  4x Waschbecken, 4x Urinal, 4x Eingangstür, 4x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"4 x WC Toilettencontainer"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1639,7 +1699,8 @@
       "text3": "B:110 | L:300 | 3.3 m²",
       "price": "3.970,00 €",
       "text6": "3 x Urinal mit Waschbecken, 4x Eingangstür, 4x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"3 x Urinal"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1689,7 +1750,8 @@
       "text3": "B:120 | L:220 | | H:245 2.42 m²",
       "price": "3.850,00 €",
       "text6": "1x WC mit Waschbecken, 1 x Dusche, 1x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC & DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1739,7 +1801,8 @@
       "text3": "B:110 | L:300 | 3.3 m²",
       "price": "4.290,00 €",
       "text6": "1x WC mit Waschbecken, 1x Dusche, 1x Umkleide ,3x Eingangstür, 3x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + Umkleide + DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1789,7 +1852,8 @@
       "text3": "B:120 | L:220 | 2.42 m²",
       "price": "3.800,00 €",
       "text6": "2x WC mit Waschbecken, 2x Eingangstür mit mattierter Glas, 2x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + WC"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1839,7 +1903,8 @@
       "text3": "B:120 | L:220 | 2.64 m²",
       "price": "3.850,00 €",
       "text6": "1x WC mit Waschbecken, 1x Dusche, 1x Eingangstür, 1x Belüftung",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1889,7 +1954,8 @@
       "text3": "B:220 | L:220 | 4.84 m²",
       "price": "3.720,00 €",
       "text6": "1x Zimmer,  1x Eingangstür mit 1 x kleines Fenster, 1x  Doppel Fenster mit Rolladen, 1 Standard Fenster mit Rolladen",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC + DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -1940,7 +2006,8 @@
       "text3": "B:240 | L:120 | 2.88 m²",
       "price": "3.000,00 €",
       "text6": "1x Zimmer,  1x Eingangstür mit 1 x kleines Fenster, 2x  Doppel Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"Pförtnercontainer "
     },
     "href": {
       "href1": "/Kontakt",
@@ -1991,7 +2058,8 @@
       "text3": "B:240 | L:240 | 5.76 m²",
       "price": "3.900,00 €",
       "text6": "4x Zimmer, 2x WC mit Waschbecken, 2x Dusch,  4x Eingangstür",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"2X WC + 2X DUSCH"
     },
     "href": {
       "href1": "/Kontakt",
@@ -2042,7 +2110,8 @@
       "text3": "B:120 | L:220 | 2.64 m²",
       "price": "2.900,00 €",
       "text6": "1x Zimmer, 1x Dusche, 1x Waschbecken, 1x Eingangstür, 1x WC Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"DUSCHE "
     },
     "href": {
       "href1": "/Kontakt",
@@ -2092,7 +2161,8 @@
       "text3": "B:110 | L:120 | 1.32 m²",
       "price": "2.885,00 €",
       "text6": "1x Zimmer, 1x WC mit Waschbecken, 1x Eingangstür, 1x WC Fenster",
-      "text7 ": ""
+      "text7 ": "",
+      "AltTag":"WC "
     },
     "href": {
       "href1": "/Kontakt",

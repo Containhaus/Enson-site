@@ -4,13 +4,13 @@
     
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/1.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/1.webp"
     },
-    "title": "Bürocontainer | Flat Pack Demonte",
+    "title": "Referenzkunde Reimer Hennings",
     
     "content": {
-      "text2": "Garten",
-      "price": "Bendorf"
+      "location": "Bendorf",
+      "modal": "Flat Pack"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -20,13 +20,13 @@
     "id": "2",
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/2.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/2.webp"
     },
-    "title": "Bürocontainer | Flat Pack Demonte",
+    "title": "Referenzkunde Thomas Sprenger",
     
     "content": {
-      "text2": "Garten",
-      "price": "Bendorf"
+      "location": "Dorsten",
+      "modal": "Bürocontainer"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -36,13 +36,13 @@
     "id": "3",
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/3.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/3.webp"
     },
-    "title": "Bürocontainer | Flat Pack Demonte",
+    "title": "Referenzkunde Mehmet Muskal",
     
     "content": {
-      "text2": "Garten",
-      "price": "Bendorf"
+      "location": "Högel",
+      "modal": "Flat Pack"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -52,13 +52,13 @@
     "id": "4",
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/4.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/4.webp"
     },
-    "title": "Bürocontainer",
+    "title": "Referenzkunde Mehmet Muskal",
     
     "content": {
-      "text2": "Büro",
-      "price": "Forst"
+      "location": "Högel",
+      "modal": "Bürocontainer"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -68,13 +68,13 @@
     "id": "5",
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/5.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/5.webp"
     },
-    "title": "Bürocontainer",
+    "title": "Referenzkunde Phillip Schmehl",
     
     "content": {
-      "text2": "Garten",
-      "price": "Im Lennelbach"
+      "location": "Sinn",
+      "modal": "Bürocontainer"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -84,13 +84,13 @@
     "id": "6",
     "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Buro/6.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/6.webp"
     },
-    "title": "Bürocontainer",
+    "title": "Referenzkunde Peter Krestin Kaspar",
     
     "content": {
-      "text2": "Garten",
-      "price": "Weimar"
+      "location": "Weimar",
+      "modal": "Bürocaontainer"
           },
     "href": {
       "href1": "/shop/burocontainer"
@@ -98,81 +98,64 @@
   },
   {
     "id": "7",
-    "category": "WohnHappy",
+    "category": "buroHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Blackdiaomnd/1.webp"
+      "ima1": "/assets/img/ReferansCustomer/Buro/7.webp"
     },
-    "title": "Black Diamond",
+    "title": "Referenzkunde Markus Junga",
     
     "content": {
-      "text2": "Garten",
-      "price": "Berlin"
+      "location": "Hannover",
+      "modal": "Bürocaontainer"
           },
     "href": {
       "href1": "/shop/wohncontainer"
+    }
+  },
+  {
+    "id": "8",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/1.webp"
+    },
+    "title": "Referenzkunde Roland Klein",
+    
+    "content": {
+      "location": "Bocholt",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
     }
   },
 
-  {
-    "id": "8",
-    "category": "WohnHappy",
-    "image": {
-      "ima1": "/assets/img/HappyCustomer/Blackdiaomnd/2.webp"
-    },
-    "title": "Black Diamond",
-    
-    "content": {
-      "text2": "Büro",
-      "price": "Berlin"
-          },
-    "href": {
-      "href1": "/shop/wohncontainer"
-    }
-  },
   {
     "id": "9",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/1.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/2.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Enrico Peiler",
     
     "content": {
-      "text2": "Garten",
-      "price": "Cottbus"
+      "location": "Cottbus",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
     }
   },
-
   {
     "id": "10",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/2.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/3.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Enrico Peiler",
     
     "content": {
-      "text2": "der Acker",
-      "price": "Dötlingen"
-          },
-    "href": {
-      "href1": "/shop/sanitarcontainer"
-    }
-  },
-  {
-    "id": "11",
-    "category": "SanitaHappy",
-    "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/3.webp"
-    },
-    "title": "Sanitärcontainer",
-    
-    "content": {
-      "text2": "Straßenrand",
-      "price": "Forst"
+      "location": "Cottbus",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -180,16 +163,32 @@
   },
 
   {
+    "id": "11",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/4.webp"
+    },
+    "title": "Referenzkunde Thomas Sprenger",
+    
+    "content": {
+      "location": "Dorsten",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
     "id": "12",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/4.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/5.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Philipp Hollmann",
     
     "content": {
-      "text2": "Garten",
-      "price": "Gevelsberg"
+      "location": "Dötlingen",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -199,13 +198,13 @@
     "id": "13",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/5.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/6.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Regine Bergmann",
     
     "content": {
-      "text2": "der Acker",
-      "price": "Isterberg"
+      "location": "Falkansee",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -215,29 +214,30 @@
     "id": "14",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/6.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/7.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Robert Saborowski",
     
     "content": {
-      "text2": "der Fabrik",
-      "price": "Mörlenbach"
+      "location": "Gevelsberg",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
     }
-  },
+  }
+  ,
   {
     "id": "15",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/7.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/8.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Obias Völker",
     
     "content": {
-      "text2": "der Fabrik",
-      "price": "München"
+      "location": "Isterberg",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -248,13 +248,13 @@
     "id": "16",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/8.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/9.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Heike Krämer",
     
     "content": {
-      "text2": "Garten",
-      "price": "Regensburg"
+      "location": "Lemke",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -265,13 +265,13 @@
     "id": "17",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/9.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/10.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Armin Menzel",
     
     "content": {
-      "text2": "Straßenrand",
-      "price": "Schotten"
+      "location": "Mörlenbach",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -282,13 +282,13 @@
     "id": "18",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/10.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/11.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Johannes Attenberger",
     
     "content": {
-      "text2": "der Garten",
-      "price": "Seelze"
+      "location": "München",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -299,13 +299,13 @@
     "id": "19",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/11.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/12.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Michael Annau",
     
     "content": {
-      "text2": "der Garten",
-      "price": "Seelze"
+      "location": "Regensbur",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -316,13 +316,13 @@
     "id": "20",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/12.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/13.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Fabienne Fengler",
     
     "content": {
-      "text2": "Straßenrand",
-      "price": "Stetten"
+      "location": " Schweich",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -330,16 +330,16 @@
   }
   ,
   {
-    "id": "20",
+    "id": "21",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/13.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/14.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Luca Worbs",
     
     "content": {
-      "text2": "der Acker",
-      "price": "Uelsen"
+      "location": "Seelze",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -347,16 +347,16 @@
   }
   ,
   {
-    "id": "20",
+    "id": "22",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/14.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/15.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Luca Worbs",
     
     "content": {
-      "text2": "der Fabrik",
-      "price": "Waltrop"
+      "location": "Seelze",
+      "modal": "Sanitärcontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"
@@ -364,16 +364,185 @@
   }
   ,
   {
-    "id": "20",
+    "id": "23",
     "category": "SanitaHappy",
     "image": {
-      "ima1": "/assets/img/HappyCustomer/Sanite/15.webp"
+      "ima1": "/assets/img/ReferansCustomer/Sanite/16.webp"
     },
-    "title": "Sanitärcontainer",
+    "title": "Referenzkunde Friedrich Sven",
     
     "content": {
-      "text2": "der Fabrik",
-      "price": "Weyhe"
+      "location": "Sochenhausen",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "24",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/17.webp"
+    },
+    "title": "Referenzkunde Walter Zimmer",
+    
+    "content": {
+      "location": "Stetten",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "25",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/18.webp"
+    },
+    "title": "Referenzkunde Tim Alberts",
+    
+    "content": {
+      "location": "Straelen",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "26",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/19.webp"
+    },
+    "title": "Referenzkunde Bernd Steiniger",
+    
+    "content": {
+      "location": "Tönisvorst",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+
+  ,
+  {
+    "id": "27",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/20.webp"
+    },
+    "title": "Referenzkunde Christian Brune",
+    
+    "content": {
+      "location": "Waltrop",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "28",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/21.webp"
+    },
+    "title": "Referenzkunde Frank Reichert",
+    
+    "content": {
+      "location": "Weimar",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+  ,
+  {
+    "id": "29",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/22.webp"
+    },
+    "title": "Referenzkunde Fuat Ucar",
+    
+    "content": {
+      "location": "Weyhe",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  }
+
+  ,
+  {
+    "id": "30",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Sanite/23.webp"
+    },
+    "title": "Referenzkunde Georg Kieser",
+    
+    "content": {
+      "location": "Wiesmor",
+      "modal": "Sanitärcontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "31",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Pfortner/1.webp"
+    },
+    "title": "Referenzkunde Christoph Schmid",
+    
+    "content": {
+      "location": "Gondershausen",
+      "modal": "Pförtnercontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "32",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Pfortner/2.webp"
+    },
+    "title": "Referenzkunde Friedrich Sven",
+    
+    "content": {
+      "location": "Wiesbaden",
+      "modal": "Pförtnercontainer"
+          },
+    "href": {
+      "href1": "/shop/sanitarcontainer"
+    }
+  },
+  {
+    "id": "33",
+    "category": "SanitaHappy",
+    "image": {
+      "ima1": "/assets/img/ReferansCustomer/Pfortner/3.webp"
+    },
+    "title": "Referenzkunde Frank Reichardt",
+    
+    "content": {
+      "location": "Weimar",
+      "modal": "Pförtnercontainer"
           },
     "href": {
       "href1": "/shop/sanitarcontainer"

@@ -72,7 +72,7 @@ const Product = ({ product }) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="container-fluid  ProductPgBgColor p-0">
-      {typeof window !== "undefined" && (
+        {typeof window !== "undefined" && (
           <ModalVideo
             autoplay
             isOpen={isOpen1}
@@ -313,7 +313,7 @@ const Product = ({ product }) => {
                 <p>
                   {product?.description?.strength}
                 </p>
-                <p> 
+                <p>
                   {product?.description?.CraneSlot}
                 </p>
                 <p>
@@ -349,143 +349,144 @@ const Product = ({ product }) => {
                 </p>
               </div>
               <div className="col-12" id="youtubevideoo" style={{ display: "none" }}>
-              
-                  <div
-                    className="valign"
 
-                    data-overlay-dark="4"
-                  >
-                    <Image
-                      className="VideoDes"
-                      src="/assets/img/Youtubekapak2/1.jpg"
-                      width={2000}
-                      height={2000}
-                    />
-                    <Image
-                      className="VideoMob"
-                      src="/assets/img/Youtubekapak2/Mobil/2.webp"
-                      width={2000}
-                      height={2000}
-                    />
-                    <div className="full-width text-center">
-                      <a
-                        className="vid"
-                        onClick={(e) => {
-                          showModal1
-                          e.preventDefault();
-                          setOpen1(true);
-                        }}
-                        href="https://youtu.be/3JSit_voEqc"
-                      >
-                        <div className="vid-butn">
-                          <span className="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                            </svg>
-                          </span>
-                        </div>
-                      </a>
-                    
+                <div
+                  className="valign"
+
+                  data-overlay-dark="4"
+                >
+                  <Image
+                    className="VideoDes"
+                    src="/assets/img/Youtubekapak2/1.jpg"
+                    width={2000}
+                    height={2000}
+                  />
+                  <Image
+                    className="VideoMob"
+                    src="/assets/img/Youtubekapak2/Mobil/2.webp"
+                    width={2000}
+                    height={2000}
+                  />
+                  <div className="full-width text-center">
+                    <a
+                      className="vid"
+                      onClick={(e) => {
+                        showModal1
+                        e.preventDefault();
+                        setOpen1(true);
+                      }}
+                      href="https://youtu.be/3JSit_voEqc"
+                    >
+                      <div className="vid-butn">
+                        <span className="icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                          </svg>
+                        </span>
+                      </div>
+                    </a>
+
                   </div>
                 </div>
               </div>
               <div id="referenceediv" style={{ display: "none" }}>
-                            <div className="col-12 mt-70">
-                                <div className="row ">
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-danger  text-light me-1 ">
-                                            <span className=" mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
-                                        </div>
-                                    </div>
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-secondary text-light me-1">
-                                          <div className="me-1"></div>
-                                            <span className="mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
-                                        </div>
-                                    </div>
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-secondary text-light me-1">
-                                          <div className="me-1"></div>
-                                            <span className="mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
-                                        </div>
-                                    </div>
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-secondary text-light me-1">
-                                          <div className="me-1"></div>
-                                            <span className="mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">dsfs</p>
-                                        </div>
-                                    </div>
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-secondary text-light me-1">
-                                          <div className="me-1"></div>
-                                            <span className="mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">fdgfdgd</p>
-                                        </div>
-                                    </div>
-                                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
-                                      <div className="me-1">
-                                        <Image
-                                          src={"/assets/img/Tinyhouse/1.webp"}
-                                          width={430}
-                                          height={250}
-                                        
-                                        />
-                                        </div>
-                                        <div className="d-flex bg-secondary text-light me-1">
-                                          <div className="me-1"></div>
-                                            <span className="mr-2 display-4 "></span>
-                                            <p className="mt-3 ml-5 text-light fz-20">ghjhfhfd</p>
-                                        </div>
-                                    </div>
+                <div className="col-12 mt-70">
+                  <div className="row ">
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
 
-                                </div>
-                            </div>
-                            </div>
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">4343</p>
+                      </div>
+                    </div>
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
+
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
+                      </div>
+                    </div>
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
+
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">fhlshfk</p>
+                      </div>
+                    </div>
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
+
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">dsfs</p>
+                      </div>
+                    </div>
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
+
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">fdgfdgd</p>
+                      </div>
+                    </div>
+                    <div className=" col-lg-4 col-md-4 col-12 mb-5 ">
+                      <div className="me-1">
+                        <Image
+                          src={"/assets/img/Tinyhouse/1.webp"}
+                          width={430}
+                          height={250}
+
+                        />
+                      </div>
+                      <div className="d-flex bg-secondary text-light me-1">
+                        <div className="me-1"></div>
+                        <span className="mr-2 display-4 "></span>
+                        <p className="mt-3 ml-5 text-light fz-20">ghjhfhfd</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>
