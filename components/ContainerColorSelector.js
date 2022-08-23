@@ -19,7 +19,7 @@ const ContainerColorSelector = ({ data }) => {
             width={router.asPath==="/sanitar-container"?500: 750}
             height={router.asPath==="/sanitar-container"?550: 450}
             className="color-container"
-            priority
+            
             src={colorImgSrc}
             quality ={30}
           />

@@ -27,7 +27,7 @@ const ContainerInto = ({ data, className }) => {
           objectFit="cover"
           objectPosition=" center"   
           src={test()}
-          priority
+          
         />
         <div className="intro-content mx-3">
           <h1 className={`text-dark mb-0 fw-600`}>{data.title.second}</h1>
