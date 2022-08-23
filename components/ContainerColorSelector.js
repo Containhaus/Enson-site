@@ -40,7 +40,8 @@ const ContainerColorSelector = ({ data }) => {
                     width={180}
                     onMouseOver={() => handleChangeColor(color.image,color.color)}
                     height={180}
-                    priority
+                    quality={20}
+                    
                     src={color.class}
                   />
                 </div>
@@ -51,6 +52,7 @@ const ContainerColorSelector = ({ data }) => {
           </div>
           <div className="d-flex row mt-5 justtify-content-center">
               <h5 className="text-center fw-500">{colorText}</h5>
+              
           </div>
         </div>
       
