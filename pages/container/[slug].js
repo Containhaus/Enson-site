@@ -219,6 +219,14 @@ const Product = ({ product }) => {
                       </a>
                     </p>
                   </div>
+
+                  <div>
+                  <Link href="/shop/alle">
+                    <a className="mt-4 ">
+                      <span className="ProductPageButton text-dark bg-warning">Weitere Produkte</span>
+                    </a>
+                  </Link>{" "}
+                  </div>
                 </div>
               </div>
             </div>
