@@ -4,12 +4,9 @@ import ProductList from "../../components/ProductList";
 import { useRouter } from 'next/router'
 import productsData from "../../data/ShopDeutsch.json"
 import Head from 'next/head'
-
 const Category = () => {
     const router = useRouter()
-    
     const filterCategoryByProducts=()=>{
-    
       if(router.query.slug==="alle"){
       return productsData
        }
@@ -33,9 +30,7 @@ const Category = () => {
           ))}
         </div>
       </div>
-      
     </>
   );
 };
-
 export default Category;

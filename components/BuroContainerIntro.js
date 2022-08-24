@@ -2,11 +2,18 @@ import React from 'react'
 import Link from "next/link";
 import { useRouter } from "next/router";
 import windowSize from "../utils/windowSize";
+import Image from 'next/image';
 const BuroContainerIntro = ({data}) => {
     const [width] = windowSize();
   return (
     <>
-    <div className="intro-img" style={{ backgroundImage: `url(${width>768 ?data.image1:data.mobileImage1})` }}>
+    <div className="intro-img" >
+    <Image
+          layout="fill"
+          objectFit="cover"
+          objectPosition=" center"
+          src={width>768 ?data.image1:data.mobileImage1}
+        />
       <div className="intro-content">
        <h1 className="fw-600">{data.title.second}</h1>
        <h5 className=" fw-600">Direkt ab Werk</h5>

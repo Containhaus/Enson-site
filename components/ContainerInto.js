@@ -4,7 +4,6 @@ import windowSize from "../utils/windowSize";
 import Image from "next/image";
 const ContainerInto = ({ data, className }) => {
   const [width] = windowSize();
- 
   const router = useRouter();
   const test = () => {
     if (router.asPath === "/") {
@@ -25,19 +24,17 @@ const ContainerInto = ({ data, className }) => {
         <Image
           layout="fill"
           objectFit="cover"
-          objectPosition=" center"   
+          objectPosition=" center"
           src={test()}
-          
         />
         <div className="intro-content mx-3">
           <h1 className={`text-dark mb-0 fw-600`}>{data.title.second}</h1>
           <h5 className={`mt-1 fw-500`}>Direkt ab Werk</h5>
-          
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
             <button className="intro-button ">{router.asPath === "/" ? data.homeButton : data.pageButton}</button>
           </Link>
         </div>
-        </div>
+      </div>
     </>
   );
 };
