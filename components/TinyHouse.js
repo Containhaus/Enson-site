@@ -16,7 +16,8 @@ const ContainerInto = ({ data, className }) => {
                     objectFit="cover"
                     objectPosition=" center"
                     src={width < 768 ? data.mobileImage: data.image}
-                    quality= {75}
+                    
+                    priority
                 />
                 <div className="intro-content ">
                     <h1 className={`${width < 768?data.mobileTitleColor: data.titleColor} fw-600`}>{data.title.second}</h1>

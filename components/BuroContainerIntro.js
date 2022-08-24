@@ -13,6 +13,7 @@ const BuroContainerIntro = ({data}) => {
           objectFit="cover"
           objectPosition=" center"
           src={width>768 ?data.image1:data.mobileImage1}
+          priority
         />
       <div className="intro-content">
        <h1 className="fw-600">{data.title.second}</h1>
