@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Header = () => {
   const first = React.useRef(null)
   const handleClick=()=>{
@@ -63,11 +64,11 @@ const Header = () => {
             <div className="container">
               <Link href="/">
                 <a className="navbar-brand pt-0 pb-0" >
-                  <img
+                  <Image
                     height={72}
                     width={120}
                     src="/assets/img/RedBlack.webp"
-                    alt=""
+                    alt="Contain Haus Logo"
                   />
                 </a>
               </Link>
