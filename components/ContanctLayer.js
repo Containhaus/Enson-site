@@ -3,7 +3,7 @@ const ContanctLayer = () => {
   return (
     <div>
       <div>
-        <ul className="stCoBtn   footerdisDes">
+        <ul className="stCoBtn    footerdisDes">
           <li>
             <a href="tel:+4923028894880"
               className="floatPhoneDes sm-mb-20"
