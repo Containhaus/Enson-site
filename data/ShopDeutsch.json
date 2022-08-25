@@ -360,11 +360,11 @@
     "id": "7",
     "category": "burocontainer",
     "image": {
-      "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/3.webp",
-      "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/2.webp",
-      "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/1.webp",
-      "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/4.webp",
-      "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackGlassContainer/5.webp"
+      "ima1": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackdiomanXL/1.webp",
+      "ima2": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackdiomanXL/2.webp",
+      "ima3": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackdiomanXL/3.webp",
+      "ima4": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackdiomanXL/4.webp",
+      "ima5": "/assets/img/ShopDeutsch/SPECIALGLASS/BlackdiomanXL/5.webp"
     },
     "title": "Black Diamond XL",
     "slug": "black-diamond-xl",

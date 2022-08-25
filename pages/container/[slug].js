@@ -18,9 +18,7 @@ const Product = ({ product }) => {
     const x = document.getElementById('textdiv');
     if (x.style.display === "none") {
       x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+    } 
   }
   function Hidedetailtextdiv() {
     var x = document.getElementById("textdiv");
@@ -34,9 +32,7 @@ const Product = ({ product }) => {
     const x = document.getElementById('youtubevideoo');
     if (x.style.display === "none") {
       x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+    } 
   }
   function HideYoutubevieodiv() {
     var x = document.getElementById("youtubevideoo");
@@ -237,25 +233,21 @@ const Product = ({ product }) => {
                 key={product.id}
               >
                 <a
-                  className="btn btn-focuss mx-1"
+                  className="btn btn-focus mx-1"
                   tabIndex="1"
                   onClick={() => {
                     detailtextdiv();
                     HideYoutubevieodiv();
-                    
-
                   }}
                 >
                   Beschreibung
                 </a>
                 <a
-                  className="btn btn-focuss mx-1"
+                  className="btn btn-focus mx-1"
                   tabIndex="1"
                   onClick={() => {
                     Youtubevieodiv();
                     Hidedetailtextdiv();
-                    
-
                   }}
                 >
                   Youtube Video
