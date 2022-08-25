@@ -437,7 +437,7 @@ export default function VideoCorausel() {
                     />
                     <Image
                       className="VideoMob"
-                      src="/assets/img/Youtubekapak2/Mobil/7.webp"
+                      src="/assets/img/Youtubekapak2/Mobil/7.jpg"
                       layout="fill"
                       quality={70}
                     />
@@ -525,7 +525,7 @@ export default function VideoCorausel() {
                     />
                     <Image
                       className="VideoMob"
-                      src="/assets/img/Youtubekapak2/Mobil/9.webp"
+                      src="/assets/img/Youtubekapak2/9.webp"
                       layout="fill"
                       quality={70}
                     />
