@@ -298,7 +298,7 @@ export default function VideoCorausel() {
                   >
                     <Image
                       className="VideoDes"
-                      src="/assets/img/Youtubekapak2/4.jpg"
+                      src="/assets/img/Youtubekapak2/4.webp"
                       layout="fill"
                       quality={70}
                     />
