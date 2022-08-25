@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import VideoCorausel from "../../components/VideoCorausel"
+
+import ReactPlayer from 'react-player'
 import products from "../../data/ShopDeutsch.json";
 import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,7 +19,7 @@ const Product = ({ product }) => {
     const x = document.getElementById('textdiv');
     if (x.style.display === "none") {
       x.style.display = "block";
-    } 
+    }
   }
   function Hidedetailtextdiv() {
     var x = document.getElementById("textdiv");
@@ -32,7 +33,7 @@ const Product = ({ product }) => {
     const x = document.getElementById('youtubevideoo');
     if (x.style.display === "none") {
       x.style.display = "block";
-    } 
+    }
   }
   function HideYoutubevieodiv() {
     var x = document.getElementById("youtubevideoo");
@@ -42,7 +43,7 @@ const Product = ({ product }) => {
       x.style.display = "none";
     }
   }
- 
+
   function showModal1() {
     setOpen1(true);
   }
@@ -54,7 +55,7 @@ const Product = ({ product }) => {
       </Head>
 
       <div className="container-fluid  ProductPgBgColor p-0">
-        
+
         <div className="container  p-0">
           <div className="row ">
             <div className="col-lg-7 col-md-12 col-12 mt-100">
@@ -72,10 +73,10 @@ const Product = ({ product }) => {
                 >
                   <SwiperSlide>
                     <Image
-                     objectFit="cover"
-                     width={800}
-                     height={560}
-                      
+                      objectFit="cover"
+                      width={800}
+                      height={560}
+
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
@@ -84,7 +85,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      
+
                       src={product?.image?.ima2}
                     />
                   </SwiperSlide>
@@ -93,7 +94,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      
+
                       src={product?.image?.ima3}
                     />
                   </SwiperSlide>
@@ -102,16 +103,16 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
-                      
+
                       src={product?.image?.ima4}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                   
+            
                       width={800}
                       height={560}
-                      
+
                       src={product?.image?.ima5}
                     />
                   </SwiperSlide>
@@ -131,7 +132,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      
+
                       src={product?.image?.ima1}
                     />
                   </SwiperSlide>
@@ -140,7 +141,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      
+
                       src={product?.image?.ima2}
                     />
                   </SwiperSlide>
@@ -149,7 +150,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      
+
                       src={product?.image?.ima3}
                     />
                   </SwiperSlide>
@@ -158,7 +159,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
-                      
+
                       src={product?.image?.ima4}
                     />
                   </SwiperSlide>
@@ -166,7 +167,7 @@ const Product = ({ product }) => {
                     <Image
                       width={147}
                       height={110}
-                      
+
                       src={product?.image?.ima5}
                     />
                   </SwiperSlide>
@@ -217,11 +218,11 @@ const Product = ({ product }) => {
                   </div>
 
                   <div>
-                  <Link href="/shop/alle">
-                    <a className="mt-4 ">
-                      <span className="ProductPageButton text-dark bg-warning">Weitere Produkte</span>
-                    </a>
-                  </Link>{" "}
+                    <Link href="/shop/alle">
+                      <a className="mt-4 ">
+                        <span className="ProductPageButton text-dark bg-warning">Weitere Produkte</span>
+                      </a>
+                    </Link>{" "}
                   </div>
                 </div>
               </div>
@@ -250,99 +251,151 @@ const Product = ({ product }) => {
                     Hidedetailtextdiv();
                   }}
                 >
-                  Youtube Video
+                  Youtube Videos
                 </a>
-               
+
               </div>
-              <div className="col-lg-6 col-md-6 col-11" id="textdiv">
-                <h3>
-                  {product?.description?.Seller}
-                </h3>
-                <h4>
-                  {product?.description?.deutsch}
-                </h4>
-                <h6 className="mb-4 fw-600">
-                  {product?.description?.dimension}
-                </h6>
-                <p>
-                  {product?.description?.width}
-                </p>
-                <p>
-                  {product?.description?.length}
-                </p>
-                <p>
-                  {product?.description?.height}
-                </p>
-                <p>
-                  {product?.description?.Area}
-                </p>
-                <h6 className="mb-4 fw-600">
-                  {product?.description?.Description}
-                </h6>
-                <p>
-                  {product?.description?.Features}
-                </p>
-                <p>
-                  {product?.description?.Isolation}
-                </p>
-                <p>
-                  {product?.description?.strength}
-                </p>
-                <p>
-                  {product?.description?.CraneSlot}
-                </p>
-                <p>
-                  {product?.description?.TransportCost}
-                </p>
-               
-                <p>
-                  {product?.description?.customization}
-                </p>
-                <h6 className="mb-4 fw-600">{product?.description?.ExtraAccesories}</h6>
-                <p>
-                  {product?.description?.Shutar}
-                </p>
-                <p>
-                  {product?.description?.heater}
-                </p>
-                <p>
-                  {product?.description?.geaser}
-                </p>
-                <p>
-                  {product?.description?.cables}
-                </p>
-                <p>
-                  {product?.description?.fridge}
-                </p>
-                <p>
-                  {product?.description?.Urinate}
-                </p>
-                <p>
-                  {product?.description?.ColorSelection}
-                </p>
-                <p>
-                  {product?.description?.PricePlusKDV}
-                </p>
+              <div id="textdiv">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 col-11">
+                    <h3>
+                      {product?.description?.Seller}
+                    </h3>
+                    <h4>
+                      {product?.description?.deutsch}
+                    </h4>
+                    <h6 className="mb-4 fw-600">
+                      {product?.description?.dimension}
+                    </h6>
+                    <p>
+                      {product?.description?.width}
+                    </p>
+                    <p>
+                      {product?.description?.length}
+                    </p>
+                    <p>
+                      {product?.description?.height}
+                    </p>
+                    <p>
+                      {product?.description?.Area}
+                    </p>
+                    <h6 className="mb-4 fw-600">
+                      {product?.description?.Description}
+                    </h6>
+                    <p>
+                      {product?.description?.Features}
+                    </p>
+                    <p>
+                      {product?.description?.Isolation}
+                    </p>
+                    <p>
+                      {product?.description?.strength}
+                    </p>
+                    <p>
+                      {product?.description?.CraneSlot}
+                    </p>
+                    <p>
+                      {product?.description?.TransportCost}
+                    </p>
+
+                    <p>
+                      {product?.description?.customization}
+                    </p>
+                    <h6 className="mb-4 fw-600">{product?.description?.ExtraAccesories}</h6>
+                    <p>
+                    {product?.description?.ExtraAccesories1}
+                    </p>
+                    <p>
+                      {product?.description?.Shutar}
+                    </p>
+                    <p>
+                      {product?.description?.heater}
+                    </p>
+                    <p>
+                      {product?.description?.geaser}
+                    </p>
+                    <p>
+                      {product?.description?.cables}
+                    </p>
+                    <p>
+                      {product?.description?.fridge}
+                    </p>
+                    <p>
+                      {product?.description?.Urinate}
+                    </p>
+                    <p>
+                      {product?.description?.ColorSelection}
+                    </p>
+                    <p>
+                      {product?.description?.PricePlusKDV}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText1}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText2}
+                    </p>
+
+                    <p>
+                      {product?.description?.ExtraText3}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText4}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText5}
+                    </p>
+
+                    <p>
+                      {product?.description?.ExtraText6}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText7}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText8}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText9}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText10}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText11}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText12}
+                    </p>
+                    <p>
+                      {product?.description?.ExtraText13}
+                    </p>
+
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-11 mt-5">
+                    <ReactPlayer url='https://youtu.be/hJjpfnFyv74' />
+                  </div>
+                </div>
               </div>
 
               <div className="row">
 
 
                 <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
-                  <VideoCorausel/>
+                  <ReactPlayer url='https://youtu.be/hJjpfnFyv74' />
                 </div>
-              
+
               </div>
 
-              
 
-              
+
+
             </div>
           </div>
         </div>
       </div>
-      
-   
+
+
     </div>
   );
 };
