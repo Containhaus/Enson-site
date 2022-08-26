@@ -51,7 +51,7 @@ const Burocontaıner = () => {
       {/* <ContainerInto data={buroconteiner}/> */}
 
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
-
+      
       <ContainerDetail />
 
       <HomePageShop data={burofilter} />

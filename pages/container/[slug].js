@@ -11,6 +11,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
 import Head from 'next/head'
+import VideoCorausel from "../../components/VideoCorausel";
 
 const Product = ({ product }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -372,30 +373,18 @@ const Product = ({ product }) => {
                     </p>
 
                   </div>
-                  <div className="col-lg-6 col-md-6 col-11 mt-5">
-                    <ReactPlayer url='https://youtu.be/hJjpfnFyv74' />
-                  </div>
+                  
                 </div>
               </div>
-
               <div className="row">
-
-
                 <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
-                  <ReactPlayer url='https://youtu.be/hJjpfnFyv74' />
+                  <VideoCorausel/>
                 </div>
-
               </div>
-
-
-
-
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };
