@@ -110,7 +110,7 @@ const Product = ({ product }) => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-            
+
                       width={800}
                       height={560}
 
@@ -257,7 +257,103 @@ const Product = ({ product }) => {
 
               </div>
               <div id="textdiv">
-                <div className="row">
+                <section >
+                  <div >
+                    <div className="row justify-content-center mt-5">
+                      <div className="col-8">
+                        <table className="table table-bordered">
+                          <tbody>
+                            <tr>
+                              <td colSpan={1} className="fw-600 bg-dark text-light">
+                                Maße
+                              </td>
+                            </tr>
+                            <tr>
+                              <td className="">Breite</td>
+                              <td>{product?.description?.width}</td>
+                            </tr>
+                            <tr>
+                              <td>Länge</td>
+                              <td>{product?.description?.length}</td>
+                            </tr>
+                            <tr>
+                              <td>Höhe</td>
+                              <td>{product?.description?.height}</td>
+                            </tr>
+                            <tr>
+                              <td>Quadratmeter</td>
+                              <td>{product?.description?.Area}</td>
+                            </tr>
+                            <tr>
+                              <td colSpan={1} className="fw-600 bg-dark text-light">
+                                Beschreibung
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Besonderheiten</td>
+                              <td>{product?.description?.Features}</td>
+                            </tr>
+                            <tr>
+                              <td>Isolation</td>
+                              <td>{product?.description?.Isolation}</td>
+                            </tr>
+                            <tr>
+                              <td>Stärke</td>
+                              <td>{product?.description?.strength}</td>
+                            </tr>
+                            <tr>
+                              <td>Kran-Haken</td>
+                              <td>{product?.description?.CraneSlot}</td>
+                            </tr>
+                            <tr>
+                              <td>Transportkosten</td>
+                              <td>{product?.description?.TransportCost}</td>
+                            </tr>
+                            <tr>
+                              <td>Anpassung</td>
+                              <td>{product?.description?.customization}</td>
+                            </tr>
+                            <tr>
+                              <td>Zusätzliches Zubehör</td>
+                              <td>{product?.description?.ExtraAccesories}</td>
+                            </tr>
+                            <tr>
+                              <td>Rollladen</td>
+                              <td>{product?.description?.Shutar}</td>
+                            </tr>
+                            <tr>
+                              <td>Heizung</td>
+                              <td>{product?.description?.heater}</td>
+                            </tr>
+                            <tr>
+                              <td>Wasserboiler</td>
+                              <td>{product?.description?.geaser}</td>
+                            </tr>
+                            <tr>
+                              <td>Kabel</td>
+                              <td>{product?.description?.cables}</td>
+                            </tr>
+                            <tr>
+                              <td>Kühlschrank</td>
+                              <td>{product?.description?.fridge}</td>
+                            </tr>
+                            <tr>
+                              <td>Urinal</td>
+                              <td>{product?.description?.Urinate}</td>
+                            </tr>
+                            <tr>
+                              <td>Farbauswahl</td>
+                              <td>{product?.description?.ColorSelection}</td>
+                            </tr>
+                            <tr>
+                              <td>Preis Plus KDV</td>
+                              <td>{product?.description?.PricePlusKDV}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      
+
+                    {/* <div className="row">
                   <div className="col-lg-6 col-md-6 col-11">
                     <h3>
                       {product?.description?.Seller}
@@ -329,7 +425,8 @@ const Product = ({ product }) => {
                     </p>
                     <p>
                       {product?.description?.PricePlusKDV}
-                    </p>
+                    </p> */}
+
                     <p>
                       {product?.description?.ExtraText1}
                     </p>
@@ -371,21 +468,28 @@ const Product = ({ product }) => {
                     <p>
                       {product?.description?.ExtraText13}
                     </p>
-
+                    </div>
+                    </div>
                   </div>
-                  
-                </div>
+                </section>
+
+
+
               </div>
-              <div className="row">
-                <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
-                  <VideoCorausel/>
-                </div>
-              </div>
+
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
+              <VideoCorausel />
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
+
   );
 };
 

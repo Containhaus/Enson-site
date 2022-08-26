@@ -699,7 +699,10 @@ CardHeightt .pb-35 {
   background-repeat: no-repeat;
   justify-content: center;
   display: flex;
+  background: rgba(0, 0, 0, 0.5) !important;
+  
 }
+
 
 .intro-content {
   display: flex;
@@ -709,6 +712,21 @@ CardHeightt .pb-35 {
   z-index: 0;
 
 }
+.intro-SEOText{
+  position: absolute;
+  top: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  
+  padding: 32px 24px;
+  opacity: 0.90;
+  font-family: montserrat!important;
+}
+
 .intro-button {
   background-color: #171a20cc;
   border-radius: 24px;
@@ -759,6 +777,14 @@ CardHeightt .pb-35 {
   border-radius: 150px;
   padding: 10px 30px;
   background-color: #ffc107;
+  color: white;
+  font-size: 13px;
+}
+.banner-button-Mp{
+  border: none;
+  border-radius: 150px;
+  padding: 10px 30px;
+  background-color: #242222;
   color: white;
   font-size: 13px;
 }
@@ -2062,6 +2088,7 @@ floatemail {
   .intro-content {
     text-align: center;
     z-index: 0;
+
   }
   .navbar-info {
     display: flex;
