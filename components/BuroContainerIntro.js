@@ -38,13 +38,13 @@ const BuroContainerIntro = ({ data }) => {
             </div>
             <div className='col-lg-7 col-md-7 p-5 pt-0  border-info border-3'>
               <h1 className="fw-600 text-light">{data.title.second}</h1>
-              <h5 className=" fw-600 text-light mb-5">Direkt ab Werk</h5>
+              <h5 className=" fw-600 text-light mb-5 mbReMob">Direkt ab Werk</h5>
               <div className='MainPgTextRe p-4 d-inline-block'>
               <p className='text-light ResFontSi'><b>Contain Haus Container</b> werden mit besonderer Spitzentechnologie hergestellt und sind mit seiner statischen Berechnungen zur idealem und modernsten Container-Baukonstruktion auf dem europäischen Markt geworden.</p>
               
               <p className='text-light ResFontSi'>Bei der Herstellung von unseren Containern stehen Langlebigkeit,<b>Materialqualität und Ästhetik im Vordergrund.</b></p>
               
-              <p className='text-light fw-700 ResFontSi fz-15'>Sie können sich jede Zeit auch an unsere Kundenberater wenden, um unsere Bürocontainer zu kaufen oder zu mieten.</p>
+              <p className='text-light fw-700 ResFontSi '>Sie können sich jede Zeit auch an unsere Kundenberater wenden, um unsere Bürocontainer zu kaufen oder zu mieten.</p>
               </div>
               <div className='d-block mt-4'>
               <Link href={`${data.href}`}>
@@ -52,7 +52,7 @@ const BuroContainerIntro = ({ data }) => {
               </Link>
               
               <Link href={`${data.href}`}>
-                <button className="btn ms-3 btn-light">Kontakt</button>
+                <button className="btn ms-3 btn-light disMoNone">Kontakt</button>
               </Link>
               
               </div>

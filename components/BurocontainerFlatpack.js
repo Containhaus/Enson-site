@@ -18,10 +18,10 @@ const BurocontainerFlatpack = ({ data }) => {
                 <div className='MainPgFlatPack'>
                     <div className='bg-light p-5'>
                         <div >
-                        <p className='fz-15'>
+                        <p className='ResFontSi'>
                             Die sehr einfach montierende <br/><b>Flat-Pack Container,</b> werden an die<br/> Montageorte geliefert.
                         </p>
-                        <p className='fz-15'>
+                        <p className='ResFontSi'>
                             <b>Flatpack-Container,</b> die aus<br/> Boden-, Decken-, Fenster-, Tür- und<br/> Sandwichpaneelen bestehen und <br/>sich leicht zusammenfügen lassen,<br/> können vom Endnutzer leicht<br/> zusammengebaut werden.<br/><b> Flatpack ist eine großartige<br/> Gelegenheit für alle,<br/>
                             die günstigere Preise wollen!</b>
                         </p>

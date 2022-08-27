@@ -1979,8 +1979,15 @@
     
   }
   @media screen and (max-width: 786px) {
+    
+    .ResFontSi{
+        font-size: 9px !important;
+    }
+    .mbReMob{
+        margin-bottom: 1rem !important;
+    }
     .disMoNone{
-        display: none;
+        display: none !important;
     }
     .ProductDesJustify{
       justify-content: center !important;
