@@ -17,6 +17,24 @@
     "MainpgClass":"text-white",
     "TitleColor":"text-light"
   },
+  "Flatpack":{
+    "id": 2,
+    "title": { "second": "Bürocontainer" },
+    "content": {
+      "first": "Wo Sie auch sind, Ihr Bürocontainer kommt immer mit!",
+      "Third": "Direkt ab Werk"
+    },
+    "image": "/assets/img/FrontPage/BuroMainpageUpdate.webp",
+    "mobileImage": "/assets/img/FrontPage/buromobile.webp",
+    "image1": "/assets/img/FlatPackMenu/FlatpackMain.webp",
+    "mobileImage1": "/assets/img/InnerPage/FlatpackMobilInnerPageUpdate.webp",
+    "href":"/shop/burocontainer",
+    "homeHref":"/burocontainer",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP",
+    "MainpgClass":"text-white",
+    "TitleColor":"text-light"
+  },
   "wohncontainers":{
     "id": 1,
     "title": { "second": "XL Wohncontainer" },

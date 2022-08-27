@@ -4,6 +4,7 @@ import introContainer from "../data/containerIntro.json";
 import buroHappyData from "../data/HaCusAndRefe.json";
 import HaCusAndRefe from "../components/HaCusAndRefe";
 import VideoCorausel from "../components/VideoCorausel";
+import BurocontainerFlatpack from "../components/BurocontainerFlatpack"
 
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
@@ -31,6 +32,7 @@ const Burocontaıner = () => {
   const child3RefValue = useOnScreen(child3Ref);
   console.log("first", isChild3Ref);
   const { buroconteiner } = introContainer;
+  const { Flatpack } = introContainer;
   React.useEffect(() => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
@@ -51,7 +53,7 @@ const Burocontaıner = () => {
       {/* <ContainerInto data={buroconteiner}/> */}
 
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
-      
+      <BurocontainerFlatpack data={Flatpack}/>
       <ContainerDetail />
 
       <HomePageShop data={burofilter} />

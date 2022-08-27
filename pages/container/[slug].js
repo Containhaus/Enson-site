@@ -298,11 +298,11 @@ const Product = ({ product }) => {
                               <td>{product?.description?.Isolation}</td>
                             </tr>
                             <tr>
-                              <td>Stärke</td>
+                              <td>BodenStärke</td>
                               <td>{product?.description?.strength}</td>
                             </tr>
                             <tr>
-                              <td>Kran-Haken</td>
+                              <td>Kranösen</td>
                               <td>{product?.description?.CraneSlot}</td>
                             </tr>
                             <tr>
@@ -310,7 +310,7 @@ const Product = ({ product }) => {
                               <td>{product?.description?.TransportCost}</td>
                             </tr>
                             <tr>
-                              <td>Anpassung</td>
+                              <td>Raumausstattung</td>
                               <td>{product?.description?.customization}</td>
                             </tr>
                             <tr>
@@ -322,7 +322,7 @@ const Product = ({ product }) => {
                               <td>{product?.description?.Shutar}</td>
                             </tr>
                             <tr>
-                              <td>Heizung</td>
+                              <td>Warmwasser für Dusche</td>
                               <td>{product?.description?.heater}</td>
                             </tr>
                             <tr>
@@ -330,11 +330,11 @@ const Product = ({ product }) => {
                               <td>{product?.description?.geaser}</td>
                             </tr>
                             <tr>
-                              <td>Kabel</td>
+                              <td>Heizung</td>
                               <td>{product?.description?.cables}</td>
                             </tr>
                             <tr>
-                              <td>Kühlschrank</td>
+                              <td>Frostwächter</td>
                               <td>{product?.description?.fridge}</td>
                             </tr>
                             <tr>
@@ -342,8 +342,12 @@ const Product = ({ product }) => {
                               <td>{product?.description?.Urinate}</td>
                             </tr>
                             <tr>
-                              <td>Farbauswahl</td>
+                              <td>Farbauswahl-1</td>
                               <td>{product?.description?.ColorSelection}</td>
+                            </tr>
+                            <tr>
+                              <td>Farbauswahl-2</td>
+                              <td>Container Komplett Lackierung (inkl. Verarbeitung) 950 €</td>
                             </tr>
                             <tr>
                               <td>Preis Plus KDV</td>
