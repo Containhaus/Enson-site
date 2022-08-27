@@ -1989,6 +1989,9 @@
     .disMoNone{
         display: none !important;
     }
+    .TextCenter{
+        text-align: center !important;
+    }
     .ProductDesJustify{
       justify-content: center !important;
     }

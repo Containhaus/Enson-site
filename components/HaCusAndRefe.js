@@ -187,12 +187,11 @@ const HaCusAndRefe = ({ data }) => {
             <SplideSlide>
               <Image
                 width={350}
-                      height={200}
+                height={200}
                 quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/7.png"
                 alt="First slide"
-
               />
             </SplideSlide>
           </Splide>

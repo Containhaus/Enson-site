@@ -46,9 +46,9 @@ const BuroContainerIntro = ({ data }) => {
               
               <p className='text-light fw-700 ResFontSi '>Sie können sich jede Zeit auch an unsere Kundenberater wenden, um unsere Bürocontainer zu kaufen oder zu mieten.</p>
               </div>
-              <div className='d-block mt-4'>
+              <div className='d-block mt-4 TextCenter'>
               <Link href={`${data.href}`}>
-                <button className="btn btn-light btnglow">JETZT ZUM SHOP</button>
+                <button className="btn btn-light  btnglow">JETZT ZUM SHOP</button>
               </Link>
               
               <Link href={`${data.href}`}>
