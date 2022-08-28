@@ -62,7 +62,7 @@ const Header = () => {
           </div>
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent pt-0 pb-0">
             <div className="container">
-              <Link href="/">
+              <Link href="/burocontainer">
                 <a className="navbar-brand pt-0 pb-0" >
                   <Image
                     height={72}

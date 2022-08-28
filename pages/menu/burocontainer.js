@@ -3,6 +3,7 @@ import React from 'react'
 import MenuContentBuroContainer from "../../components/MenuComponents/MenuContentBuroContainer"
 
 import MenuContentData from  "../../data/menu/menuContent.json"
+
 import MenuContact from '../../components/MenuComponents/MenuContact'
 import Head from "next/head"
 const Burocontainer = () => {

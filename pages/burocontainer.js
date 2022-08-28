@@ -1,17 +1,16 @@
 import React from "react";
 // import ContainerInto from "../components/ContainerInto";
-import introContainer from "../data/containerIntro.json";
 import buroHappyData from "../data/HaCusAndRefe.json";
 import HaCusAndRefe from "../components/HaCusAndRefe";
 import VideoCorausel from "../components/VideoCorausel";
 import BurocontainerFlatpack from "../components/BurocontainerFlatpack"
-
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
 import useOnScreen from "../utils/utils";
 import dynamic from "next/dynamic";
 import ContainerDetail from "../components/ContainerDetail";
 import buroData from "../data/ShopDeutsch.json";
+import BurocontainerText from "../components/BurocontainerText"
 const WhyWeComponent = dynamic(() => import("../components/WhyWeComponent"));
 const ContainerColorSelector = dynamic(() =>
   import("../components/ContainerColorSelector")
@@ -19,15 +18,16 @@ const ContainerColorSelector = dynamic(() =>
 const HomePageShop = dynamic(() => import("../components/HomePageShop"));
 import Head from "next/head";
 import BuroContainerIntro from "../components/BuroContainerIntro";
-
-import LoadingScreen from "../components/MenuComponents/LoadingScreen";
+import MenuContentData from  "../data/menu/menuContent.json"
+import ContainerInto from "../components/ContainerInto";
+import introContainer from "../data/containerIntro.json";
 const Burocontaıner = () => {
   React.useEffect(() => {
     console.clear();
   }, []);
-
+  const {burocontainerContent} = MenuContentData 
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
-
+  const { specialeditatons } = introContainer;
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
   console.log("first", isChild3Ref);
@@ -49,28 +49,19 @@ const Burocontaıner = () => {
         <title>Contain Haus | Bürocontainer Preise kaufen </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-
       {/* <ContainerInto data={buroconteiner}/> */}
-
       <BuroContainerIntro data={buroconteiner}></BuroContainerIntro>
       <BurocontainerFlatpack data={Flatpack}/>
       <ContainerDetail />
-
       <HomePageShop data={burofilter} />
-
       <ContainerColorSelector data={BuroContarinerColorSelector} />
-
       <WhyWeComponent />
-
       <HaCusAndRefe data={buroHappyDatafilter} />
-
       <VideoCorausel />
-
       <ContainerAnimation />
-
-     
+      <ContainerInto data={specialeditatons} />
+      <BurocontainerText data={burocontainerContent} />
     </div>
   );
 };
-
 export default Burocontaıner;

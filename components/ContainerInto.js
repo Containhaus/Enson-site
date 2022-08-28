@@ -6,16 +6,16 @@ const ContainerInto = ({ data, className }) => {
   const [width] = windowSize();
   const router = useRouter();
   const test = () => {
-    if (router.asPath === "/") {
+    if (router.asPath === "/burocontainer") {
       if (width < 768) {
-        return data.mobileImage;
+        return data.mobileImage1;
       }
       return data.image;
     } else {
       if (width < 768) {
         return data.mobileImage1;
       }
-      return data.image1;
+      return data.image;
     }
   };
   return (
