@@ -762,7 +762,11 @@
     top: 0%;
     left: 10%;
 }
- 
+ .FlatPackHP{
+    position: absolute;
+    top: 10%;
+    right: 17%;
+ }
   /* Banner Components */
   .banner-img {
     height: 100vh;
@@ -1979,7 +1983,11 @@
     
   }
   @media screen and (max-width: 786px) {
-    
+    .FlatPackHP{
+        position: absolute;
+        top: 40%;
+        right: 17%;
+     }
     .ResFontSi{
         font-size: 9px !important;
     }
@@ -2211,6 +2219,11 @@
     .shadow-product {
       height: 420px !important;
     }
+    .FlatPackHP{
+        position: absolute;
+        top: 45%;
+        right: 17%;
+     }
   }
   
   @media only screen and (max-width: 400px) {
@@ -2220,6 +2233,11 @@
     .footer-mid-bot .footer-bot-text{
       font-size: 15px !important;
     }
+    .FlatPackHP{
+        position: absolute;
+        top: 45%;
+        right: 6%;
+     }
   } 
   .product-stock{
    padding: 5px;

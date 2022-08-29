@@ -51,7 +51,7 @@ const BuroContainerIntro = ({ data }) => {
                 <button className="btn btn-light  btnglow">JETZT ZUM SHOP</button>
               </Link>
               
-              <Link href={`${data.href}`}>
+              <Link href={`${data.href1}`}>
                 <button className="btn ms-3 btn-light disMoNone">Kontakt</button>
               </Link>
               

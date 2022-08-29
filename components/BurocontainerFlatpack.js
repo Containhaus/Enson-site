@@ -33,6 +33,10 @@ const BurocontainerFlatpack = ({ data }) => {
                         </div>
                     </div>
                 </div>
+                <div className='FlatPackHP text-left '>
+                    <h1 className='fw-600'>FlatPack</h1>
+                    <h4 className='fw-600'>Bau dein Container selbst</h4>
+                </div>
             </div>
         </>
     )

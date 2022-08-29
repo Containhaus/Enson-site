@@ -11,6 +11,7 @@
     "image1": "/assets/img/InnerPage/BurocontainerInnerPageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/BurocontainerMobilInnerPageUpdate.webp",
     "href":"/shop/burocontainer",
+    "href1":"/kontakt",
     "homeHref":"/burocontainer",
     "homeButton":"HIER GEHT'S WEITER",
     "pageButton":"JETZT ZUM SHOP",
@@ -29,6 +30,7 @@
     "image1": "/assets/img/FlatPackMenu/FlatpackMain.webp",
     "mobileImage1": "/assets/img/InnerPage/FlatpackMobilInnerPageUpdate.webp",
     "href":"/shop/burocontainer",
+    
     "homeHref":"/burocontainer",
     "homeButton":"HIER GEHT'S WEITER",
     "pageButton":"JETZT ZUM SHOP",
