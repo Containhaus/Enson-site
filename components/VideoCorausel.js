@@ -139,49 +139,53 @@ export default function VideoCorausel() {
         )}
 
 
-        <div className="wrapper pt-120">
+        <div className="wrapper pt-30">
           <Splide
             classes={{
               pagination: 'splide__pagvideo',
             }}
             options={{
-                arrows: false,
-                pagination: true,
-                autoScroll: {
-                  pauseOnHover: true,
-                  pauseOnFocus: false,
-                  rewind: false,
-                  speed: 3
-                },
-              type: 'loop',
-              drag: 'free',
-              focus: 'center',
-              gap: '1rem',
+              type   : 'loop',
+              rewind: true,
+              drag   : 'free',
+              focus  : 'center',
+              gap: "1rem",
               perPage: 1,
+              arrows:false,
               padding: '20%',
-              perMove: 1,
+              autoScroll: {
+                speed: 2,
+              },
             }}
             extensions={{ AutoScroll }}
           >
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+              
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper"
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/7.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
                     className="VideoMob"
                     src="/assets/img/Youtubekapak2/Mobil/7.jpg"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
 
                     <a
                       className="vid"
@@ -204,28 +208,36 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+              
 
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0 ">
+              <div className=" ">
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                  
                     src="/assets/img/Youtubekapak2/1.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                    
                     src="/assets/img/Youtubekapak2/Mobil/1.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
                     <a
                       className="vid"
                       onClick={(e) => {
@@ -244,32 +256,42 @@ export default function VideoCorausel() {
                         </span>
                       </div>
                     </a>
-                  </div>
+                    </div>
+                  
                 </div>
               </div>
             </SplideSlide>
 
 
             <SplideSlide  >
-              <div className="container-fluid pl-0 pr-0">
+              
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                  
                     src="/assets/img/Youtubekapak2/2.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                   
+                   
                     src="/assets/img/Youtubekapak2/Mobil/2.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
                     <a
                       className="vid"
                       onClick={(e) => {
@@ -290,29 +312,37 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+          
 
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+          
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                    
                     src="/assets/img/Youtubekapak2/3.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                
                     src="/assets/img/Youtubekapak2/Mobil/3.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
                     <a
                       className="vid"
                       onClick={(e) => {
@@ -333,27 +363,35 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+   
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+           
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                    
                     src="/assets/img/Youtubekapak2/4.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                   
                     src="/assets/img/Youtubekapak2/Mobil/4.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
                     <a
                       className="vid"
 
@@ -375,28 +413,36 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+   
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+           
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                    
                     src="/assets/img/Youtubekapak2/5.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                  
                     src="/assets/img/Youtubekapak2/Mobil/5.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
                     <a
                       className="vid"
 
@@ -418,28 +464,36 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+        
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
-                    className="VideoDes"
+                    
                     src="/assets/img/Youtubekapak2/6.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                   
                     src="/assets/img/Youtubekapak2/Mobil/6.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
 
                     <a
                       className="vid"
@@ -462,30 +516,38 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+
 
 
             </SplideSlide>
 
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+     
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/8.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                   
                     src="/assets/img/Youtubekapak2/Mobil/8.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
 
                     <a
                       className="vid"
@@ -508,28 +570,36 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+  
 
             </SplideSlide>
             <SplideSlide >
-              <div className="container-fluid pl-0 pr-0">
+             
                 <div
-                  className="video-wrapper section-padding bg-img parallaxie valign"
+                  className="video-wrapper "
 
                   data-overlay-dark="4"
                 >
+ 
+ <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/9.webp"
-                    layout="fill"
+                    width={1600}
+                    height={900}
                     quality={70}
                   />
+                  </div>
+<div className="VideoMob">
+
                   <Image
-                    className="VideoMob"
+                   
                     src="/assets/img/Youtubekapak2/9.webp"
-                    layout="fill"
+                    width={300}
+                    height={400}
                     quality={70}
                   />
-                  <div className="full-width text-center">
+                  </div>
+                  <div className="StopButt">
 
                     <a
                       className="vid"
@@ -552,7 +622,7 @@ export default function VideoCorausel() {
                     </a>
                   </div>
                 </div>
-              </div>
+            
 
             </SplideSlide>
 

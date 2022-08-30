@@ -78,7 +78,7 @@ const Product = ({ product }) => {
                       width={800}
                       height={560}
 
-                      src={product?.image?.ima1}
+                      src={product?.image?.Product1}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -87,7 +87,7 @@ const Product = ({ product }) => {
                       width={800}
                       height={560}
 
-                      src={product?.image?.ima2}
+                      src={product?.image?.Product2}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -96,7 +96,7 @@ const Product = ({ product }) => {
                       width={800}
                       height={560}
 
-                      src={product?.image?.ima3}
+                      src={product?.image?.Product3}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -105,7 +105,7 @@ const Product = ({ product }) => {
                       width={800}
                       height={560}
 
-                      src={product?.image?.ima4}
+                      src={product?.image?.Product4}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -114,7 +114,7 @@ const Product = ({ product }) => {
                       width={800}
                       height={560}
 
-                      src={product?.image?.ima5}
+                      src={product?.image?.Product5}
                     />
                   </SwiperSlide>
                 </Swiper>
@@ -134,7 +134,7 @@ const Product = ({ product }) => {
                       width={147}
                       height={110}
 
-                      src={product?.image?.ima1}
+                      src={product?.image?.Thumb1}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -143,7 +143,7 @@ const Product = ({ product }) => {
                       width={147}
                       height={110}
 
-                      src={product?.image?.ima2}
+                      src={product?.image?.Thumb2}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -152,7 +152,7 @@ const Product = ({ product }) => {
                       width={147}
                       height={110}
 
-                      src={product?.image?.ima3}
+                      src={product?.image?.Thumb3}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -161,7 +161,7 @@ const Product = ({ product }) => {
                       width={147}
                       height={110}
 
-                      src={product?.image?.ima4}
+                      src={product?.image?.Thumb4}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -169,7 +169,7 @@ const Product = ({ product }) => {
                       width={147}
                       height={110}
 
-                      src={product?.image?.ima5}
+                      src={product?.image?.Thumb5}
                     />
                   </SwiperSlide>
                 </Swiper>
@@ -229,7 +229,7 @@ const Product = ({ product }) => {
               </div>
             </div>
           </div>
-          <div className="mt-3 mb-3 pb-5 ">
+          <div className="mt-3 ">
             <div className="row ProductDesJustify">
               <div className="text-center "
                 key={product.id}
@@ -484,7 +484,7 @@ const Product = ({ product }) => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 m-5" id="youtubevideoo" style={{ display: "none" }}>
+            <div className="col-12 m-5 mt-0" id="youtubevideoo" style={{ display: "none" }}>
               <VideoCorausel />
             </div>
           </div>

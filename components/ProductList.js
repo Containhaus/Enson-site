@@ -14,7 +14,7 @@ const ProductList = ({ product }) => {
             width={306}
             height={229}
           
-            src={product.image.ima1}
+            src={product.image.Shopkapak}
             
             
             alt={product.content.AltTag}
