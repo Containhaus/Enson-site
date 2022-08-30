@@ -68,7 +68,7 @@ const HomePageShop = ({ data }) => {
                           objectFit="cover"
                           width={306}
                           height={229}
-                          src={Val.image.ima1}
+                          src={Val.image.Shopkapak}
                           alt={Val.content.AltTag}
                           
                         />
