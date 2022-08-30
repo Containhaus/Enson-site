@@ -170,9 +170,9 @@ export default function VideoCorausel() {
  <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/7.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    
                   />
                   </div>
 <div className="VideoMob">
