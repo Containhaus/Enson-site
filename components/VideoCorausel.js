@@ -157,7 +157,7 @@ export default function VideoCorausel() {
                 speed: 2,
               },
             }}
-            extensions={{ AutoScroll }}
+            // extensions={{ AutoScroll }}
           >
             <SplideSlide >
 
