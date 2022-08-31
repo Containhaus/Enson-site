@@ -10,11 +10,12 @@ const BuroContainerIntro = ({ data }) => {
       <div className="intro-img" >
 
         <Image
-          layout="fill"
+          width={1920}
+          height={1080}
           objectFit="cover"
           objectPosition=" center"
           src={width > 768 ? data.image1 : data.mobileImage1}
-          priority
+          
         />
 
    

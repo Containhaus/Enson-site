@@ -707,7 +707,6 @@
     
   }
   
-  
   .intro-content {
     display: flex;
     flex-direction: column;
@@ -738,7 +737,7 @@
     border: none;
   }
   .MainPgContainer{
-    position: relative;
+    position: absolute;
     top: 15%;
   }
   .MainPgText{
@@ -1965,7 +1964,7 @@
         font-size: 12px;
     }
     .MainPgContainer{
-        position: relative;
+        position: absolute;
         top: 12% !important;
       }
   }
