@@ -10,7 +10,7 @@ export default function VideoCorausel() {
   React.useEffect(() => {
     console.clear();
   }, []);
- 
+
   const [isOpen1, setOpen1] = React.useState(false);
   const [isOpen2, setOpen2] = React.useState(false);
   const [isOpen3, setOpen3] = React.useState(false);
@@ -139,19 +139,19 @@ export default function VideoCorausel() {
         )}
 
 
-        <div className="wrapper pt-30">
+        <div className="wrapper pt-30 text-center">
           <Splide
             classes={{
               pagination: 'splide__pagvideo',
             }}
             options={{
-              type   : 'loop',
+              type: 'loop',
               rewind: true,
-              drag   : 'free',
-              focus  : 'center',
+              drag: 'free',
+              focus: 'center',
               gap: "1rem",
               perPage: 1,
-              arrows:false,
+              arrows: false,
               padding: '20%',
               autoScroll: {
                 speed: 2,
@@ -160,55 +160,55 @@ export default function VideoCorausel() {
             extensions={{ AutoScroll }}
           >
             <SplideSlide >
-              
-                <div
-                  className="video-wrapper"
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper"
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/7.webp"
                     width={888}
                     height={500}
-                    
+
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                    className="VideoMob"
-                    src="/assets/img/Youtubekapak2/Mobil/7.jpg"
-                    width={300}
+                    
+                    src="/assets/img/Youtubekapak2/Mobil/7.webp"
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal7
-                        e.preventDefault();
-                        setOpen7(true);
-                      }}
-                      href="https://youtu.be/hJjpfnFyv74"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-              
+                <div className="StopButt">
+
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal7
+                      e.preventDefault();
+                      setOpen7(true);
+                    }}
+                    href="https://youtu.be/hJjpfnFyv74"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
 
             </SplideSlide>
             <SplideSlide >
@@ -217,25 +217,25 @@ export default function VideoCorausel() {
                   className="video-wrapper "
                   data-overlay-dark="4"
                 >
- 
- <div className="VideoDes">
-                  <Image
-                  
-                    src="/assets/img/Youtubekapak2/1.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
-                  />
-                  </div>
-<div className="VideoMob">
 
-                  <Image
-                    
-                    src="/assets/img/Youtubekapak2/Mobil/1.webp"
-                    width={300}
-                    height={400}
-                    quality={70}
-                  />
+                  <div className="VideoDes">
+                    <Image
+
+                      src="/assets/img/Youtubekapak2/1.webp"
+                      width={1600}
+                      height={900}
+                      quality={70}
+                    />
+                  </div>
+                  <div className="VideoMob">
+
+                    <Image
+
+                      src="/assets/img/Youtubekapak2/Mobil/1.webp"
+                      width={225}
+                      height={400}
+                      quality={70}
+                    />
                   </div>
                   <div className="StopButt">
                     <a
@@ -256,373 +256,373 @@ export default function VideoCorausel() {
                         </span>
                       </div>
                     </a>
-                    </div>
-                  
+                  </div>
+
                 </div>
               </div>
             </SplideSlide>
 
 
             <SplideSlide  >
-              
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
-                  
+
                     src="/assets/img/Youtubekapak2/2.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                   
-                   
+
+
                     src="/assets/img/Youtubekapak2/Mobil/2.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-                    <a
-                      className="vid"
-                      onClick={(e) => {
-                        showModal2
-                        e.preventDefault();
-                        setOpen2(true);
-                      }}
-                      href="https://youtu.be/3JSit_voEqc"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-          
+                <div className="StopButt">
+                  <a
+                    className="vid"
+                    onClick={(e) => {
+                      showModal2
+                      e.preventDefault();
+                      setOpen2(true);
+                    }}
+                    href="https://youtu.be/3JSit_voEqc"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
 
             </SplideSlide>
             <SplideSlide >
-          
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
-                    
+
                     src="/assets/img/Youtubekapak2/3.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                
+
                     src="/assets/img/Youtubekapak2/Mobil/3.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-                    <a
-                      className="vid"
-                      onClick={(e) => {
-                        showModal3
-                        e.preventDefault();
-                        setOpen3(true);
-                      }}
-                      href="https://youtu.be/xLZ0uFr7LKg"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-   
+                <div className="StopButt">
+                  <a
+                    className="vid"
+                    onClick={(e) => {
+                      showModal3
+                      e.preventDefault();
+                      setOpen3(true);
+                    }}
+                    href="https://youtu.be/xLZ0uFr7LKg"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
             </SplideSlide>
             <SplideSlide >
-           
-                <div
-                  className="video-wrapper "
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+
+              <div
+                className="video-wrapper "
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
-                    
+
                     src="/assets/img/Youtubekapak2/4.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                   
+
                     src="/assets/img/Youtubekapak2/Mobil/4.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal4
-                        e.preventDefault();
-                        setOpen4(true);
-                      }}
-                      href="https://youtu.be/xHqGD4TSAtM"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-   
+                <div className="StopButt">
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal4
+                      e.preventDefault();
+                      setOpen4(true);
+                    }}
+                    href="https://youtu.be/xHqGD4TSAtM"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
             </SplideSlide>
             <SplideSlide >
-           
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
-                    
+
                     src="/assets/img/Youtubekapak2/5.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                  
+
                     src="/assets/img/Youtubekapak2/Mobil/5.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal5
-                        e.preventDefault();
-                        setOpen5(true);
-                      }}
-                      href="https://youtu.be/a8FQaW9XVlU"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
+                <div className="StopButt">
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal5
+                      e.preventDefault();
+                      setOpen5(true);
+                    }}
+                    href="https://youtu.be/a8FQaW9XVlU"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
 
             </SplideSlide>
             <SplideSlide >
-        
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
-                    
+
                     src="/assets/img/Youtubekapak2/6.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                   
+
                     src="/assets/img/Youtubekapak2/Mobil/6.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal6
-                        e.preventDefault();
-                        setOpen6(true);
-                      }}
-                      href="https://youtu.be/jDHpSpilFuU"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
+                <div className="StopButt">
+
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal6
+                      e.preventDefault();
+                      setOpen6(true);
+                    }}
+                    href="https://youtu.be/jDHpSpilFuU"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
 
 
 
             </SplideSlide>
 
             <SplideSlide >
-     
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/8.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                   
+
                     src="/assets/img/Youtubekapak2/Mobil/8.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal8
-                        e.preventDefault();
-                        setOpen8(true);
-                      }}
-                      href="https://youtu.be/W_kfISQx0pM"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-  
+                <div className="StopButt">
+
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal8
+                      e.preventDefault();
+                      setOpen8(true);
+                    }}
+                    href="https://youtu.be/W_kfISQx0pM"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
 
             </SplideSlide>
             <SplideSlide >
-             
-                <div
-                  className="video-wrapper "
 
-                  data-overlay-dark="4"
-                >
- 
- <div className="VideoDes">
+              <div
+                className="video-wrapper "
+
+                data-overlay-dark="4"
+              >
+
+                <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/9.webp"
                     width={1600}
                     height={900}
                     quality={70}
                   />
-                  </div>
-<div className="VideoMob">
+                </div>
+                <div className="VideoMob">
 
                   <Image
-                   
+
                     src="/assets/img/Youtubekapak2/9.webp"
-                    width={300}
+                    width={225}
                     height={400}
                     quality={70}
                   />
-                  </div>
-                  <div className="StopButt">
-
-                    <a
-                      className="vid"
-
-                      onClick={(e) => {
-                        showModal9
-                        e.preventDefault();
-                        setOpen9(true);
-                      }}
-                      href="https://youtu.be/YGVXtLyGD5Q"
-                    >
-                      <div className="vid-butn">
-                        <span className="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
-                          </svg>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
                 </div>
-            
+                <div className="StopButt">
+
+                  <a
+                    className="vid"
+
+                    onClick={(e) => {
+                      showModal9
+                      e.preventDefault();
+                      setOpen9(true);
+                    }}
+                    href="https://youtu.be/YGVXtLyGD5Q"
+                  >
+                    <div className="vid-butn">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-play-circle" viewBox="0 0 16 16">
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
 
             </SplideSlide>
 

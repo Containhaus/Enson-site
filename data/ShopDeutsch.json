@@ -1115,6 +1115,7 @@
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600 | 14,40m²",
       "price": "5.980,00 €",
+      "FlatpackPrice":"Halb Demontiert : 3.925,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
       "text7 ": "",
       "AltTag":"CON-11"
@@ -1172,8 +1173,8 @@
       "text1": "NEU",
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600 14,40m²",
-
       "price": "5.980,00 €",
+      "FlatpackPrice":"Halb Demontiert : 3.925,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
       "text7 ": "",
       "AltTag":"CON-12"
@@ -1232,6 +1233,7 @@
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600 14,40m²",
       "price": "6.460,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.410,00 €",
       "text6": "1 x Zimmer, 1 x Raum, 1 x Eingangstür, 1x Innentür, 1x Schiebefenster, 1x WC mit Waschbecken, 1x Küche",
       "text7 ": "",
       "AltTag":"CON-23"
@@ -1289,6 +1291,7 @@
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600  14,40m²",
       "price": "6.585,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.535,00 €",
       "text6": "2 x Zimmer, 1 x Raum, 2 x Eingangstür, 1 x Innentür, 2 x Fenster, 1 x WC mit Waschbacken, 1x Küche",
       "text7 ": "",
       "AltTag":"CON-33"
@@ -1348,6 +1351,7 @@
       "text2": "Bürocontainer | Wohncontainer",
       "text3": "B:300 | L:700 21,00m²",
       "price": "7.915,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.415,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster ",
       "text7 ": "",
       "AltTag":"XL-11"
@@ -1409,6 +1413,7 @@
       "text2": "Bürocontainer | Wohncontainer",
       "text3": "B:300 | L:700 21,00m²",
       "price": "7.915,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.415,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
       "text7 ": "",
       "AltTag":"XL-12"
@@ -1468,6 +1473,7 @@
       "text2": "Bürocontainer | Wohncontainer",
       "text3": "B:300 | L:700 21,00m²",
       "price": "8.075,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.575,00 €",
       "text6": "2x Zimmer, 2x Eingangstür, 2x Fenster",
       "text7 ": "",
       "AltTag":"XL-21"
@@ -1526,6 +1532,7 @@
       "text2": "Bürocontainer | Wohncontainer",
       "text3": "B:300 | L:700 21,00m²",
       "price": "8.340,00 €",
+      "FlatpackPrice":"Halb Demontiert : 4.840,00 €",
       "text6": "3 x Zimmer, 1 x Raum, 2 x Eingangstür, 3 x Innertür, 2 x Fenster, 1 x WC mit Waschbacken, 1 x Küche",
       "text7 ": "",
       "AltTag":"XL-33"

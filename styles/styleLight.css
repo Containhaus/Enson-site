@@ -5966,6 +5966,7 @@ footer .sub-footer .text-right {
 }
 
 @media screen and (max-width: 767px) {
+  
   .BuroDes{
     display: none!important;
   }

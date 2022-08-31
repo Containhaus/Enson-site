@@ -6,7 +6,7 @@ const ProductList = ({ product }) => {
     <>
     <Link  href={`/container/${product.slug}`}>
    
-      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-xs-10 mb-4  gx-3 mt-2 cursor">
+      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8  mb-4  gx-3 mt-2 cursor">
   
         <div className="card text-black position-relative">
           <Image

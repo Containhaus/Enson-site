@@ -106,7 +106,7 @@ const HaCusAndRefe = ({ data }) => {
               gap: "0.5rem",
               perPage: 7,
               arrows: false,
-              height: "100px",
+              height: "6rem",
               pagination: false,
               autoplay: true,
               breakpoints: {
@@ -125,8 +125,7 @@ const HaCusAndRefe = ({ data }) => {
           >
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
+                layout="fill"
                 quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/1.png"
@@ -135,8 +134,7 @@ const HaCusAndRefe = ({ data }) => {
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
+                layout="fill"
                 quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/2.png"
@@ -145,9 +143,8 @@ const HaCusAndRefe = ({ data }) => {
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
-                quality={50}
+
+                layout="fill" quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/3.png"
                 alt="First slide"
@@ -155,39 +152,35 @@ const HaCusAndRefe = ({ data }) => {
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
+
                 quality={50}
-                className="d-block   p-2"
+                layout="fill" className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/4.png"
                 alt="First slide"
               />
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
+
                 quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/5.png"
+                layout="fill" src="/assets/img/ReferansLogolar/5.png"
                 alt="First slide"
               />
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                      height={200}
+
                 quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/6.png"
-                alt="First slide"
+                layout="fill" alt="First slide"
 
               />
             </SplideSlide>
             <SplideSlide>
               <Image
-                width={350}
-                height={200}
+                layout="fill"
                 quality={50}
                 className="d-block   p-2"
                 src="/assets/img/ReferansLogolar/7.png"
