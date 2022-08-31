@@ -487,7 +487,7 @@ const Product = ({ product }) => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 m-5 mt-0" id="youtubevideoo" style={{ display: "none" }}>
+            <div className="col-12 mb-5" id="youtubevideoo" style={{ display: "none" }}>
               <VideoCorausel />
             </div>
           </div>
