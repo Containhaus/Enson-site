@@ -714,6 +714,7 @@
     align-items: center;
     margin-top: 9rem;
     z-index: 0;
+    position: absolute;
   
   }
  
@@ -2136,6 +2137,7 @@
       padding-bottom: 80px;
     }
     .intro-content {
+      position: absolute;
       text-align: center;
       z-index: 0;
   

@@ -825,7 +825,7 @@
     "slug": "behinderten-wc",
     "content": {
       "text1": "NEU",
-      "text2": "sanitarcontainer | Behinderten WC Container",
+      "text2": "Sanitarcontainer | Behinderten WC Container",
       "text3": "B:220 | L:220 4,85m²",
       "price": "3.580,00 €",
       "text6": "1 x Raum, 1 x Eingangstür, 1 x WC mit Waschbecken, 1 x Belüftung",
@@ -882,7 +882,7 @@
     "slug": "wc-wc-wc",
     "content": {
       "text1": "NEU",
-      "text2": "sanitarcontainer | WC Container",
+      "text2": "Sanitarcontainer | WC Container",
       "text3": "B:110 | L:300 3,30m²",
       "price": "3.470,00 €",
       "text6": "3 x Raum, 3 x Eingangstür, 3 x WC mit Waschbecken, 3 x Belüftung",
@@ -940,7 +940,7 @@
     "isInStock":true,
     "content": {
       "text1": "NEU",
-      "text2": "Sanitärcontainer | DUSCH-WC Container",
+      "text2": "Sanitärcontainer | DUSCHE-WC Container",
       "text3": "B:110 | L:300 3,30m²",
       "price": "3.430,00 €",
       "text6": "3 x Raum, 3 x Eingangstür, 2 x WC mit Waschbecken, 1x Dusche, 3x Belüftung",
@@ -1115,7 +1115,7 @@
       "text2": "Bürocontainer",
       "text3": "B:240 | L:600 | 14,40m²",
       "price": "5.980,00 €",
-      "FlatpackPrice":"Halb Demontiert : 3.925,00 €",
+      "FlatpackPrice":"(Halb Demontiert)  3.925,00 €",
       "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
       "text7 ": "",
       "AltTag":"CON-11"
@@ -1644,11 +1644,11 @@
       "Thumb4": "/assets/img/ShopDeutsch/Storage/Thumb4.webp",
       "Thumb5": "/assets/img/ShopDeutsch/Storage/Thumb5.webp"
     },
-    "title": "Lagercontainer",
+    "title": "Gartenmeister",
     "slug": "lagercontainer",
     "content": {
       "text1": "NEU",
-      "text2": "Lagercontainer | Gartenmeister",
+      "text2": "Lagercontainer",
       "text3": "B:240 | L:300 7,20m²",
       "price": "4.870,00 €",
       "text6": " 1x Zimmer, 1x Doppelflügeltür, 1x Waschbecken, 4x Belüftung",
@@ -1987,7 +1987,7 @@
       "Thumb4": "/assets/img/ShopDeutsch/GrunerSanitar/Thumb4.webp",
       "Thumb5": "/assets/img/ShopDeutsch/GrunerSanitar/Thumb5.webp"
     },
-    "title": "WC & DUSCH",
+    "title": "WC & DUSCHE",
     "slug": "grüner-sanitärcontainer-2x-wc",
     "content": {
       "text1": "NEU",

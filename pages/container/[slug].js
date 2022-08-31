@@ -188,6 +188,7 @@ const Product = ({ product }) => {
                   <p className="fz-20 fw-600">Zustand</p>
                   <hr />
                   <div className="d-flex">
+                    
                   <h4 className="fz-18 fw-600 mb-3">{product?.content?.price}</h4>
                   <p className="d-inline-block ms-auto text-end  fz-18 fw-600 fst-italic">{product?.content?.FlatpackPrice}</p>
                   </div>
@@ -196,6 +197,7 @@ const Product = ({ product }) => {
                       <span className="ProductPageButton ">Jetzt Anfragen</span>
                     </a>
                   </Link>{" "}
+                  
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
                   <div className="d-flex mt-2">
                     <svg

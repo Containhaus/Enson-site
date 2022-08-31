@@ -20,15 +20,17 @@ const ContainerInto = ({ data, className }) => {
   };
   return (
     <>
+    
       <div className="intro-img">
         <Image
-          layout="fill"
+          width={1920}
+          height={1080}
           objectFit="cover"
           objectPosition=" center"
           src={test()}
-          priority
+          
         />
-        <div className="intro-content    mx-3">
+        <div className="intro-content  mx-3">
           <h1 className={`text-dark mb-0 fw-600`}>{data.title.second}</h1>
           <h5 className={`mt-1 fw-500`}>Direkt ab Werk</h5>
           <Link href={`${router.asPath === "/" ? data.homeHref : data.href}`}>
