@@ -117,7 +117,7 @@ const Product = ({ product }) => {
                       src={product?.image?.Product5}
                     />
                   </SwiperSlide>
-                  
+
                 </Swiper>
                 <Swiper
                   loop={true}
@@ -173,7 +173,7 @@ const Product = ({ product }) => {
                       src={product?.image?.Thumb5}
                     />
                   </SwiperSlide>
-                  
+
                 </Swiper>
               </div>
             </div>
@@ -186,20 +186,30 @@ const Product = ({ product }) => {
 
                   <h6 className="mt-2 fz-20 fw-600">Maße</h6>
                   <p className="fz-18">{product?.content?.text3}</p>
-
                   <p className="fz-20 fw-600">Zustand</p>
                   <hr />
-                  <div className="d-flex">
-                    
-                  <h4 className="fz-18 fw-600 mb-3">{product?.content?.price}</h4>
-                  <p className="d-inline-block ms-auto text-end  fz-18 fw-600 fst-italic">{product?.content?.FlatpackPrice}</p>
+                  <div className="row">
+                    <div className="col-6">
+                      <h4 className="fz-18 fw-600 ms-4 mb-3">{product?.content?.price}</h4>
+                      <div className="martop">
+                      <Link href="/kontakt">
+                        
+                        <a className="">
+                          <span className="ProductPageButton ">Jetzt Anfragen</span>
+                        </a>
+                      </Link>{" "}
+                      </div>
+                    </div>
+                    <div className="col-6">
+                      <p className="fz-18 fw-600 ms-4 mb-3">{product?.content?.FlatpackPrice}</p>
+                      <Link href="/kontakt">
+                        <a className="">
+                          <span className="ProductPageButton ">Halb Demontiert</span>
+                        </a>
+                      </Link>{" "}
+                    </div>
+
                   </div>
-                  <Link href="/kontakt">
-                    <a className="mt-4 ">
-                      <span className="ProductPageButton ">Jetzt Anfragen</span>
-                    </a>
-                  </Link>{" "}
-                  
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
                   <div className="d-flex mt-2">
                     <svg
@@ -362,9 +372,9 @@ const Product = ({ product }) => {
                             </tr>
                           </tbody>
                         </table>
-                      
 
-                    {/* <div className="row">
+
+                        {/* <div className="row">
                   <div className="col-lg-6 col-md-6 col-11">
                     <h3>
                       {product?.description?.Seller}
@@ -438,48 +448,48 @@ const Product = ({ product }) => {
                       {product?.description?.PricePlusKDV}
                     </p> */}
 
-                    <p className="mt-5">
-                      {product?.description?.ExtraText1}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText2}
-                    </p>
+                        <p className="mt-5">
+                          {product?.description?.ExtraText1}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText2}
+                        </p>
 
-                    <p>
-                      {product?.description?.ExtraText3}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText4}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText5}
-                    </p>
+                        <p>
+                          {product?.description?.ExtraText3}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText4}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText5}
+                        </p>
 
-                    <p>
-                      {product?.description?.ExtraText6}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText7}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText8}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText9}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText10}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText11}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText12}
-                    </p>
-                    <p>
-                      {product?.description?.ExtraText13}
-                    </p>
-                    </div>
+                        <p>
+                          {product?.description?.ExtraText6}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText7}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText8}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText9}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText10}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText11}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText12}
+                        </p>
+                        <p>
+                          {product?.description?.ExtraText13}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </section>
