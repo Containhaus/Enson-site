@@ -172,7 +172,8 @@ export default function VideoCorausel() {
                     src="/assets/img/Youtubekapak2/7.webp"
                     width={888}
                     height={500}
-
+                    quality={60}
+                    
                   />
                 </div>
                 <div className="VideoMob">
@@ -222,9 +223,10 @@ export default function VideoCorausel() {
                     <Image
 
                       src="/assets/img/Youtubekapak2/1.webp"
-                      width={1600}
-                      height={900}
-                      quality={70}
+                      width={888}
+                      height={500}
+                      quality={60}
+                     
                     />
                   </div>
                   <div className="VideoMob">
@@ -275,9 +277,10 @@ export default function VideoCorausel() {
                   <Image
 
                     src="/assets/img/Youtubekapak2/2.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                    
                   />
                 </div>
                 <div className="VideoMob">
@@ -327,9 +330,10 @@ export default function VideoCorausel() {
                   <Image
 
                     src="/assets/img/Youtubekapak2/3.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                    
                   />
                 </div>
                 <div className="VideoMob">
@@ -376,9 +380,10 @@ export default function VideoCorausel() {
                   <Image
 
                     src="/assets/img/Youtubekapak2/4.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                
                   />
                 </div>
                 <div className="VideoMob">
@@ -427,9 +432,10 @@ export default function VideoCorausel() {
                   <Image
 
                     src="/assets/img/Youtubekapak2/5.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                    
                   />
                 </div>
                 <div className="VideoMob">
@@ -478,9 +484,10 @@ export default function VideoCorausel() {
                   <Image
 
                     src="/assets/img/Youtubekapak2/6.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+             
                   />
                 </div>
                 <div className="VideoMob">
@@ -532,9 +539,10 @@ export default function VideoCorausel() {
                 <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/8.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                    
                   />
                 </div>
                 <div className="VideoMob">
@@ -584,9 +592,10 @@ export default function VideoCorausel() {
                 <div className="VideoDes">
                   <Image
                     src="/assets/img/Youtubekapak2/9.webp"
-                    width={1600}
-                    height={900}
-                    quality={70}
+                    width={888}
+                    height={500}
+                    quality={60}
+                  
                   />
                 </div>
                 <div className="VideoMob">
