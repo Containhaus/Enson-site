@@ -14,7 +14,7 @@ const BurocontainerFlatpack = ({ data }) => {
                     objectFit="cover"
                     objectPosition=" center"
                     src={width > 768 ? data.image1 : data.mobileImage1}
-                    priority
+                    
                 />
                 <div className='MainPgFlatPack'>
                     <div className='bg-light p-5'>

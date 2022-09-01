@@ -436,7 +436,7 @@ const Product = ({ product }) => {
                       {product?.description?.PricePlusKDV}
                     </p> */}
 
-                    <p>
+                    <p className="mt-5">
                       {product?.description?.ExtraText1}
                     </p>
                     <p>

@@ -20,15 +20,13 @@ const ContainerInto = ({ data, className }) => {
   };
   return (
     <>
-    
-      <div className="intro-img">
+      <div className="intro-img container-fluid p-0">
         <Image
           width={1920}
           height={1080}
           objectFit="cover"
           objectPosition=" center"
           src={test()}
-          
         />
         <div className="intro-content  mx-3">
           <h1 className={`text-dark mb-0 fw-600`}>{data.title.second}</h1>

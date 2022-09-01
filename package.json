@@ -23,7 +23,6 @@
     "react-is": "^16.13.1",
     "react-modal-video": "^1.2.10",
     "react-player": "^2.10.1",
-    "react-snap-scroll": "^0.0.5",
     "styled-components": "^5.3.5",
     "swiper": "^8.3.2",
     "universal-cookie": "^4.0.4"
