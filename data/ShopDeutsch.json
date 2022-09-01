@@ -225,11 +225,17 @@
       "Product3": "/assets/img/ShopDeutsch/Caffe/Product3.webp",
       "Product4": "/assets/img/ShopDeutsch/Caffe/Product4.webp",
       "Product5": "/assets/img/ShopDeutsch/Caffe/Product5.webp",
+      "Product6": "/assets/img/ShopDeutsch/Caffe/Product6.webp",
+      "Product7": "/assets/img/ShopDeutsch/Caffe/Product7.webp",
+      "Product8": "/assets/img/ShopDeutsch/Caffe/Product8.webp",
       "Thumb1": "/assets/img/ShopDeutsch/Caffe/Thumb1.webp",
       "Thumb2": "/assets/img/ShopDeutsch/Caffe/Thumb2.webp",
       "Thumb3": "/assets/img/ShopDeutsch/Caffe/Thumb3.webp",
       "Thumb4": "/assets/img/ShopDeutsch/Caffe/Thumb4.webp",
-      "Thumb5": "/assets/img/ShopDeutsch/Caffe/Thumb5.webp"
+      "Thumb5": "/assets/img/ShopDeutsch/Caffe/Thumb5.webp",
+      "Thumb6": "/assets/img/ShopDeutsch/Caffe/Thumb6.webp",
+      "Thumb7": "/assets/img/ShopDeutsch/Caffe/Thumb7.webp",
+      "Thumb8": "/assets/img/ShopDeutsch/Caffe/Thumb8.webp"
     },
     "title": "Cafe Container",
     "slug": "cafe-container",

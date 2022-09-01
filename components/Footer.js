@@ -184,11 +184,10 @@ const Footer = () => {
               </Link>
               <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
                 <div className="mt-1 fzMob cursor p-1 footer-color border border-light d-inline-block">
-                  CATALOG HERUNTERLADEN
+                  KATALOG HERUNTERLADEN
                 </div>
               </Link>
             </div>
-
             <p className=" text-center">
               © 2022, Developed by Contain Haus
             </p>

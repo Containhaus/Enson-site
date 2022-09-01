@@ -117,6 +117,7 @@ const Product = ({ product }) => {
                       src={product?.image?.Product5}
                     />
                   </SwiperSlide>
+                  
                 </Swiper>
                 <Swiper
                   loop={true}
@@ -172,6 +173,7 @@ const Product = ({ product }) => {
                       src={product?.image?.Thumb5}
                     />
                   </SwiperSlide>
+                  
                 </Swiper>
               </div>
             </div>
