@@ -128,7 +128,7 @@ const HaCusAndRefe = ({ data }) => {
                 layout="fill"
                 quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/1.png"
+                src="/assets/img/ReferansLogolar/1.webp"
                 alt="First slide"
               />
             </SplideSlide>
@@ -137,7 +137,7 @@ const HaCusAndRefe = ({ data }) => {
                 layout="fill"
                 quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/2.png"
+                src="/assets/img/ReferansLogolar/2.webp"
                 alt="First slide"
               />
             </SplideSlide>
@@ -146,7 +146,7 @@ const HaCusAndRefe = ({ data }) => {
 
                 layout="fill" quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/3.png"
+                src="/assets/img/ReferansLogolar/3.webp"
                 alt="First slide"
               />
             </SplideSlide>
@@ -155,7 +155,7 @@ const HaCusAndRefe = ({ data }) => {
 
                 quality={50}
                 layout="fill" className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/4.png"
+                src="/assets/img/ReferansLogolar/4.webp"
                 alt="First slide"
               />
             </SplideSlide>
@@ -164,7 +164,7 @@ const HaCusAndRefe = ({ data }) => {
 
                 quality={50}
                 className="d-block   p-2"
-                layout="fill" src="/assets/img/ReferansLogolar/5.png"
+                layout="fill" src="/assets/img/ReferansLogolar/5.webp"
                 alt="First slide"
               />
             </SplideSlide>
@@ -173,7 +173,7 @@ const HaCusAndRefe = ({ data }) => {
 
                 quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/6.png"
+                src="/assets/img/ReferansLogolar/6.webp"
                 layout="fill" alt="First slide"
 
               />
@@ -183,7 +183,7 @@ const HaCusAndRefe = ({ data }) => {
                 layout="fill"
                 quality={50}
                 className="d-block   p-2"
-                src="/assets/img/ReferansLogolar/7.png"
+                src="/assets/img/ReferansLogolar/7.webp"
                 alt="First slide"
               />
             </SplideSlide>

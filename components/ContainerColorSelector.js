@@ -18,10 +18,8 @@ const ContainerColorSelector = ({ data }) => {
           <Image
             width={router.asPath==="/sanitar-container"?500: 750}
             height={router.asPath==="/sanitar-container"?550: 450}
-            
-            
+            priority
             src={colorImgSrc}
-            
           />
         </div>
         <div className="col-lg-3  gx-5 ">

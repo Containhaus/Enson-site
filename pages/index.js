@@ -21,10 +21,11 @@ import BuroContainerIntro from "../components/BuroContainerIntro";
 import MenuContentData from  "../data/menu/menuContent.json"
 import LoadingScreen from "../components/MenuComponents/LoadingScreen";
 
+
 import ContainerInto from "../components/ContainerInto";
 import introContainer from "../data/containerIntro.json";
 
-export default function Home() {
+export default function Home({img, svg}) {
   React.useEffect(() => {
     console.clear();
   }, []);
@@ -72,7 +73,7 @@ export default function Home() {
       <ContainerAnimation />
       <ContainerInto data={specialeditatons} />
       <BurocontainerText data={burocontainerContent} />
-
+     
      
     </div>
   );

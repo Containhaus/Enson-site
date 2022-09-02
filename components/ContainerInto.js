@@ -26,6 +26,7 @@ const ContainerInto = ({ data, className }) => {
           height={1080}
           objectFit="cover"
           objectPosition=" center"
+          
           src={test()}
         />
         <div className="intro-content  mx-3">
