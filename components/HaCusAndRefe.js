@@ -51,7 +51,7 @@ const HaCusAndRefe = ({ data }) => {
                       src={Val.image.ima1}
                       width={400}
                       height={300}
-
+                      quality={80}
                       alt="First slide"
                     />
 

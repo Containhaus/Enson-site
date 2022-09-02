@@ -11,6 +11,7 @@ const BurocontainerFlatpack = ({ data }) => {
                 <Image
                     width={1920}
                     height={1080}
+                    quality={80}
                     objectFit="cover"
                     objectPosition=" center"
                     src={width > 768 ? data.image1 : data.mobileImage1}

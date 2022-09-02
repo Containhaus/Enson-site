@@ -13,10 +13,8 @@ const ProductList = ({ product }) => {
             objectFit="cover"
             width={306}
             height={229}
-          
+            quality={80}
             src={product.image.Shopkapak}
-            
-            
             alt={product.content.AltTag}
           />
       {

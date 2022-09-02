@@ -77,6 +77,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
+                      quality={80}
 
                       src={product?.image?.Product1}
                     />
@@ -86,6 +87,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
+                      quality={80}
 
                       src={product?.image?.Product2}
                     />
@@ -95,6 +97,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
+                      quality={80}
 
                       src={product?.image?.Product3}
                     />
@@ -104,6 +107,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={800}
                       height={560}
+                      quality={80}
 
                       src={product?.image?.Product4}
                     />
@@ -113,6 +117,7 @@ const Product = ({ product }) => {
 
                       width={800}
                       height={560}
+                      quality={80}
 
                       src={product?.image?.Product5}
                     />
@@ -134,6 +139,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
+                      quality={80}
 
                       src={product?.image?.Thumb1}
                     />
@@ -143,6 +149,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
+                      quality={80}
 
                       src={product?.image?.Thumb2}
                     />
@@ -152,6 +159,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
+                      quality={80}
 
                       src={product?.image?.Thumb3}
                     />
@@ -161,6 +169,7 @@ const Product = ({ product }) => {
                       objectFit="cover"
                       width={147}
                       height={110}
+                      quality={80}
 
                       src={product?.image?.Thumb4}
                     />
@@ -169,6 +178,7 @@ const Product = ({ product }) => {
                     <Image
                       width={147}
                       height={110}
+                      quality={80}
 
                       src={product?.image?.Thumb5}
                     />

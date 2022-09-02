@@ -26,6 +26,7 @@ const ContainerInto = ({ data, className }) => {
           height={1080}
           objectFit="cover"
           objectPosition=" center"
+          quality={80}
           
           src={test()}
         />
