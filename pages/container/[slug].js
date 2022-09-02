@@ -48,6 +48,8 @@ const Product = ({ product }) => {
   function showModal1() {
     setOpen1(true);
   }
+
+
   return (
     <div>
       <Head>
@@ -210,15 +212,16 @@ const Product = ({ product }) => {
                       </Link>{" "}
                       </div>
                     </div>
-                    <div className="col-6">
+                    {product?.content?.FlatpackPrice && (
+                      <div className="col-6">
                       <p className="fz-18 fw-600 ms-4 mb-3">{product?.content?.FlatpackPrice}</p>
                       <Link href="/kontakt">
                         <a className="">
-                          <span className="ProductPageButton ">Halb Demontiert</span>
+                          <span className="ProductPageButton ">{product?.content?.Halb}</span>
                         </a>
                       </Link>{" "}
                     </div>
-
+                    )}
                   </div>
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
                   <div className="d-flex mt-2">
