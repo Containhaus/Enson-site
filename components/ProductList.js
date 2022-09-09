@@ -21,6 +21,13 @@ const ProductList = ({ product }) => {
         product.isInStock && (
           <div className="position-absolute product-stock fz-12 mt-1 ms-1">Sofort Lieferbereit</div>
         )
+        
+      }  
+      {
+        product.isTag && (
+          <div className="position-absolute product-stock fz-15 mt-1 ms-1">Rabatt</div>
+        )
+        
       }  
           <div className="card-body card-info">
             <div className=" mt-1 ">
@@ -29,6 +36,7 @@ const ProductList = ({ product }) => {
               <h6 className="text-dark mb-1 pb-1  fz-12">{product.content.text1}</h6>
               </div>
               <h5 className="text-dark mb-1 fw-600 pb-1 text-decoration-line-through">{product.content.cutprice}</h5>
+              <h5 className="text-dark mb-1 fw-600 pb-1"><s>{product.content.Cutprice}</s></h5>
               <h5 className="text-dark mb-1 fw-600 pb-1">{product.content.price}</h5>
               <h6 className="card-title mb-1 pb-1 fw-600">{product.content.text2}</h6>
               <h6 className="card-title mb-1 pb-1">{product.content.text3}</h6>

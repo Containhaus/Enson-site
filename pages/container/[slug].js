@@ -217,7 +217,7 @@ const Product = ({ product }) => {
                       <p className="fz-18 fw-600 ms-4 mb-3">{product?.content?.FlatpackPrice}</p>
                       <Link href="/kontakt">
                         <a className="">
-                          <span className="ProductPageButton ">{product?.content?.Halb}</span>
+                          <span className="ProductPageButton ">Halb Demontiert</span>
                         </a>
                       </Link>{" "}
                     </div>
