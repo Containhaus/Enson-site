@@ -204,23 +204,23 @@ const Product = ({ product }) => {
                     <div className="col-6">
                       <h4 className="fz-18 fw-600 ms-4 mb-3">{product?.content?.price}</h4>
                       <div className="martop">
-                      <Link href="/kontakt">
-                        
-                        <a className="">
-                          <span className="ProductPageButton ">Jetzt Anfragen</span>
-                        </a>
-                      </Link>{" "}
+                        <Link href="/kontakt">
+
+                          <a className="">
+                            <span className="ProductPageButton ">Jetzt Anfragen</span>
+                          </a>
+                        </Link>{" "}
                       </div>
                     </div>
                     {product?.content?.FlatpackPrice && (
                       <div className="col-6">
-                      <p className="fz-18 fw-600 ms-4 mb-3">{product?.content?.FlatpackPrice}</p>
-                      <Link href="/kontakt">
-                        <a className="">
-                          <span className="ProductPageButton ">Halb Demontiert</span>
-                        </a>
-                      </Link>{" "}
-                    </div>
+                        <p className="fz-18 fw-600 ms-4 mb-3">{product?.content?.FlatpackPrice}</p>
+                        <Link href="/kontakt">
+                          <a className="">
+                            <span className="ProductPageButton ">Halb Demontiert</span>
+                          </a>
+                        </Link>{" "}
+                      </div>
                     )}
                   </div>
                   <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
@@ -327,6 +327,12 @@ const Product = ({ product }) => {
                               <td>Isolation</td>
                               <td>{product?.description?.Isolation}</td>
                             </tr>
+                            {product?.description?.Elektronik && (
+                              <tr>
+                                <td>Elektronischen</td>
+                                <td>{product?.description?.Elektronik}</td>
+                              </tr>
+                            )}
                             <tr>
                               <td>BodenStärke</td>
                               <td>{product?.description?.strength}</td>

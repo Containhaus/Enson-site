@@ -1178,7 +1178,7 @@
       "price": "5.980,00 €",
       "FlatpackPrice":"3.925,00 €",
       
-      "text6": "1x Grossraum, 1x Eingangstür, 2x Fenster",
+      "text6": "1 Zimmer; 2x Fenster, 1x Eingangstür",
       "text7 ": "",
       "AltTag":"CON-12"
     },
@@ -1195,8 +1195,9 @@
       "height":"Höhe: 2.50m",
       "Area": "Quadratmeter: 14.40m²",        
       "Description": "Beschreibung:",
-      "Features": "Ausstattung: 1x Grossraum, 1x Eingangstür, 2x Fenster" ,
-      "Isolation": "Isolation: 80 mm Decke, 50mm Wand",
+      "Features": "Ausstattung: 1 Zimmer; 2x Fenster, 1x Eingangstür" ,
+      "Isolation": "Isolation: 80 mm Decke, 50mm Wand, 50mm Boden",
+      "Elektronik":"Alle elektronischen Installationen sind Inkl. (Sicherungskasten, Steckdosen 230V, Deckenlampen, Schalter, Kabelkanäle, Kabel).",
       "strength": "Vinyl Bodenbelag 2-3mm - robust.",
       "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
       "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
