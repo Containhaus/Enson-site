@@ -341,10 +341,7 @@ const Product = ({ product }) => {
                               <td>Kranösen</td>
                               <td>{product?.description?.CraneSlot}</td>
                             </tr>
-                            <tr>
-                              <td>Transportkosten</td>
-                              <td>{product?.description?.TransportCost}</td>
-                            </tr>
+                            
                             <tr>
                               <td>Raumausstattung</td>
                               <td>{product?.description?.customization}</td>
