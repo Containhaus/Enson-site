@@ -35,14 +35,14 @@ const ProductList = ({ product }) => {
               <div className="d-flex justify-content-between align-items-center">
               <h6 className="text-dark mb-1 pb-1  fz-12">{product.content.text1}</h6>
               </div>
-              <h5 className="text-dark mb-1 fw-600 pb-1 text-decoration-line-through">{product.content.cutprice}</h5>
-              <h5 className="text-dark mb-1 fw-600 pb-1"><s>{product.content.Cutprice}</s></h5>
+              <h5 className="text-dark  fw-600  text-decoration-line-through">{product.content.cutprice}</h5>
+              <h5 className="text-dark  fw-600 "><s>{product.content.Cutprice}</s></h5>
               <h5 className="text-dark mb-1 fw-600 pb-1">{product.content.price}</h5>
               <h6 className="card-title mb-1 pb-1 fw-600">{product.content.text2}</h6>
               <h6 className="card-title mb-1 pb-1">{product.content.text3}</h6>
               <h6 className="card-title fz-15 display-1 mb-1 pb-1">{product.content.text6}</h6>
             </div>
-            <div className="d-flex bottom-btn">
+            <div className="d-flex bottom-btn ">
               <Link href="/kontakt">
                 <button
                   type="button"
