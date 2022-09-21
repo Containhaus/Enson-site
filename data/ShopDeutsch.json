@@ -2496,6 +2496,64 @@
       "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
       "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
     }
+  },
+  {
+    "id": "43",
+    "category": "wohncontainer",
+   
+    "image": {
+      "Shopkapak":"/assets/img/ShopDeutsch/kuzey/Shopkapak.webp",
+      "Product1":"/assets/img/ShopDeutsch/kuzey/Product1.webp",
+      "Product2":"/assets/img/ShopDeutsch/kuzey/Product2.webp",
+      "Product3": "/assets/img/ShopDeutsch/kuzey/Product3.webp",
+      "Product4": "/assets/img/ShopDeutsch/kuzey/Product4.webp",
+      "Product5": "/assets/img/ShopDeutsch/kuzey/Product5.webp",
+      "Thumb1": "/assets/img/ShopDeutsch/kuzey/Thumb1.webp",
+      "Thumb2": "/assets/img/ShopDeutsch/kuzey/Thumb2.webp",
+      "Thumb3": "/assets/img/ShopDeutsch/kuzey/Thumb3.webp",
+      "Thumb4": "/assets/img/ShopDeutsch/kuzey/Thumb4.webp",
+      "Thumb5": "/assets/img/ShopDeutsch/kuzey/Thumb5.webp"
+    },
+    "title": "NORDSTERN",
+    "slug": "Nordstern",
+    "content": {
+      "text1": "NEU",
+      "text2": "Bürocontainer | Wohncontainer | Baucontainer",
+      "text3": "B:480 | L:600 28,80m²",
+      "price": "15.900,00 €",
+      "text6": "2 x Zimmer; 4x Fenster, 1x Eingangstür 1 x WC mit Waschbecken, 1x Küche",
+      "text7 ": "",
+      "AltTag":"Bürocontainer"
+    },
+    "href": {
+      "href1": "/Kontakt",
+      "href2": "/AnlageProductPage"
+    },
+    "description": {
+      "Seller":"Direkt von Hersteller",
+      "deutsch":"NEUWARE! Deutsche Markenqualität",
+      "dimension": "Maße:",
+      "width": "Breite: 4.80m,",
+      "length": "Länge: 6.00m,",
+      "height":"Höhe: 2.50m",
+      "Area": "Quadratmeter: 28.80m²",        
+      "Description": "Beschreibung:",
+      "Features": "Ausstattung: 2 x Zimmer; 4x Fenster, 1x Eingangstür 1 x WC mit Waschbecken, 1x Küche" ,
+      "Isolation": "Isolation: 72 mm Decke, 50mm Wand",
+      "strength": "Vinyl Bodenbelag 2-3mm - robust.",
+      "CraneSlot": "Kranösen sind Inkl. Zum Entladen mit Kran.",
+      "TransportCost": "Auf Wunsch bieten wir den Transport mit Entladung an. Der Aufpreis ist 300 €",
+      "customization": "Individuelle Raumgestaltung ist möglich.",
+      "ExtraAccesories": "Zusätzlich können Sie folgendes dazu bestellen:",
+      "Shutar": "Rolladen (Inkl. Einabu) : 390 €",
+      "heater": "Durchlauferhitzer Dusche (inkl. Einbau & Abdichtung): 400 € ",
+      "geaser": "Wasserboiler Waschbecken (inkl. Einbau & Abdichtung): 300 € ",
+      "cables": "Heizung Wand (inkl. Einbau, Kabel & Kabelkanal mit Steckdose): 280 €",
+      "fridge": "Frostwächter: 75 €",
+      "Urinate": "Urinal (inkl. Einbau & Abdichtung): 400 €",
+      "ColorSelection": "Farbwunsch nur Rahmen Lackierung (inkl. Verarbeitung): 750 €",
+      "PricePlusKDV": "Die Preise verstehen sich netto zzgl. gesetzlicher MwSt." 
+    }
   }
   
  
