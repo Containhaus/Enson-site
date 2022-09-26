@@ -14,8 +14,9 @@
        "homeHref":"/kontakt",
        "homeButton":"HIER GEHT'S WEITER",
        "pageButton":"JETZT ANFRAGEN",
-       "mobileTitleColor":"text-dark",
-       "titleColor":"text-dark"
+       "mobileTitleColor":"text-light",
+       "titleColor":"text-light",
+       "direktColor":"text-light"
 
      },
      "amazingCountary":{
