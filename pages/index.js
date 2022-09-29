@@ -50,7 +50,7 @@ export default function Home({img, svg}) {
   return (
     <div>
       <Head>
-        <title >Contain Haus | Bürocontainer Preise kaufen </title>
+        <title>Contain Haus | Bürocontainer Preise kaufen </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="google-site-verification" content="bBMtH5kXrWTLjPfKza_SLNFavvMrG8U5c-xwvRFBRog" />
       </Head>

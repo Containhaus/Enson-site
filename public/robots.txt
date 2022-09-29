@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://containhaus.de
+
+# Sitemaps
+Sitemap: https://containhaus.de/sitemap.xml
